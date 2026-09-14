@@ -1,0 +1,180 @@
+name: Daily Deep Learning Questions Update
+
+on:
+  schedule:
+    # 3:00 PM IST = 09:30 UTC
+    - cron: "30 9 * * *"
+
+  # Manual testing ke liye
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-questions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "PradhumnSrivastava"
+          git config user.email "177670434+PradhumnSrivastava@users.noreply.github.com"
+
+      - name: Process up to 10 questions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import re
+
+          inbox = Path("Questions-Inbox.md")
+          main_file = Path("Deep Learning Interview Questions.md")
+
+          MAX_QUESTIONS = 10
+
+          # Read inbox
+          text = inbox.read_text(encoding="utf-8")
+
+          # Supported formats:
+          #
+          # 1. Question? Ans- Answer
+          # 1) Question? Ans- Answer
+          # - Question? Ans- Answer
+          # * Question? Ans- Answer
+
+          pattern = re.compile(
+              r"^(?:\s*(?:\d+[.)]\s+|[-*]\s+))(.+?)\s+Ans[-–—]\s*(.+)$",
+              re.MULTILINE
+          )
+
+          matches = list(pattern.finditer(text))[:MAX_QUESTIONS]
+
+          if not matches:
+              print("No new questions found.")
+              raise SystemExit(0)
+
+          print(f"Found {len(matches)} question(s).")
+
+          for number, match in enumerate(matches, start=1):
+
+              question = match.group(1).strip()
+              answer = match.group(2).strip()
+
+              print()
+              print("=" * 80)
+              print(f"Processing question {number}: {question}")
+              print("=" * 80)
+
+              # Sync with latest remote main
+              subprocess.run(
+                  ["git", "fetch", "origin", "main"],
+                  check=True
+              )
+
+              subprocess.run(
+                  ["git", "reset", "--hard", "origin/main"],
+                  check=True
+              )
+
+              # Read latest files
+              current_inbox = inbox.read_text(
+                  encoding="utf-8"
+              )
+
+              current_content = main_file.read_text(
+                  encoding="utf-8"
+              ).rstrip()
+
+              # Remove this question from inbox
+              escaped_question = re.escape(question)
+
+              remove_pattern = re.compile(
+                  rf"^\s*(?:\d+[.)]\s+|[-*]\s+){escaped_question}"
+                  rf"\s+Ans[-–—]\s*.+$\n?",
+                  re.MULTILINE
+              )
+
+              new_inbox, count = remove_pattern.subn(
+                  "",
+                  current_inbox,
+                  count=1
+              )
+
+              if count == 0:
+                  raise RuntimeError(
+                      f"Could not remove question from inbox: {question}"
+                  )
+
+              inbox.write_text(
+                  new_inbox.rstrip() + "\n",
+                  encoding="utf-8"
+              )
+
+              # Add question and answer to main file
+              question_block = f"""
+
+          ---
+
+          ## Interview Question
+
+          ### {question}
+
+          **Answer:** {answer}
+          """
+
+              main_file.write_text(
+                  current_content + question_block,
+                  encoding="utf-8"
+              )
+
+              # Stage files
+              subprocess.run(
+                  [
+                      "git",
+                      "add",
+                      str(inbox),
+                      str(main_file)
+                  ],
+                  check=True
+              )
+
+              # Create separate commit
+              subprocess.run(
+                  [
+                      "git",
+                      "commit",
+                      "-m",
+                      f"Add Deep Learning interview question: {question}"
+                  ],
+                  check=True
+              )
+
+              # Push this question separately
+              subprocess.run(
+                  [
+                      "git",
+                      "push",
+                      "origin",
+                      "HEAD:main"
+                  ],
+                  check=True
+              )
+
+              print(
+                  f"SUCCESS: Question {number} committed and pushed."
+              )
+
+          print()
+          print("=" * 80)
+          print(
+              f"Finished processing {len(matches)} question(s)."
+          )
+          print("=" * 80)
+
+          PY
