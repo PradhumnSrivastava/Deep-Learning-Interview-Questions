@@ -1,6 +1,4 @@
 
-6. What is forward propagation in a neural network? Ans- Forward propagation is the process of passing input data through the network from the input layer to the output layer. Each neuron computes a weighted sum, adds a bias, applies an activation function, and passes the result to the next layer.
-
 7. Why are neural networks called deep neural networks when they have multiple hidden layers? Ans- A neural network is generally called deep when it contains multiple layers of learnable transformations between the input and output. Greater depth allows the network to learn hierarchical representations, where deeper layers can build increasingly complex features from simpler ones.
 
 8. What is the difference between a shallow neural network and a deep neural network? Ans- A shallow neural network typically contains one or very few hidden layers, while a deep neural network contains many hidden layers. Deep networks can learn more hierarchical and complex representations but are generally more difficult and computationally expensive to train.
