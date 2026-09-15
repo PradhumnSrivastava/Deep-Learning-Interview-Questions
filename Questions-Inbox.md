@@ -1,6 +1,4 @@
 
-3. What are weights and biases in a neural network? Ans- Weights determine the importance of individual input features, while the bias allows the neuron to shift its activation independently of the input values. Both weights and biases are learned during training.
-
 4. What is the role of an activation function in a neural network? Ans- An activation function introduces non-linearity into the network, allowing it to learn complex relationships. Without activation functions, multiple neural network layers would effectively behave like a single linear transformation.
 
 5. What is the difference between an input layer, hidden layer, and output layer? Ans- The input layer receives the features from the dataset, hidden layers perform intermediate transformations and learn representations, and the output layer produces the final prediction. A neural network can contain one or many hidden layers.

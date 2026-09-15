@@ -15,3 +15,11 @@
 ### What is a neuron in a neural network?
 
 **Answer:** A neuron is the basic computational unit of a neural network. It takes input values, multiplies them by learned weights, adds a bias, applies an activation function, and produces an output.
+
+---
+
+## Interview Question
+
+### What are weights and biases in a neural network?
+
+**Answer:** Weights determine the importance of individual input features, while the bias allows the neuron to shift its activation independently of the input values. Both weights and biases are learned during training.
