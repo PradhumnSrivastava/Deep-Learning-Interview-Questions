@@ -63,3 +63,11 @@
 ### What is the difference between a shallow neural network and a deep neural network?
 
 **Answer:** A shallow neural network typically contains one or very few hidden layers, while a deep neural network contains many hidden layers. Deep networks can learn more hierarchical and complex representations but are generally more difficult and computationally expensive to train.
+
+---
+
+## Interview Question
+
+### What is the Universal Approximation Theorem?
+
+**Answer:** The Universal Approximation Theorem states that a neural network with at least one hidden layer and a suitable non-linear activation function can approximate a broad class of continuous functions to arbitrary accuracy given sufficient neurons. However, it does not imply that a shallow network will learn the function efficiently or generalize well.
