@@ -1,2 +1,1 @@
 
-10. Why can't a neural network with only linear activation functions learn complex non-linear relationships? Ans- If every layer uses only a linear activation function, the composition of all layers remains a linear transformation. Therefore, adding more layers does not increase the expressive power beyond a single linear layer. Non-linear activation functions are required to model complex relationships.

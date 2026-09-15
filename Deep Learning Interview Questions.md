@@ -71,3 +71,11 @@
 ### What is the Universal Approximation Theorem?
 
 **Answer:** The Universal Approximation Theorem states that a neural network with at least one hidden layer and a suitable non-linear activation function can approximate a broad class of continuous functions to arbitrary accuracy given sufficient neurons. However, it does not imply that a shallow network will learn the function efficiently or generalize well.
+
+---
+
+## Interview Question
+
+### Why can't a neural network with only linear activation functions learn complex non-linear relationships?
+
+**Answer:** If every layer uses only a linear activation function, the composition of all layers remains a linear transformation. Therefore, adding more layers does not increase the expressive power beyond a single linear layer. Non-linear activation functions are required to model complex relationships.
