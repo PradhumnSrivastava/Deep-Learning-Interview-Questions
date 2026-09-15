@@ -55,3 +55,11 @@
 ### Why are neural networks called deep neural networks when they have multiple hidden layers?
 
 **Answer:** A neural network is generally called deep when it contains multiple layers of learnable transformations between the input and output. Greater depth allows the network to learn hierarchical representations, where deeper layers can build increasingly complex features from simpler ones.
+
+---
+
+## Interview Question
+
+### What is the difference between a shallow neural network and a deep neural network?
+
+**Answer:** A shallow neural network typically contains one or very few hidden layers, while a deep neural network contains many hidden layers. Deep networks can learn more hierarchical and complex representations but are generally more difficult and computationally expensive to train.
