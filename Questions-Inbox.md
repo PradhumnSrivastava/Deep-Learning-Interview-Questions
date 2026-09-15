@@ -1,6 +1,4 @@
 
-4. What is the role of an activation function in a neural network? Ans- An activation function introduces non-linearity into the network, allowing it to learn complex relationships. Without activation functions, multiple neural network layers would effectively behave like a single linear transformation.
-
 5. What is the difference between an input layer, hidden layer, and output layer? Ans- The input layer receives the features from the dataset, hidden layers perform intermediate transformations and learn representations, and the output layer produces the final prediction. A neural network can contain one or many hidden layers.
 
 6. What is forward propagation in a neural network? Ans- Forward propagation is the process of passing input data through the network from the input layer to the output layer. Each neuron computes a weighted sum, adds a bias, applies an activation function, and passes the result to the next layer.

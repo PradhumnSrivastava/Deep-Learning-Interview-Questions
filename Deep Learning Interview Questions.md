@@ -23,3 +23,11 @@
 ### What are weights and biases in a neural network?
 
 **Answer:** Weights determine the importance of individual input features, while the bias allows the neuron to shift its activation independently of the input values. Both weights and biases are learned during training.
+
+---
+
+## Interview Question
+
+### What is the role of an activation function in a neural network?
+
+**Answer:** An activation function introduces non-linearity into the network, allowing it to learn complex relationships. Without activation functions, multiple neural network layers would effectively behave like a single linear transformation.
