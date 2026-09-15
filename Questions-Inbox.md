@@ -1,6 +1,4 @@
 
-5. What is the difference between an input layer, hidden layer, and output layer? Ans- The input layer receives the features from the dataset, hidden layers perform intermediate transformations and learn representations, and the output layer produces the final prediction. A neural network can contain one or many hidden layers.
-
 6. What is forward propagation in a neural network? Ans- Forward propagation is the process of passing input data through the network from the input layer to the output layer. Each neuron computes a weighted sum, adds a bias, applies an activation function, and passes the result to the next layer.
 
 7. Why are neural networks called deep neural networks when they have multiple hidden layers? Ans- A neural network is generally called deep when it contains multiple layers of learnable transformations between the input and output. Greater depth allows the network to learn hierarchical representations, where deeper layers can build increasingly complex features from simpler ones.

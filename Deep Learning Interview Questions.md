@@ -31,3 +31,11 @@
 ### What is the role of an activation function in a neural network?
 
 **Answer:** An activation function introduces non-linearity into the network, allowing it to learn complex relationships. Without activation functions, multiple neural network layers would effectively behave like a single linear transformation.
+
+---
+
+## Interview Question
+
+### What is the difference between an input layer, hidden layer, and output layer?
+
+**Answer:** The input layer receives the features from the dataset, hidden layers perform intermediate transformations and learn representations, and the output layer produces the final prediction. A neural network can contain one or many hidden layers.
