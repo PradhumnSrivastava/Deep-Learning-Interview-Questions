@@ -111,3 +111,11 @@
 ### What is the loss landscape of a neural network, and why is it difficult to optimize?
 
 **Answer:** The loss landscape represents how the training loss changes as the network's parameters change. In deep neural networks, this landscape can contain saddle points, flat regions, sharp regions, and many interacting dimensions. The large number of parameters and non-linear transformations make the optimization problem highly non-convex, so optimization algorithms such as SGD and Adam are used to search for low-loss parameter configurations.
+
+---
+
+## Interview Question
+
+### Why are saddle points often more important than local minima in high-dimensional neural networks?
+
+**Answer:** In high-dimensional optimization problems, saddle points can contain directions in which the loss increases and other directions in which it decreases. Their gradients may be close to zero, which can temporarily slow optimization. Modern optimization methods and stochasticity from mini-batch training can often help the optimizer move away from problematic saddle regions.
