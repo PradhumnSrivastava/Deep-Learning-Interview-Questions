@@ -135,3 +135,11 @@
 ### Why do residual connections make very deep neural networks easier to train?
 
 **Answer:** Residual connections allow a layer or block to learn a residual function instead of directly learning the complete transformation. A typical residual block computes an output such as y = F(x) + x. The shortcut connection provides a direct path for information and gradients, which helps reduce optimization difficulties in very deep networks and makes it easier to learn identity-like transformations.
+
+---
+
+## Interview Question
+
+### What is the role of normalization layers in deep neural networks beyond simply scaling the input features?
+
+**Answer:** Normalization layers transform intermediate activations during training so that their scale and distribution are more controlled. This can improve optimization stability, allow suitable use of larger learning rates, and reduce sensitivity to parameter initialization. Batch Normalization uses statistics from a mini-batch, while Layer Normalization normalizes across features within an individual sample and is therefore commonly useful in Transformer architectures.
