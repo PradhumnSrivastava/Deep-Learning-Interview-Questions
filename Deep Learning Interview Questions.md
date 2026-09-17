@@ -79,3 +79,11 @@
 ### Why can't a neural network with only linear activation functions learn complex non-linear relationships?
 
 **Answer:** If every layer uses only a linear activation function, the composition of all layers remains a linear transformation. Therefore, adding more layers does not increase the expressive power beyond a single linear layer. Non-linear activation functions are required to model complex relationships.
+
+---
+
+## Interview Question
+
+### Why can a deeper neural network represent some functions more efficiently than a shallow network?
+
+**Answer:** Deeper networks can learn hierarchical representations, where early layers learn simple patterns and later layers combine them into increasingly complex features. For certain classes of functions, representing these hierarchical compositions with depth can require exponentially fewer neurons than representing them with a single very wide layer.
