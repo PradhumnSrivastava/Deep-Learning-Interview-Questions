@@ -119,3 +119,11 @@
 ### Why are saddle points often more important than local minima in high-dimensional neural networks?
 
 **Answer:** In high-dimensional optimization problems, saddle points can contain directions in which the loss increases and other directions in which it decreases. Their gradients may be close to zero, which can temporarily slow optimization. Modern optimization methods and stochasticity from mini-batch training can often help the optimizer move away from problematic saddle regions.
+
+---
+
+## Interview Question
+
+### What is the difference between a flat minimum and a sharp minimum in a neural network loss landscape?
+
+**Answer:** A sharp minimum is a region where small changes in model parameters can cause a relatively large increase in loss, while a flat minimum is a region where the loss changes more gradually around the solution. Flatness is often studied as a possible indicator of robustness or generalization, although the relationship between parameter-space flatness and generalization is more subtle because it can depend on parameterization and scaling.
