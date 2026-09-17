@@ -95,3 +95,11 @@
 ### What is the difference between representational capacity and optimization difficulty in deep neural networks?
 
 **Answer:** Representational capacity refers to the complexity of functions a neural network can represent, while optimization difficulty refers to how easily the training algorithm can find useful parameters. Increasing depth or width can increase representational capacity, but it can simultaneously make optimization harder because of issues such as poor conditioning, vanishing or exploding gradients, and complicated loss landscapes.
+
+---
+
+## Interview Question
+
+### Why can a neural network have low training loss but still perform poorly on unseen data?
+
+**Answer:** A low training loss means the model fits the training data well, but it does not guarantee that it has learned patterns that generalize to unseen data. The model may have overfit noise or training-specific patterns. Generalization depends on factors such as model architecture, dataset size and quality, regularization, optimization, and the distribution of unseen data.
