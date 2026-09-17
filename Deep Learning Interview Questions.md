@@ -87,3 +87,11 @@
 ### Why can a deeper neural network represent some functions more efficiently than a shallow network?
 
 **Answer:** Deeper networks can learn hierarchical representations, where early layers learn simple patterns and later layers combine them into increasingly complex features. For certain classes of functions, representing these hierarchical compositions with depth can require exponentially fewer neurons than representing them with a single very wide layer.
+
+---
+
+## Interview Question
+
+### What is the difference between representational capacity and optimization difficulty in deep neural networks?
+
+**Answer:** Representational capacity refers to the complexity of functions a neural network can represent, while optimization difficulty refers to how easily the training algorithm can find useful parameters. Increasing depth or width can increase representational capacity, but it can simultaneously make optimization harder because of issues such as poor conditioning, vanishing or exploding gradients, and complicated loss landscapes.
