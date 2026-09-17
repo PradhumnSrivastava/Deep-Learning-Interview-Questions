@@ -1,2 +1,1 @@
 
-60. Why can two neural networks with identical architecture and training data learn different representations? Ans- Neural network training depends on factors such as random initialization, mini-batch ordering, data augmentation, optimizer state, learning-rate schedules, and other sources of stochasticity. These differences can lead optimization along different trajectories and result in different internal representations even when the architecture, dataset, and objective function are identical.
