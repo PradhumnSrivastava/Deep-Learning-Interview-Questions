@@ -143,3 +143,11 @@
 ### What is the role of normalization layers in deep neural networks beyond simply scaling the input features?
 
 **Answer:** Normalization layers transform intermediate activations during training so that their scale and distribution are more controlled. This can improve optimization stability, allow suitable use of larger learning rates, and reduce sensitivity to parameter initialization. Batch Normalization uses statistics from a mini-batch, while Layer Normalization normalizes across features within an individual sample and is therefore commonly useful in Transformer architectures.
+
+---
+
+## Interview Question
+
+### Why can increasing the batch size change the behavior and generalization of neural network training?
+
+**Answer:** Increasing batch size provides a more accurate estimate of the gradient for each optimization step, which can make training more computationally efficient and reduce gradient noise. However, it also changes the stochastic dynamics of optimization and may affect generalization. Very large batches may require appropriate learning-rate scaling, warm-up strategies, or other optimization adjustments.
