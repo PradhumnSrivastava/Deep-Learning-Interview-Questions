@@ -127,3 +127,11 @@
 ### What is the difference between a flat minimum and a sharp minimum in a neural network loss landscape?
 
 **Answer:** A sharp minimum is a region where small changes in model parameters can cause a relatively large increase in loss, while a flat minimum is a region where the loss changes more gradually around the solution. Flatness is often studied as a possible indicator of robustness or generalization, although the relationship between parameter-space flatness and generalization is more subtle because it can depend on parameterization and scaling.
+
+---
+
+## Interview Question
+
+### Why do residual connections make very deep neural networks easier to train?
+
+**Answer:** Residual connections allow a layer or block to learn a residual function instead of directly learning the complete transformation. A typical residual block computes an output such as y = F(x) + x. The shortcut connection provides a direct path for information and gradients, which helps reduce optimization difficulties in very deep networks and makes it easier to learn identity-like transformations.
