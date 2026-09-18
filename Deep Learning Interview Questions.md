@@ -215,3 +215,11 @@
 ### What is the role of the activation function in a Perceptron?
 
 **Answer:** The activation function converts the weighted sum into the final output of the Perceptron. A traditional Perceptron uses a step activation function. If the weighted sum is greater than or equal to zero, it produces 1; otherwise, it produces 0. Therefore, the activation function allows the Perceptron to make a binary classification decision.
+
+---
+
+## Interview Question
+
+### What is the difference between a Perceptron and Logistic Regression?
+
+**Answer:** A Perceptron and Logistic Regression are both linear classification algorithms, but they use different approaches. A traditional Perceptron uses a step function and produces a hard class prediction such as 0 or 1. Logistic Regression uses the sigmoid function and produces a probability between 0 and 1. Logistic Regression is commonly trained using log loss, while a Perceptron uses the Perceptron Learning Rule.
