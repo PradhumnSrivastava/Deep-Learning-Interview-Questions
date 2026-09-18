@@ -1,6 +1,4 @@
 
-7. What is the role of the activation function in a Perceptron? Ans- The activation function converts the weighted sum into the final output of the Perceptron. A traditional Perceptron uses a step activation function. If the weighted sum is greater than or equal to zero, it produces 1; otherwise, it produces 0. Therefore, the activation function allows the Perceptron to make a binary classification decision.
-
 8. What is the difference between a Perceptron and Logistic Regression? Ans- A Perceptron and Logistic Regression are both linear classification algorithms, but they use different approaches. A traditional Perceptron uses a step function and produces a hard class prediction such as 0 or 1. Logistic Regression uses the sigmoid function and produces a probability between 0 and 1. Logistic Regression is commonly trained using log loss, while a Perceptron uses the Perceptron Learning Rule.
 
 9. What are the limitations of a single-layer Perceptron? Ans- The main limitation of a single-layer Perceptron is that it can solve only linearly separable problems. This means that the classes must be separable using a single straight line in two dimensions or a hyperplane in higher dimensions. A single Perceptron cannot learn complex non-linear relationships such as the XOR problem.
