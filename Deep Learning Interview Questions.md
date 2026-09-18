@@ -231,3 +231,11 @@
 ### What are the limitations of a single-layer Perceptron?
 
 **Answer:** The main limitation of a single-layer Perceptron is that it can solve only linearly separable problems. This means that the classes must be separable using a single straight line in two dimensions or a hyperplane in higher dimensions. A single Perceptron cannot learn complex non-linear relationships such as the XOR problem.
+
+---
+
+## Interview Question
+
+### Why can't a single Perceptron solve the XOR problem?
+
+**Answer:** A single Perceptron cannot solve the XOR problem because XOR data is not linearly separable. A single Perceptron can create only one linear decision boundary, but no single straight line can correctly separate the two classes in the XOR dataset. A Multi-Layer Perceptron (MLP) with one or more hidden layers can solve XOR because hidden layers allow the network to learn non-linear relationships.

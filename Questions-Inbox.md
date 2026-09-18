@@ -1,2 +1,1 @@
 
-10. Why can't a single Perceptron solve the XOR problem? Ans- A single Perceptron cannot solve the XOR problem because XOR data is not linearly separable. A single Perceptron can create only one linear decision boundary, but no single straight line can correctly separate the two classes in the XOR dataset. A Multi-Layer Perceptron (MLP) with one or more hidden layers can solve XOR because hidden layers allow the network to learn non-linear relationships.
