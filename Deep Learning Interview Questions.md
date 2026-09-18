@@ -183,3 +183,11 @@
 ### How does a Perceptron make a prediction?
 
 **Answer:** A Perceptron first takes the input features and multiplies each feature by its corresponding weight. It then adds all the weighted inputs and the bias to calculate the weighted sum. This value is passed through an activation function, usually a step function. If the result is greater than or equal to zero, the Perceptron predicts class 1; otherwise, it predicts class 0.
+
+---
+
+## Interview Question
+
+### What is the role of weights and bias in a Perceptron?
+
+**Answer:** Weights determine the importance of individual input features in making a prediction. A larger absolute weight means that the corresponding feature has a greater influence on the output. The bias shifts the decision boundary. Together, the weights and bias determine the position and orientation of the decision boundary used by the Perceptron.
