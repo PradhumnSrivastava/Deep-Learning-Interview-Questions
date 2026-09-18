@@ -1,6 +1,4 @@
 
-2. What is the mathematical equation of a Perceptron? Ans- The mathematical equation of a Perceptron is z = w1x1 + w2x2 + ... + wnxn + b, or simply z = WᵀX + b. Here, X represents the input features, W represents the weights, and b represents the bias. The calculated value z is then passed through an activation function to obtain the prediction.
-
 3. How does a Perceptron make a prediction? Ans- A Perceptron first takes the input features and multiplies each feature by its corresponding weight. It then adds all the weighted inputs and the bias to calculate the weighted sum. This value is passed through an activation function, usually a step function. If the result is greater than or equal to zero, the Perceptron predicts class 1; otherwise, it predicts class 0.
 
 4. What is the role of weights and bias in a Perceptron? Ans- Weights determine the importance of individual input features in making a prediction. A larger absolute weight means that the corresponding feature has a greater influence on the output. The bias shifts the decision boundary. Together, the weights and bias determine the position and orientation of the decision boundary used by the Perceptron.
