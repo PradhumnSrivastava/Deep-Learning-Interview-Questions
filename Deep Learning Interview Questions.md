@@ -199,3 +199,11 @@
 ### What is the Perceptron Learning Rule?
 
 **Answer:** The Perceptron Learning Rule is used to update the weights and bias when the model makes an incorrect prediction. The weight update can be written as w_new = w_old + η(y - ŷ)x, and the bias update is b_new = b_old + η(y - ŷ). Here, η is the learning rate, y is the actual output, ŷ is the predicted output, and x is the input.
+
+---
+
+## Interview Question
+
+### How are weights and bias updated during training?
+
+**Answer:** During training, the Perceptron compares the actual output with the predicted output. If the prediction is incorrect, the weights and bias are adjusted using the Perceptron Learning Rule. The amount of adjustment depends on the learning rate, the prediction error, and the input values. This process is repeated for multiple training examples until the model correctly classifies the data or reaches the maximum number of iterations.
