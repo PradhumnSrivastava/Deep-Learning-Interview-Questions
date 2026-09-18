@@ -1,69 +1,19 @@
-1. What is a Perceptron?
-ans-A Perceptron is the simplest type of artificial neural network used mainly for binary classification. It takes input features, multiplies them with their corresponding weights, adds a bias, and passes the result through an activation function to produce the final prediction.
+1. What is a Perceptron? Ans- A Perceptron is the simplest type of artificial neural network used mainly for binary classification. It takes input features, multiplies them with their corresponding weights, adds a bias, and passes the result through an activation function to produce the final prediction.
 
-2. What is the mathematical equation of a Perceptron?
-ans- The mathematical equation of a Perceptron is z = w1x1 + w2x2 + ... + wnxn + b, or simply z = WᵀX + b. Here, X represents the input features, W represents the weights, and b represents the bias. The calculated value z is then passed through an activation function to obtain the prediction.
+2. What is the mathematical equation of a Perceptron? Ans- The mathematical equation of a Perceptron is z = w1x1 + w2x2 + ... + wnxn + b, or simply z = WᵀX + b. Here, X represents the input features, W represents the weights, and b represents the bias. The calculated value z is then passed through an activation function to obtain the prediction.
 
-3. How does a Perceptron make a prediction?
-ans- A Perceptron first takes the input features and multiplies each feature by its corresponding weight. It then adds all the weighted inputs and the bias to calculate the weighted sum. This value is passed through an activation function, usually a step function. If the result is greater than or equal to zero, the Perceptron predicts class 1; otherwise, it predicts class 0.
+3. How does a Perceptron make a prediction? Ans- A Perceptron first takes the input features and multiplies each feature by its corresponding weight. It then adds all the weighted inputs and the bias to calculate the weighted sum. This value is passed through an activation function, usually a step function. If the result is greater than or equal to zero, the Perceptron predicts class 1; otherwise, it predicts class 0.
 
-4. What is the role of weights and bias in a Perceptron?
-ans- Weights determine the importance of individual input features in making a prediction. A larger weight means that the corresponding feature has a greater influence on the output. Bias is used to shift the decision boundary. Together, weights and bias determine the position and orientation of the decision boundary used by the Perceptron.
+4. What is the role of weights and bias in a Perceptron? Ans- Weights determine the importance of individual input features in making a prediction. A larger absolute weight means that the corresponding feature has a greater influence on the output. The bias shifts the decision boundary. Together, the weights and bias determine the position and orientation of the decision boundary used by the Perceptron.
 
-5. What is the Perceptron Learning Rule?
-ans-The Perceptron Learning Rule is used to update the weights and bias when the model makes an incorrect prediction. The weight update can be written as w_new = w_old + η(y - ŷ)x, and the bias update is b_new = b_old + η(y - ŷ). Here, η is the learning rate, y is the actual output, ŷ is the predicted output, and x is the input.
+5. What is the Perceptron Learning Rule? Ans- The Perceptron Learning Rule is used to update the weights and bias when the model makes an incorrect prediction. The weight update can be written as w_new = w_old + η(y - ŷ)x, and the bias update is b_new = b_old + η(y - ŷ). Here, η is the learning rate, y is the actual output, ŷ is the predicted output, and x is the input.
 
-6. How are weights and bias updated during training?
-ans- During training, the Perceptron compares the actual output with the predicted output. If the prediction is incorrect, the weights and bias are adjusted using the Perceptron learning rule. The amount of adjustment depends on the learning rate, the prediction error, and the input values. This process is repeated for multiple training examples until the model correctly classifies the data or reaches the maximum number of iterations.
+6. How are weights and bias updated during training? Ans- During training, the Perceptron compares the actual output with the predicted output. If the prediction is incorrect, the weights and bias are adjusted using the Perceptron Learning Rule. The amount of adjustment depends on the learning rate, the prediction error, and the input values. This process is repeated for multiple training examples until the model correctly classifies the data or reaches the maximum number of iterations.
 
-7. What is the role of the activation function in a Perceptron?
-ans- The activation function converts the weighted sum into the final output of the Perceptron. A traditional Perceptron uses a step activation function. If the weighted sum is greater than or equal to zero, it produces 1; otherwise, it produces 0. Therefore, the activation function allows the Perceptron to make a binary classification decision.
+7. What is the role of the activation function in a Perceptron? Ans- The activation function converts the weighted sum into the final output of the Perceptron. A traditional Perceptron uses a step activation function. If the weighted sum is greater than or equal to zero, it produces 1; otherwise, it produces 0. Therefore, the activation function allows the Perceptron to make a binary classification decision.
 
-8. What is the difference between a Perceptron and Logistic Regression?
-ans- A Perceptron and Logistic Regression are both linear classification algorithms, but they use different approaches. A traditional Perceptron uses a step function and produces a hard class prediction such as 0 or 1. Logistic Regression uses the sigmoid function and produces a probability between 0 and 1. Logistic Regression is commonly trained using log loss, while a Perceptron uses the Perceptron learning rule.
+8. What is the difference between a Perceptron and Logistic Regression? Ans- A Perceptron and Logistic Regression are both linear classification algorithms, but they use different approaches. A traditional Perceptron uses a step function and produces a hard class prediction such as 0 or 1. Logistic Regression uses the sigmoid function and produces a probability between 0 and 1. Logistic Regression is commonly trained using log loss, while a Perceptron uses the Perceptron Learning Rule.
 
-9. What are the limitations of a single-layer Perceptron?
-ans- The main limitation of a single-layer Perceptron is that it can solve only linearly separable problems. This means that the classes must be separable using a single straight line in two dimensions or a hyperplane in higher dimensions. A single Perceptron cannot learn complex non-linear relationships such as the XOR problem.
+9. What are the limitations of a single-layer Perceptron? Ans- The main limitation of a single-layer Perceptron is that it can solve only linearly separable problems. This means that the classes must be separable using a single straight line in two dimensions or a hyperplane in higher dimensions. A single Perceptron cannot learn complex non-linear relationships such as the XOR problem.
 
-10. Why can't a single Perceptron solve the XOR problem?
-ans- A single Perceptron cannot solve the XOR problem because XOR data is not linearly separable. A single Perceptron can create only one linear decision boundary, but no single straight line can correctly separate the two classes in the XOR dataset. A Multi-Layer Perceptron (MLP) with one or more hidden layers can solve XOR because hidden layers allow the network to learn non-linear relationships.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+10. Why can't a single Perceptron solve the XOR problem? Ans- A single Perceptron cannot solve the XOR problem because XOR data is not linearly separable. A single Perceptron can create only one linear decision boundary, but no single straight line can correctly separate the two classes in the XOR dataset. A Multi-Layer Perceptron (MLP) with one or more hidden layers can solve XOR because hidden layers allow the network to learn non-linear relationships.
