@@ -1,4 +1,3 @@
-1. What is a Perceptron? Ans- A Perceptron is the simplest type of artificial neural network used mainly for binary classification. It takes input features, multiplies them with their corresponding weights, adds a bias, and passes the result through an activation function to produce the final prediction.
 
 2. What is the mathematical equation of a Perceptron? Ans- The mathematical equation of a Perceptron is z = w1x1 + w2x2 + ... + wnxn + b, or simply z = WᵀX + b. Here, X represents the input features, W represents the weights, and b represents the bias. The calculated value z is then passed through an activation function to obtain the prediction.
 
