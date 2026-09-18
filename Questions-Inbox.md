@@ -1,6 +1,4 @@
 
-3. How does a Perceptron make a prediction? Ans- A Perceptron first takes the input features and multiplies each feature by its corresponding weight. It then adds all the weighted inputs and the bias to calculate the weighted sum. This value is passed through an activation function, usually a step function. If the result is greater than or equal to zero, the Perceptron predicts class 1; otherwise, it predicts class 0.
-
 4. What is the role of weights and bias in a Perceptron? Ans- Weights determine the importance of individual input features in making a prediction. A larger absolute weight means that the corresponding feature has a greater influence on the output. The bias shifts the decision boundary. Together, the weights and bias determine the position and orientation of the decision boundary used by the Perceptron.
 
 5. What is the Perceptron Learning Rule? Ans- The Perceptron Learning Rule is used to update the weights and bias when the model makes an incorrect prediction. The weight update can be written as w_new = w_old + η(y - ŷ)x, and the bias update is b_new = b_old + η(y - ŷ). Here, η is the learning rate, y is the actual output, ŷ is the predicted output, and x is the input.
