@@ -263,3 +263,11 @@
 ### What happens if we do not use an Activation Function?
 
 **Answer:** Without an activation function, a neural network containing multiple layers would effectively behave like a linear model. Even with many layers, it would not be able to learn complex non-linear patterns such as XOR.
+
+---
+
+## Interview Question
+
+### What is the difference between Linear and Non-Linear Activation Functions?
+
+**Answer:** A linear activation function produces an output that is a linear transformation of its input, while a non-linear activation function introduces non-linearity. Linear activation functions are generally used in regression output layers, whereas non-linear functions such as ReLU, Sigmoid, and Tanh are commonly used in neural networks.
