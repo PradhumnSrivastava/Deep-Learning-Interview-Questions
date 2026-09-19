@@ -287,3 +287,11 @@
 ### What is the Sigmoid Activation Function?
 
 **Answer:** The Sigmoid function converts an input value into a value between 0 and 1. Its formula is σ(x) = 1 / (1 + e^(-x)). It is commonly used in the output layer of binary classification problems because its output can be interpreted as a probability.
+
+---
+
+## Interview Question
+
+### What is the Tanh Activation Function?
+
+**Answer:** Tanh, or Hyperbolic Tangent, is an activation function that converts the input into a value between -1 and 1. Its formula is tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x)). Unlike Sigmoid, Tanh is zero-centered, which can sometimes make optimization easier.
