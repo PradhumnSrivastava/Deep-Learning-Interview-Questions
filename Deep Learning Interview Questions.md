@@ -295,3 +295,11 @@
 ### What is the Tanh Activation Function?
 
 **Answer:** Tanh, or Hyperbolic Tangent, is an activation function that converts the input into a value between -1 and 1. Its formula is tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x)). Unlike Sigmoid, Tanh is zero-centered, which can sometimes make optimization easier.
+
+---
+
+## Interview Question
+
+### What is the Softmax Activation Function?
+
+**Answer:** Softmax converts a set of numerical values into probabilities whose total sum is 1. It is commonly used in the output layer of multi-class classification problems. The class with the highest probability is generally selected as the predicted class.
