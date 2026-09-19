@@ -1,4 +1,3 @@
-1. What is an Activation Function? Ans- An activation function is a mathematical function used in a neural network to transform the weighted sum of inputs into an output. It introduces non-linearity into the network, allowing the model to learn complex patterns and relationships.
 
 2. Why is an Activation Function important in a Neural Network? Ans- An activation function is important because it introduces non-linearity into the neural network. Without activation functions, multiple layers would behave like a single linear transformation, and the network would not be able to learn complex non-linear relationships.
 

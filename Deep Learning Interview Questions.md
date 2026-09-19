@@ -239,3 +239,11 @@
 ### Why can't a single Perceptron solve the XOR problem?
 
 **Answer:** A single Perceptron cannot solve the XOR problem because XOR data is not linearly separable. A single Perceptron can create only one linear decision boundary, but no single straight line can correctly separate the two classes in the XOR dataset. A Multi-Layer Perceptron (MLP) with one or more hidden layers can solve XOR because hidden layers allow the network to learn non-linear relationships.
+
+---
+
+## Interview Question
+
+### What is an Activation Function?
+
+**Answer:** An activation function is a mathematical function used in a neural network to transform the weighted sum of inputs into an output. It introduces non-linearity into the network, allowing the model to learn complex patterns and relationships.
