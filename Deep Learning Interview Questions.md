@@ -383,3 +383,11 @@
 ### What is the Softmax Activation Function?
 
 **Answer:** Softmax converts a set of numerical values into probabilities whose total sum is 1. It is commonly used in the output layer of multi-class classification problems. The class with the highest probability is generally selected as the predicted class.
+
+---
+
+## Interview Question
+
+### What is the Vanishing Gradient Problem in Activation Functions?
+
+**Answer:** The vanishing gradient problem occurs when gradients become extremely small during backpropagation, making it difficult for earlier layers to learn. Activation functions such as Sigmoid and Tanh can contribute to this problem when their inputs are in saturated regions. ReLU was introduced in part to reduce this issue.
