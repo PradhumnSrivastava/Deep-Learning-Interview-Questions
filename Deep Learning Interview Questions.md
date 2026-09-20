@@ -335,3 +335,11 @@
 ### Why is an Activation Function important in a Neural Network?
 
 **Answer:** An activation function is important because it introduces non-linearity into the neural network. Without activation functions, multiple layers would behave like a single linear transformation, and the network would not be able to learn complex non-linear relationships.
+
+---
+
+## Interview Question
+
+### What happens if we do not use an Activation Function?
+
+**Answer:** Without an activation function, a neural network containing multiple layers would effectively behave like a linear model. Even with many layers, it would not be able to learn complex non-linear patterns such as XOR.
