@@ -319,3 +319,11 @@
 ### How do we choose the right Activation Function?
 
 **Answer:** The choice of activation function depends on the neural network layer and the task. ReLU and its variants are commonly used in hidden layers, Sigmoid is commonly used for binary classification output, Softmax is commonly used for multi-class classification output, and a linear activation function is commonly used for regression output.
+
+---
+
+## Interview Question
+
+### What is an Activation Function?
+
+**Answer:** An activation function is a mathematical function used in a neural network to transform the weighted sum of inputs into an output. It introduces non-linearity into the network, allowing the model to learn complex patterns and relationships.
