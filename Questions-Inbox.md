@@ -1,6 +1,4 @@
 
-4. What is the difference between Linear and Non-Linear Activation Functions? Ans- A linear activation function produces an output that is a linear transformation of its input, while a non-linear activation function introduces non-linearity. Linear activation functions are generally used in regression output layers, whereas non-linear functions such as ReLU, Sigmoid, and Tanh are commonly used in neural networks.
-
 5. What is the ReLU Activation Function? Ans- ReLU stands for Rectified Linear Unit. Its mathematical formula is f(x) = max(0, x). It returns 0 for negative values and returns the input value for positive values. ReLU is widely used in hidden layers because it is simple, computationally efficient, and helps neural networks learn non-linear patterns.
 
 6. What is the Sigmoid Activation Function? Ans- The Sigmoid function converts an input value into a value between 0 and 1. Its formula is σ(x) = 1 / (1 + e^(-x)). It is commonly used in the output layer of binary classification problems because its output can be interpreted as a probability.
