@@ -1,6 +1,4 @@
 
-5. What is the ReLU Activation Function? Ans- ReLU stands for Rectified Linear Unit. Its mathematical formula is f(x) = max(0, x). It returns 0 for negative values and returns the input value for positive values. ReLU is widely used in hidden layers because it is simple, computationally efficient, and helps neural networks learn non-linear patterns.
-
 6. What is the Sigmoid Activation Function? Ans- The Sigmoid function converts an input value into a value between 0 and 1. Its formula is σ(x) = 1 / (1 + e^(-x)). It is commonly used in the output layer of binary classification problems because its output can be interpreted as a probability.
 
 7. What is the Tanh Activation Function? Ans- Tanh, or Hyperbolic Tangent, is an activation function that converts the input into a value between -1 and 1. Its formula is tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x)). Unlike Sigmoid, Tanh is zero-centered, which can sometimes make optimization easier.
