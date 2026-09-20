@@ -1,6 +1,4 @@
 
-6. What is the Sigmoid Activation Function? Ans- The Sigmoid function converts an input value into a value between 0 and 1. Its formula is σ(x) = 1 / (1 + e^(-x)). It is commonly used in the output layer of binary classification problems because its output can be interpreted as a probability.
-
 7. What is the Tanh Activation Function? Ans- Tanh, or Hyperbolic Tangent, is an activation function that converts the input into a value between -1 and 1. Its formula is tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x)). Unlike Sigmoid, Tanh is zero-centered, which can sometimes make optimization easier.
 
 8. What is the Softmax Activation Function? Ans- Softmax converts a set of numerical values into probabilities whose total sum is 1. It is commonly used in the output layer of multi-class classification problems. The class with the highest probability is generally selected as the predicted class.
