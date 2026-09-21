@@ -431,3 +431,11 @@
 ### What is Mean Squared Error (MSE)?
 
 **Answer:** Mean Squared Error is a regression loss function that calculates the average of the squared differences between actual and predicted values. Its formula is MSE = (1/n) Σ(y - ŷ)². Squaring the errors makes larger errors contribute more strongly to the loss.
+
+---
+
+## Interview Question
+
+### What is Mean Absolute Error (MAE)?
+
+**Answer:** Mean Absolute Error calculates the average absolute difference between actual and predicted values. Its formula is MAE = (1/n) Σ|y - ŷ|. Compared with MSE, MAE is generally less sensitive to large outliers.
