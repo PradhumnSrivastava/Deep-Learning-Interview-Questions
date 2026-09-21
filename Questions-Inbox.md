@@ -1,6 +1,4 @@
 
-4. What is Mean Squared Error (MSE)? Ans- Mean Squared Error is a regression loss function that calculates the average of the squared differences between actual and predicted values. Its formula is MSE = (1/n) Σ(y - ŷ)². Squaring the errors makes larger errors contribute more strongly to the loss.
-
 5. What is Mean Absolute Error (MAE)? Ans- Mean Absolute Error calculates the average absolute difference between actual and predicted values. Its formula is MAE = (1/n) Σ|y - ŷ|. Compared with MSE, MAE is generally less sensitive to large outliers.
 
 6. What is Binary Cross-Entropy Loss? Ans- Binary Cross-Entropy is commonly used for binary classification problems. It measures the difference between the actual binary labels and predicted probabilities. Its formula is L = -[y log(ŷ) + (1-y) log(1-ŷ)].

@@ -423,3 +423,11 @@
 ### What is the difference between Loss Function and Cost Function?
 
 **Answer:** A Loss Function usually measures the error for a single training example, while a Cost Function generally represents the average or total loss over the entire training dataset. However, these terms are sometimes used interchangeably in machine learning.
+
+---
+
+## Interview Question
+
+### What is Mean Squared Error (MSE)?
+
+**Answer:** Mean Squared Error is a regression loss function that calculates the average of the squared differences between actual and predicted values. Its formula is MSE = (1/n) Σ(y - ŷ)². Squaring the errors makes larger errors contribute more strongly to the loss.
