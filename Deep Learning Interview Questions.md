@@ -455,3 +455,11 @@
 ### What is Categorical Cross-Entropy Loss?
 
 **Answer:** Categorical Cross-Entropy is commonly used for multi-class classification when the target labels are represented as one-hot encoded vectors. It measures how different the predicted probability distribution is from the actual class distribution.
+
+---
+
+## Interview Question
+
+### What is the difference between MSE and MAE?
+
+**Answer:** MSE squares the prediction errors, so large errors receive significantly greater penalty. MAE uses absolute errors, so it is generally less affected by outliers. MSE is often preferred when large errors should be penalized more strongly, while MAE can be more robust to outliers.
