@@ -415,3 +415,11 @@
 ### Why is a Loss Function important in Machine Learning?
 
 **Answer:** A Loss Function provides a numerical measure of prediction error. During training, the model tries to minimize this loss by adjusting its parameters, such as weights and biases, using optimization algorithms.
+
+---
+
+## Interview Question
+
+### What is the difference between Loss Function and Cost Function?
+
+**Answer:** A Loss Function usually measures the error for a single training example, while a Cost Function generally represents the average or total loss over the entire training dataset. However, these terms are sometimes used interchangeably in machine learning.
