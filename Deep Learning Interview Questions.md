@@ -463,3 +463,11 @@
 ### What is the difference between MSE and MAE?
 
 **Answer:** MSE squares the prediction errors, so large errors receive significantly greater penalty. MAE uses absolute errors, so it is generally less affected by outliers. MSE is often preferred when large errors should be penalized more strongly, while MAE can be more robust to outliers.
+
+---
+
+## Interview Question
+
+### What is Huber Loss?
+
+**Answer:** Huber Loss combines properties of MSE and MAE. It behaves like squared error for small errors and like absolute error for large errors. Therefore, it can provide a useful balance between sensitivity to errors and robustness to outliers.
