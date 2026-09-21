@@ -447,3 +447,11 @@
 ### What is Binary Cross-Entropy Loss?
 
 **Answer:** Binary Cross-Entropy is commonly used for binary classification problems. It measures the difference between the actual binary labels and predicted probabilities. Its formula is L = -[y log(ŷ) + (1-y) log(1-ŷ)].
+
+---
+
+## Interview Question
+
+### What is Categorical Cross-Entropy Loss?
+
+**Answer:** Categorical Cross-Entropy is commonly used for multi-class classification when the target labels are represented as one-hot encoded vectors. It measures how different the predicted probability distribution is from the actual class distribution.
