@@ -407,3 +407,11 @@
 ### What is a Loss Function?
 
 **Answer:** A Loss Function is a mathematical function that measures the difference between a model's predicted output and the actual target value. It tells the model how much error it has made, and this error is used during training to improve the model's parameters.
+
+---
+
+## Interview Question
+
+### Why is a Loss Function important in Machine Learning?
+
+**Answer:** A Loss Function provides a numerical measure of prediction error. During training, the model tries to minimize this loss by adjusting its parameters, such as weights and biases, using optimization algorithms.

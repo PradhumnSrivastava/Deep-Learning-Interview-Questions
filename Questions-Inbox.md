@@ -1,6 +1,4 @@
 
-2. Why is a Loss Function important in Machine Learning? Ans- A Loss Function provides a numerical measure of prediction error. During training, the model tries to minimize this loss by adjusting its parameters, such as weights and biases, using optimization algorithms.
-
 3. What is the difference between Loss Function and Cost Function? Ans- A Loss Function usually measures the error for a single training example, while a Cost Function generally represents the average or total loss over the entire training dataset. However, these terms are sometimes used interchangeably in machine learning.
 
 4. What is Mean Squared Error (MSE)? Ans- Mean Squared Error is a regression loss function that calculates the average of the squared differences between actual and predicted values. Its formula is MSE = (1/n) Σ(y - ŷ)². Squaring the errors makes larger errors contribute more strongly to the loss.
