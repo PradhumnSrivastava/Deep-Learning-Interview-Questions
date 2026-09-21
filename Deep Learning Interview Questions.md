@@ -439,3 +439,11 @@
 ### What is Mean Absolute Error (MAE)?
 
 **Answer:** Mean Absolute Error calculates the average absolute difference between actual and predicted values. Its formula is MAE = (1/n) Σ|y - ŷ|. Compared with MSE, MAE is generally less sensitive to large outliers.
+
+---
+
+## Interview Question
+
+### What is Binary Cross-Entropy Loss?
+
+**Answer:** Binary Cross-Entropy is commonly used for binary classification problems. It measures the difference between the actual binary labels and predicted probabilities. Its formula is L = -[y log(ŷ) + (1-y) log(1-ŷ)].
