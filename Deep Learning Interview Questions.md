@@ -399,3 +399,11 @@
 ### How do we choose the right Activation Function?
 
 **Answer:** The choice of activation function depends on the neural network layer and the task. ReLU and its variants are commonly used in hidden layers, Sigmoid is commonly used for binary classification output, Softmax is commonly used for multi-class classification output, and a linear activation function is commonly used for regression output.
+
+---
+
+## Interview Question
+
+### What is a Loss Function?
+
+**Answer:** A Loss Function is a mathematical function that measures the difference between a model's predicted output and the actual target value. It tells the model how much error it has made, and this error is used during training to improve the model's parameters.
