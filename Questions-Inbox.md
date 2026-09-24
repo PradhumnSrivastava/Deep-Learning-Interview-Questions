@@ -1,2 +1,1 @@
 
-10. What is the complete training process involving Backpropagation? Ans- During training, the model first performs Forward Propagation to generate predictions. The Loss Function then calculates the prediction error. Backpropagation calculates the gradients of the loss with respect to the weights and biases using the Chain Rule. Finally, an optimizer uses these gradients to update the parameters, and this process is repeated for multiple batches and epochs until the model learns the underlying patterns.
