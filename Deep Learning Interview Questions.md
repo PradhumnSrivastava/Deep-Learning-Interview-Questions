@@ -511,3 +511,11 @@
 ### What is the role of the Chain Rule in Backpropagation?
 
 **Answer:** The Chain Rule is used to calculate how the loss changes with respect to parameters in earlier layers. Since the output of one layer becomes the input to another layer, the Chain Rule allows these derivatives to be multiplied together to calculate the final gradient.
+
+---
+
+## Interview Question
+
+### What is a Gradient in Backpropagation?
+
+**Answer:** A gradient represents the rate at which the loss changes with respect to a model parameter such as a weight or bias. It indicates the direction and magnitude in which a parameter should be changed to reduce the loss.
