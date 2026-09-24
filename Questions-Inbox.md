@@ -1,6 +1,4 @@
 
-2. Why is Backpropagation important in Neural Networks? Ans- Backpropagation is important because it allows a neural network to learn from its prediction errors. It calculates how much each weight and bias contributed to the final error, allowing an optimizer to update the parameters and reduce the loss.
-
 3. What are the main steps of Backpropagation? Ans- The main steps are performing Forward Propagation, calculating the Loss, propagating the error backward through the network using the Chain Rule, calculating gradients for the weights and biases, and updating the parameters using an optimization algorithm such as Gradient Descent.
 
 4. What is the role of the Chain Rule in Backpropagation? Ans- The Chain Rule is used to calculate how the loss changes with respect to parameters in earlier layers. Since the output of one layer becomes the input to another layer, the Chain Rule allows these derivatives to be multiplied together to calculate the final gradient.

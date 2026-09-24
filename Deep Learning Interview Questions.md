@@ -487,3 +487,11 @@
 ### What is Backpropagation in a Neural Network?
 
 **Answer:** Backpropagation is an algorithm used to calculate the gradients of the loss function with respect to the weights and biases of a neural network. It propagates the error backward from the output layer toward the input layer and provides the gradients required to update the model parameters.
+
+---
+
+## Interview Question
+
+### Why is Backpropagation important in Neural Networks?
+
+**Answer:** Backpropagation is important because it allows a neural network to learn from its prediction errors. It calculates how much each weight and bias contributed to the final error, allowing an optimizer to update the parameters and reduce the loss.
