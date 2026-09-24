@@ -503,3 +503,11 @@
 ### What are the main steps of Backpropagation?
 
 **Answer:** The main steps are performing Forward Propagation, calculating the Loss, propagating the error backward through the network using the Chain Rule, calculating gradients for the weights and biases, and updating the parameters using an optimization algorithm such as Gradient Descent.
+
+---
+
+## Interview Question
+
+### What is the role of the Chain Rule in Backpropagation?
+
+**Answer:** The Chain Rule is used to calculate how the loss changes with respect to parameters in earlier layers. Since the output of one layer becomes the input to another layer, the Chain Rule allows these derivatives to be multiplied together to calculate the final gradient.
