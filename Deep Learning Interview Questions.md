@@ -527,3 +527,11 @@
 ### How are weights updated during Backpropagation?
 
 **Answer:** After calculating the gradient of the loss with respect to a weight, the optimizer updates the weight using the gradient. In basic Gradient Descent, the update rule is w_new = w_old - η(∂L/∂w), where η is the learning rate and ∂L/∂w is the gradient of the loss with respect to the weight.
+
+---
+
+## Interview Question
+
+### What is the difference between Forward Propagation and Backpropagation?
+
+**Answer:** Forward Propagation passes input data from the input layer toward the output layer to generate a prediction and calculate the loss. Backpropagation works in the opposite direction by propagating the error from the output layer backward to calculate gradients used for updating the model parameters.
