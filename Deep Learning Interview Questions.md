@@ -519,3 +519,11 @@
 ### What is a Gradient in Backpropagation?
 
 **Answer:** A gradient represents the rate at which the loss changes with respect to a model parameter such as a weight or bias. It indicates the direction and magnitude in which a parameter should be changed to reduce the loss.
+
+---
+
+## Interview Question
+
+### How are weights updated during Backpropagation?
+
+**Answer:** After calculating the gradient of the loss with respect to a weight, the optimizer updates the weight using the gradient. In basic Gradient Descent, the update rule is w_new = w_old - η(∂L/∂w), where η is the learning rate and ∂L/∂w is the gradient of the loss with respect to the weight.
