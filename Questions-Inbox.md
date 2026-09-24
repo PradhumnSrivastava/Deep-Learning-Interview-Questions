@@ -1,6 +1,4 @@
 
-8. What happens if the learning rate is too high or too low during Backpropagation? Ans- If the learning rate is too high, parameter updates can become too large, causing the training process to overshoot the minimum or become unstable. If the learning rate is too low, training can become very slow and may require many iterations to converge.
-
 9. What are Vanishing and Exploding Gradients in Backpropagation? Ans- Vanishing gradients occur when gradients become extremely small as they are propagated backward through many layers, making earlier layers learn very slowly. Exploding gradients occur when gradients become extremely large, causing unstable parameter updates. Techniques such as suitable activation functions, normalization, careful initialization, and gradient clipping can help address these problems.
 
 10. What is the complete training process involving Backpropagation? Ans- During training, the model first performs Forward Propagation to generate predictions. The Loss Function then calculates the prediction error. Backpropagation calculates the gradients of the loss with respect to the weights and biases using the Chain Rule. Finally, an optimizer uses these gradients to update the parameters, and this process is repeated for multiple batches and epochs until the model learns the underlying patterns.

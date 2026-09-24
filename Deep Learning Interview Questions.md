@@ -535,3 +535,11 @@
 ### What is the difference between Forward Propagation and Backpropagation?
 
 **Answer:** Forward Propagation passes input data from the input layer toward the output layer to generate a prediction and calculate the loss. Backpropagation works in the opposite direction by propagating the error from the output layer backward to calculate gradients used for updating the model parameters.
+
+---
+
+## Interview Question
+
+### What happens if the learning rate is too high or too low during Backpropagation?
+
+**Answer:** If the learning rate is too high, parameter updates can become too large, causing the training process to overshoot the minimum or become unstable. If the learning rate is too low, training can become very slow and may require many iterations to converge.
