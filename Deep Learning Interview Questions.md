@@ -495,3 +495,11 @@
 ### Why is Backpropagation important in Neural Networks?
 
 **Answer:** Backpropagation is important because it allows a neural network to learn from its prediction errors. It calculates how much each weight and bias contributed to the final error, allowing an optimizer to update the parameters and reduce the loss.
+
+---
+
+## Interview Question
+
+### What are the main steps of Backpropagation?
+
+**Answer:** The main steps are performing Forward Propagation, calculating the Loss, propagating the error backward through the network using the Chain Rule, calculating gradients for the weights and biases, and updating the parameters using an optimization algorithm such as Gradient Descent.
