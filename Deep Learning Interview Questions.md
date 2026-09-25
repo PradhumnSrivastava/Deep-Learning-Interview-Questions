@@ -559,3 +559,11 @@
 ### What is the complete training process involving Backpropagation?
 
 **Answer:** During training, the model first performs Forward Propagation to generate predictions. The Loss Function then calculates the prediction error. Backpropagation calculates the gradients of the loss with respect to the weights and biases using the Chain Rule. Finally, an optimizer uses these gradients to update the parameters, and this process is repeated for multiple batches and epochs until the model learns the underlying patterns.
+
+---
+
+## Interview Question
+
+### What is the Local Gradient in Backpropagation?
+
+**Answer:** A local gradient is the derivative of a neuron or operation's output with respect to its input or parameter. During Backpropagation, local gradients are combined using the Chain Rule to calculate the gradient of the final loss with respect to earlier parameters.
