@@ -583,3 +583,11 @@
 ### What is the role of the derivative of an Activation Function in Backpropagation?
 
 **Answer:** The derivative of the activation function determines how much the gradient should be passed through a neuron. During Backpropagation, the upstream gradient is multiplied by the activation function's derivative to calculate the gradient with respect to the neuron's input.
+
+---
+
+## Interview Question
+
+### How is Backpropagation applied to the output layer?
+
+**Answer:** At the output layer, the gradient of the loss with respect to the output is calculated first. This gradient is then combined with the derivative of the output layer's activation function to calculate gradients for its weights and biases, which are then passed to the previous layer.

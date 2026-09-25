@@ -1,6 +1,4 @@
 
-14. How is Backpropagation applied to the output layer? Ans- At the output layer, the gradient of the loss with respect to the output is calculated first. This gradient is then combined with the derivative of the output layer's activation function to calculate gradients for its weights and biases, which are then passed to the previous layer.
-
 15. How is Backpropagation applied to a hidden layer? Ans- A hidden layer receives the gradient from the layer ahead of it. This gradient is multiplied by the derivative of the hidden layer's activation function to determine the gradient with respect to its weighted input. These gradients are then used to calculate the gradients of the hidden layer's weights and biases.
 
 16. Why are gradients calculated from the output layer toward the input layer? Ans- Gradients are calculated backward because the loss is directly connected to the final output. By starting at the loss and moving backward, Backpropagation can use the Chain Rule to efficiently determine how parameters in each earlier layer contributed to the final error.
