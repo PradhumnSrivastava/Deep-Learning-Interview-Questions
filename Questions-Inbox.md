@@ -1,6 +1,4 @@
 
-12. How is the gradient of a weight calculated in a Neural Network? Ans- The gradient of a weight is calculated by determining how a change in that weight affects the final loss. Using the Chain Rule, the gradient is obtained by multiplying the relevant partial derivatives from the weight through the subsequent operations up to the loss.
-
 13. What is the role of the derivative of an Activation Function in Backpropagation? Ans- The derivative of the activation function determines how much the gradient should be passed through a neuron. During Backpropagation, the upstream gradient is multiplied by the activation function's derivative to calculate the gradient with respect to the neuron's input.
 
 14. How is Backpropagation applied to the output layer? Ans- At the output layer, the gradient of the loss with respect to the output is calculated first. This gradient is then combined with the derivative of the output layer's activation function to calculate gradients for its weights and biases, which are then passed to the previous layer.

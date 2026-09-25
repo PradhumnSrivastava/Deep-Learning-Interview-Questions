@@ -567,3 +567,11 @@
 ### What is the Local Gradient in Backpropagation?
 
 **Answer:** A local gradient is the derivative of a neuron or operation's output with respect to its input or parameter. During Backpropagation, local gradients are combined using the Chain Rule to calculate the gradient of the final loss with respect to earlier parameters.
+
+---
+
+## Interview Question
+
+### How is the gradient of a weight calculated in a Neural Network?
+
+**Answer:** The gradient of a weight is calculated by determining how a change in that weight affects the final loss. Using the Chain Rule, the gradient is obtained by multiplying the relevant partial derivatives from the weight through the subsequent operations up to the loss.
