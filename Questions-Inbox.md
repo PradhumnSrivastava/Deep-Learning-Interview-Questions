@@ -1,6 +1,4 @@
 
-17. Why is Backpropagation computationally efficient compared with calculating each parameter's effect separately? Ans- Backpropagation reuses intermediate derivatives and applies the Chain Rule systematically. This allows gradients for many parameters to be calculated efficiently in a single backward pass instead of separately calculating the effect of every parameter on the loss.
-
 18. What is the difference between Backpropagation and Gradient Descent? Ans- Backpropagation is used to calculate the gradients of the loss with respect to the model parameters, while Gradient Descent is an optimization method that uses those gradients to update the parameters. In simple terms, Backpropagation calculates the direction of change, and Gradient Descent uses that information to update the parameters.
 
 19. What is the difference between a Backward Pass and a Forward Pass? Ans- The Forward Pass calculates the outputs of the neural network and stores intermediate values needed for gradient computation. The Backward Pass uses the calculated loss and these intermediate values to compute gradients from the output layer toward the earlier layers.

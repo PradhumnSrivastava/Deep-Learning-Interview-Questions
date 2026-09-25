@@ -607,3 +607,11 @@
 ### Why are gradients calculated from the output layer toward the input layer?
 
 **Answer:** Gradients are calculated backward because the loss is directly connected to the final output. By starting at the loss and moving backward, Backpropagation can use the Chain Rule to efficiently determine how parameters in each earlier layer contributed to the final error.
+
+---
+
+## Interview Question
+
+### Why is Backpropagation computationally efficient compared with calculating each parameter's effect separately?
+
+**Answer:** Backpropagation reuses intermediate derivatives and applies the Chain Rule systematically. This allows gradients for many parameters to be calculated efficiently in a single backward pass instead of separately calculating the effect of every parameter on the loss.
