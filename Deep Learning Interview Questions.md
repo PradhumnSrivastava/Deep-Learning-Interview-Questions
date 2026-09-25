@@ -615,3 +615,11 @@
 ### Why is Backpropagation computationally efficient compared with calculating each parameter's effect separately?
 
 **Answer:** Backpropagation reuses intermediate derivatives and applies the Chain Rule systematically. This allows gradients for many parameters to be calculated efficiently in a single backward pass instead of separately calculating the effect of every parameter on the loss.
+
+---
+
+## Interview Question
+
+### What is the difference between Backpropagation and Gradient Descent?
+
+**Answer:** Backpropagation is used to calculate the gradients of the loss with respect to the model parameters, while Gradient Descent is an optimization method that uses those gradients to update the parameters. In simple terms, Backpropagation calculates the direction of change, and Gradient Descent uses that information to update the parameters.
