@@ -695,3 +695,11 @@
 ### What is random weight initialization?
 
 **Answer:** Random initialization assigns weights using randomly sampled values from a chosen probability distribution. It breaks symmetry between neurons and allows different neurons to learn different features.
+
+---
+
+## Interview Question
+
+### What is the relationship between weight initialization and gradient flow?
+
+**Answer:** Weight initialization controls the scale of activations and derivatives as they propagate through the network. Poor initialization can cause gradients to exponentially shrink or grow across layers.
