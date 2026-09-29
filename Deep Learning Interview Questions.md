@@ -759,3 +759,11 @@
 ### How does weight initialization affect the variance of activations?
 
 **Answer:** If weights are too large, activation variance can grow across layers; if they are too small, activation variance can shrink. Good initialization attempts to maintain a relatively stable variance throughout the network.
+
+---
+
+## Interview Question
+
+### How does weight initialization affect the vanishing gradient problem?
+
+**Answer:** If weights are initialized too small, gradients can become progressively smaller as they propagate backward through many layers. Proper initialization helps maintain gradient magnitude and improves gradient flow.

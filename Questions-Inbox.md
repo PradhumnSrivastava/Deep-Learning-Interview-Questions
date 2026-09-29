@@ -1,6 +1,4 @@
 
-16. How does weight initialization affect the vanishing gradient problem? Ans- If weights are initialized too small, gradients can become progressively smaller as they propagate backward through many layers. Proper initialization helps maintain gradient magnitude and improves gradient flow.
-
 17. How does weight initialization affect the exploding gradient problem? Ans- If weights are initialized too large, gradients can grow rapidly as they propagate backward through layers. Appropriate initialization keeps the gradient scale under control.
 
 18. Why is initialization particularly important in very deep neural networks? Ans- In deep networks, small changes in activation or gradient scale are repeatedly multiplied across many layers. Poor initialization can therefore cause severe vanishing or exploding signals.
