@@ -1,6 +1,4 @@
 
-7. What is random weight initialization? Ans- Random initialization assigns weights using randomly sampled values from a chosen probability distribution. It breaks symmetry between neurons and allows different neurons to learn different features.
-
 8. What is the relationship between weight initialization and gradient flow? Ans- Weight initialization controls the scale of activations and derivatives as they propagate through the network. Poor initialization can cause gradients to exponentially shrink or grow across layers.
 
 9. What is Xavier/Glorot initialization? Ans- Xavier initialization chooses the weight variance based on the number of input and output neurons, approximately maintaining the variance of activations across layers. It is commonly associated with sigmoid and tanh activations.

@@ -687,3 +687,11 @@
 ### What happens if weights are initialized with extremely small values?
 
 **Answer:** Very small weights can make activations and gradients shrink as they propagate through deep layers, potentially causing vanishing gradients and extremely slow learning.
+
+---
+
+## Interview Question
+
+### What is random weight initialization?
+
+**Answer:** Random initialization assigns weights using randomly sampled values from a chosen probability distribution. It breaks symmetry between neurons and allows different neurons to learn different features.
