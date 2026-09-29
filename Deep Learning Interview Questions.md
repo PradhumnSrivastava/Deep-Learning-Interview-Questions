@@ -647,3 +647,11 @@
 ### What is weight initialization in a neural network?
 
 **Answer:** Weight initialization is the process of assigning initial values to the weights of a neural network before training begins. Proper initialization helps the network learn efficiently and prevents optimization problems such as vanishing or exploding gradients.
+
+---
+
+## Interview Question
+
+### Why is proper weight initialization important in deep neural networks?
+
+**Answer:** Proper initialization keeps activations and gradients within a reasonable range across layers, helping the network converge faster and reducing problems such as vanishing gradients, exploding gradients, and poor symmetry breaking.
