@@ -1,6 +1,4 @@
 
-5. What happens if weights are initialized with very large values? Ans- Large initial weights can produce very large activations and gradients, potentially causing exploding gradients, unstable optimization, and numerical overflow.
-
 6. What happens if weights are initialized with extremely small values? Ans- Very small weights can make activations and gradients shrink as they propagate through deep layers, potentially causing vanishing gradients and extremely slow learning.
 
 7. What is random weight initialization? Ans- Random initialization assigns weights using randomly sampled values from a chosen probability distribution. It breaks symmetry between neurons and allows different neurons to learn different features.

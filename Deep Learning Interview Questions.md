@@ -671,3 +671,11 @@
 ### What is the symmetry-breaking problem in neural networks?
 
 **Answer:** Symmetry occurs when multiple neurons start with identical weights and therefore produce identical outputs and gradients. Random initialization breaks this symmetry so different neurons can learn different representations.
+
+---
+
+## Interview Question
+
+### What happens if weights are initialized with very large values?
+
+**Answer:** Large initial weights can produce very large activations and gradients, potentially causing exploding gradients, unstable optimization, and numerical overflow.
