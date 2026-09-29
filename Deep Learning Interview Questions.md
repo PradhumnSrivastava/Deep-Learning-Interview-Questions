@@ -639,3 +639,11 @@
 ### Why are intermediate values stored during Forward Propagation for Backpropagation?
 
 **Answer:** Intermediate values such as inputs, weighted sums, and activation outputs are required to calculate derivatives during the backward pass. Storing these values avoids recomputing the forward calculations and makes gradient computation more efficient.
+
+---
+
+## Interview Question
+
+### What is weight initialization in a neural network?
+
+**Answer:** Weight initialization is the process of assigning initial values to the weights of a neural network before training begins. Proper initialization helps the network learn efficiently and prevents optimization problems such as vanishing or exploding gradients.
