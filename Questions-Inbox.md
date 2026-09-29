@@ -1,6 +1,4 @@
 
-9. What is Xavier/Glorot initialization? Ans- Xavier initialization chooses the weight variance based on the number of input and output neurons, approximately maintaining the variance of activations across layers. It is commonly associated with sigmoid and tanh activations.
-
 10. What is the main formula for Xavier initialization? Ans- For a normal distribution, weights are commonly sampled with standard deviation sqrt(2 / (fan_in + fan_out)); for a uniform distribution, the range is typically [-sqrt(6/(fan_in+fan_out)), sqrt(6/(fan_in+fan_out))].
 
 11. What is He initialization? Ans- He initialization, also called Kaiming initialization, is designed primarily for networks using ReLU-like activation functions. It commonly initializes weights with variance approximately equal to 2/fan_in.
