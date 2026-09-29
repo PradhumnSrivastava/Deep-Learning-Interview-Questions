@@ -1,4 +1,2 @@
 
-19. What is LeCun initialization and when is it useful? Ans- LeCun initialization typically uses a weight variance of approximately 1/fan_in and is associated with activations such as SELU. It is designed to preserve signal variance during forward propagation.
-
 20. Can a good weight initialization completely solve vanishing and exploding gradients? Ans- No. Good initialization significantly improves gradient flow, but it does not completely eliminate these problems. Architecture, activation functions, normalization, optimizers, learning rate, and network depth also affect gradient stability.

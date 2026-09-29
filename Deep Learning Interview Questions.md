@@ -783,3 +783,11 @@
 ### Why is initialization particularly important in very deep neural networks?
 
 **Answer:** In deep networks, small changes in activation or gradient scale are repeatedly multiplied across many layers. Poor initialization can therefore cause severe vanishing or exploding signals.
+
+---
+
+## Interview Question
+
+### What is LeCun initialization and when is it useful?
+
+**Answer:** LeCun initialization typically uses a weight variance of approximately 1/fan_in and is associated with activations such as SELU. It is designed to preserve signal variance during forward propagation.
