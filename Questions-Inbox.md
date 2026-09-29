@@ -1,6 +1,4 @@
 
-12. Why is He initialization preferred with ReLU activation? Ans- ReLU sets negative activations to zero, effectively reducing the variance of activations. He initialization compensates for this effect by using a larger variance, helping maintain stable signal propagation.
-
 13. What is the difference between Xavier and He initialization? Ans- Xavier initialization generally uses variance based on both fan-in and fan-out, while He initialization primarily uses fan-in and a variance of approximately 2/fan_in. He initialization is particularly suitable for ReLU-based networks.
 
 14. What are fan-in and fan-out in weight initialization? Ans- Fan-in is the number of input connections to a neuron, while fan-out is the number of output connections. Initialization methods use these values to determine an appropriate scale for the weights.

@@ -727,3 +727,11 @@
 ### What is He initialization?
 
 **Answer:** He initialization, also called Kaiming initialization, is designed primarily for networks using ReLU-like activation functions. It commonly initializes weights with variance approximately equal to 2/fan_in.
+
+---
+
+## Interview Question
+
+### Why is He initialization preferred with ReLU activation?
+
+**Answer:** ReLU sets negative activations to zero, effectively reducing the variance of activations. He initialization compensates for this effect by using a larger variance, helping maintain stable signal propagation.
