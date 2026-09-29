@@ -679,3 +679,11 @@
 ### What happens if weights are initialized with very large values?
 
 **Answer:** Large initial weights can produce very large activations and gradients, potentially causing exploding gradients, unstable optimization, and numerical overflow.
+
+---
+
+## Interview Question
+
+### What happens if weights are initialized with extremely small values?
+
+**Answer:** Very small weights can make activations and gradients shrink as they propagate through deep layers, potentially causing vanishing gradients and extremely slow learning.
