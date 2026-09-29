@@ -719,3 +719,11 @@
 ### What is the main formula for Xavier initialization?
 
 **Answer:** For a normal distribution, weights are commonly sampled with standard deviation sqrt(2 / (fan_in + fan_out)); for a uniform distribution, the range is typically [-sqrt(6/(fan_in+fan_out)), sqrt(6/(fan_in+fan_out))].
+
+---
+
+## Interview Question
+
+### What is He initialization?
+
+**Answer:** He initialization, also called Kaiming initialization, is designed primarily for networks using ReLU-like activation functions. It commonly initializes weights with variance approximately equal to 2/fan_in.
