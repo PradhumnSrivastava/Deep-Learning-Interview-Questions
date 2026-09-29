@@ -1,6 +1,4 @@
 
-14. What are fan-in and fan-out in weight initialization? Ans- Fan-in is the number of input connections to a neuron, while fan-out is the number of output connections. Initialization methods use these values to determine an appropriate scale for the weights.
-
 15. How does weight initialization affect the variance of activations? Ans- If weights are too large, activation variance can grow across layers; if they are too small, activation variance can shrink. Good initialization attempts to maintain a relatively stable variance throughout the network.
 
 16. How does weight initialization affect the vanishing gradient problem? Ans- If weights are initialized too small, gradients can become progressively smaller as they propagate backward through many layers. Proper initialization helps maintain gradient magnitude and improves gradient flow.

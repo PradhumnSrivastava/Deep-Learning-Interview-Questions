@@ -743,3 +743,11 @@
 ### What is the difference between Xavier and He initialization?
 
 **Answer:** Xavier initialization generally uses variance based on both fan-in and fan-out, while He initialization primarily uses fan-in and a variance of approximately 2/fan_in. He initialization is particularly suitable for ReLU-based networks.
+
+---
+
+## Interview Question
+
+### What are fan-in and fan-out in weight initialization?
+
+**Answer:** Fan-in is the number of input connections to a neuron, while fan-out is the number of output connections. Initialization methods use these values to determine an appropriate scale for the weights.
