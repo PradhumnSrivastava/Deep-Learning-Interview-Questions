@@ -775,3 +775,11 @@
 ### How does weight initialization affect the exploding gradient problem?
 
 **Answer:** If weights are initialized too large, gradients can grow rapidly as they propagate backward through layers. Appropriate initialization keeps the gradient scale under control.
+
+---
+
+## Interview Question
+
+### Why is initialization particularly important in very deep neural networks?
+
+**Answer:** In deep networks, small changes in activation or gradient scale are repeatedly multiplied across many layers. Poor initialization can therefore cause severe vanishing or exploding signals.
