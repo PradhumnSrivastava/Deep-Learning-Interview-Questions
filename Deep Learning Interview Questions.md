@@ -767,3 +767,11 @@
 ### How does weight initialization affect the vanishing gradient problem?
 
 **Answer:** If weights are initialized too small, gradients can become progressively smaller as they propagate backward through many layers. Proper initialization helps maintain gradient magnitude and improves gradient flow.
+
+---
+
+## Interview Question
+
+### How does weight initialization affect the exploding gradient problem?
+
+**Answer:** If weights are initialized too large, gradients can grow rapidly as they propagate backward through layers. Appropriate initialization keeps the gradient scale under control.
