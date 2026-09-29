@@ -655,3 +655,11 @@
 ### Why is proper weight initialization important in deep neural networks?
 
 **Answer:** Proper initialization keeps activations and gradients within a reasonable range across layers, helping the network converge faster and reducing problems such as vanishing gradients, exploding gradients, and poor symmetry breaking.
+
+---
+
+## Interview Question
+
+### Why should we not initialize all neural network weights to zero?
+
+**Answer:** If all weights are initialized to zero, neurons in the same layer receive identical gradients and remain identical throughout training. This prevents the network from learning different features.

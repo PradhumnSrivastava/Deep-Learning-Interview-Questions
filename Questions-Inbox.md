@@ -1,6 +1,4 @@
 
-3. Why should we not initialize all neural network weights to zero? Ans- If all weights are initialized to zero, neurons in the same layer receive identical gradients and remain identical throughout training. This prevents the network from learning different features.
-
 4. What is the symmetry-breaking problem in neural networks? Ans- Symmetry occurs when multiple neurons start with identical weights and therefore produce identical outputs and gradients. Random initialization breaks this symmetry so different neurons can learn different representations.
 
 5. What happens if weights are initialized with very large values? Ans- Large initial weights can produce very large activations and gradients, potentially causing exploding gradients, unstable optimization, and numerical overflow.
