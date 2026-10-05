@@ -831,3 +831,11 @@
 ### What is the ReLU activation function?
 
 **Answer:** ReLU, or Rectified Linear Unit, outputs zero for negative inputs and the input itself for positive inputs. It is defined as f(x) = max(0, x).
+
+---
+
+## Interview Question
+
+### What is the Dying ReLU problem?
+
+**Answer:** Dying ReLU occurs when a neuron consistently receives negative inputs and therefore outputs zero, causing its gradient to become zero and preventing the neuron from learning.
