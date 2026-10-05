@@ -1,1 +1,19 @@
+1. What is an activation function in a neural network? Ans- An activation function transforms a neuron's weighted sum into an output and introduces non-linearity, allowing neural networks to learn complex patterns.
 
+2. Why are activation functions important in deep learning? Ans- Activation functions introduce non-linearity between layers, enabling neural networks to learn complex non-linear relationships instead of behaving like a single linear model.
+
+3. What is the main problem with using a linear activation function in all layers? Ans- Multiple linear layers can be mathematically reduced to a single linear transformation, so the network cannot effectively learn complex non-linear patterns.
+
+4. What is the ReLU activation function? Ans- ReLU, or Rectified Linear Unit, outputs zero for negative inputs and the input itself for positive inputs. It is defined as f(x) = max(0, x).
+
+5. What is the Dying ReLU problem? Ans- Dying ReLU occurs when a neuron consistently receives negative inputs and therefore outputs zero, causing its gradient to become zero and preventing the neuron from learning.
+
+6. How does Leaky ReLU solve the Dying ReLU problem? Ans- Leaky ReLU allows a small negative output for negative inputs, maintaining a non-zero gradient and allowing neurons to continue learning.
+
+7. What is the Sigmoid activation function and where is it commonly used? Ans- Sigmoid maps values between 0 and 1 and is commonly used in the output layer of binary classification problems to represent probabilities.
+
+8. Why can Sigmoid cause the vanishing gradient problem? Ans- For very large positive or negative inputs, Sigmoid becomes saturated and its derivative becomes very small, causing gradients to shrink during backpropagation.
+
+9. What is the Tanh activation function and how does it differ from Sigmoid? Ans- Tanh maps inputs between -1 and 1 and is zero-centered, whereas Sigmoid maps inputs between 0 and 1 and is not zero-centered.
+
+10. Why is Softmax commonly used in the output layer of multi-class classification? Ans- Softmax converts class scores into probabilities that sum to 1, allowing the model to represent the probability distribution across multiple mutually exclusive classes.
