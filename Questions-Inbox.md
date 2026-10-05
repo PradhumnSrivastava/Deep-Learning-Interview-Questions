@@ -1,6 +1,4 @@
 
-2. Why are activation functions important in deep learning? Ans- Activation functions introduce non-linearity between layers, enabling neural networks to learn complex non-linear relationships instead of behaving like a single linear model.
-
 3. What is the main problem with using a linear activation function in all layers? Ans- Multiple linear layers can be mathematically reduced to a single linear transformation, so the network cannot effectively learn complex non-linear patterns.
 
 4. What is the ReLU activation function? Ans- ReLU, or Rectified Linear Unit, outputs zero for negative inputs and the input itself for positive inputs. It is defined as f(x) = max(0, x).
