@@ -815,3 +815,11 @@
 ### Why are activation functions important in deep learning?
 
 **Answer:** Activation functions introduce non-linearity between layers, enabling neural networks to learn complex non-linear relationships instead of behaving like a single linear model.
+
+---
+
+## Interview Question
+
+### What is the main problem with using a linear activation function in all layers?
+
+**Answer:** Multiple linear layers can be mathematically reduced to a single linear transformation, so the network cannot effectively learn complex non-linear patterns.

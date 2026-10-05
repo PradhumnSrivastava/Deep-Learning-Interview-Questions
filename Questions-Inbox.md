@@ -1,6 +1,4 @@
 
-3. What is the main problem with using a linear activation function in all layers? Ans- Multiple linear layers can be mathematically reduced to a single linear transformation, so the network cannot effectively learn complex non-linear patterns.
-
 4. What is the ReLU activation function? Ans- ReLU, or Rectified Linear Unit, outputs zero for negative inputs and the input itself for positive inputs. It is defined as f(x) = max(0, x).
 
 5. What is the Dying ReLU problem? Ans- Dying ReLU occurs when a neuron consistently receives negative inputs and therefore outputs zero, causing its gradient to become zero and preventing the neuron from learning.
