@@ -823,3 +823,11 @@
 ### What is the main problem with using a linear activation function in all layers?
 
 **Answer:** Multiple linear layers can be mathematically reduced to a single linear transformation, so the network cannot effectively learn complex non-linear patterns.
+
+---
+
+## Interview Question
+
+### What is the ReLU activation function?
+
+**Answer:** ReLU, or Rectified Linear Unit, outputs zero for negative inputs and the input itself for positive inputs. It is defined as f(x) = max(0, x).
