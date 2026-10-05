@@ -1,4 +1,3 @@
-1. What is an activation function in a neural network? Ans- An activation function transforms a neuron's weighted sum into an output and introduces non-linearity, allowing neural networks to learn complex patterns.
 
 2. Why are activation functions important in deep learning? Ans- Activation functions introduce non-linearity between layers, enabling neural networks to learn complex non-linear relationships instead of behaving like a single linear model.
 

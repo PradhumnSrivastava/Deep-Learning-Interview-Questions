@@ -799,3 +799,11 @@
 ### Can a good weight initialization completely solve vanishing and exploding gradients?
 
 **Answer:** No. Good initialization significantly improves gradient flow, but it does not completely eliminate these problems. Architecture, activation functions, normalization, optimizers, learning rate, and network depth also affect gradient stability.
+
+---
+
+## Interview Question
+
+### What is an activation function in a neural network?
+
+**Answer:** An activation function transforms a neuron's weighted sum into an output and introduces non-linearity, allowing neural networks to learn complex patterns.
