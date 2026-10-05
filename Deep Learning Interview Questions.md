@@ -839,3 +839,11 @@
 ### What is the Dying ReLU problem?
 
 **Answer:** Dying ReLU occurs when a neuron consistently receives negative inputs and therefore outputs zero, causing its gradient to become zero and preventing the neuron from learning.
+
+---
+
+## Interview Question
+
+### How does Leaky ReLU solve the Dying ReLU problem?
+
+**Answer:** Leaky ReLU allows a small negative output for negative inputs, maintaining a non-zero gradient and allowing neurons to continue learning.
