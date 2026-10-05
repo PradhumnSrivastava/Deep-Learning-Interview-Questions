@@ -847,3 +847,11 @@
 ### How does Leaky ReLU solve the Dying ReLU problem?
 
 **Answer:** Leaky ReLU allows a small negative output for negative inputs, maintaining a non-zero gradient and allowing neurons to continue learning.
+
+---
+
+## Interview Question
+
+### What is the Sigmoid activation function and where is it commonly used?
+
+**Answer:** Sigmoid maps values between 0 and 1 and is commonly used in the output layer of binary classification problems to represent probabilities.
