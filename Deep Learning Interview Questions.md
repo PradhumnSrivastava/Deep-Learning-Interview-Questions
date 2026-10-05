@@ -855,3 +855,11 @@
 ### What is the Sigmoid activation function and where is it commonly used?
 
 **Answer:** Sigmoid maps values between 0 and 1 and is commonly used in the output layer of binary classification problems to represent probabilities.
+
+---
+
+## Interview Question
+
+### Why can Sigmoid cause the vanishing gradient problem?
+
+**Answer:** For very large positive or negative inputs, Sigmoid becomes saturated and its derivative becomes very small, causing gradients to shrink during backpropagation.
