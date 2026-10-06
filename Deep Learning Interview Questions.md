@@ -927,3 +927,11 @@
 ### How does data augmentation help prevent overfitting in deep learning?
 
 **Answer:** Data augmentation creates varied versions of training samples, such as rotated or cropped images, increasing effective data diversity and encouraging the model to learn more general features.
+
+---
+
+## Interview Question
+
+### How does dropout help reduce overfitting in deep neural networks?
+
+**Answer:** Dropout randomly deactivates a fraction of neurons during training, preventing the network from relying too heavily on specific neurons and encouraging more robust feature representations.
