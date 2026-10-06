@@ -903,3 +903,11 @@
 ### How can you identify overfitting in a deep learning model?
 
 **Answer:** Overfitting can be identified when training loss continues to decrease while validation loss starts increasing, or when training accuracy becomes much higher than validation or test accuracy.
+
+---
+
+## Interview Question
+
+### What is the difference between training loss and validation loss during overfitting?
+
+**Answer:** During overfitting, training loss generally keeps decreasing, while validation loss stops improving and may start increasing because the model is becoming specialized to the training data.
