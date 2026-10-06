@@ -919,3 +919,11 @@
 ### How does increasing the amount of training data help reduce overfitting?
 
 **Answer:** More diverse and representative training data gives the model more examples of the underlying patterns, making it harder for the model to simply memorize the training data.
+
+---
+
+## Interview Question
+
+### How does data augmentation help prevent overfitting in deep learning?
+
+**Answer:** Data augmentation creates varied versions of training samples, such as rotated or cropped images, increasing effective data diversity and encouraging the model to learn more general features.
