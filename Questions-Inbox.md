@@ -1,4 +1,3 @@
-1. What is overfitting in deep learning? Ans- Overfitting occurs when a deep learning model learns the training data too closely, including noise and irrelevant patterns, resulting in high training performance but poor performance on unseen data.
 
 2. Why are deep neural networks more prone to overfitting? Ans- Deep neural networks often have a very large number of parameters, giving them enough capacity to memorize training examples instead of learning generalizable patterns.
 

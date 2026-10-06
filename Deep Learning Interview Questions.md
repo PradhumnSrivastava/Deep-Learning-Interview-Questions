@@ -879,3 +879,11 @@
 ### Why is Softmax commonly used in the output layer of multi-class classification?
 
 **Answer:** Softmax converts class scores into probabilities that sum to 1, allowing the model to represent the probability distribution across multiple mutually exclusive classes.
+
+---
+
+## Interview Question
+
+### What is overfitting in deep learning?
+
+**Answer:** Overfitting occurs when a deep learning model learns the training data too closely, including noise and irrelevant patterns, resulting in high training performance but poor performance on unseen data.
