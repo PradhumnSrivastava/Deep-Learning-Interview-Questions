@@ -911,3 +911,11 @@
 ### What is the difference between training loss and validation loss during overfitting?
 
 **Answer:** During overfitting, training loss generally keeps decreasing, while validation loss stops improving and may start increasing because the model is becoming specialized to the training data.
+
+---
+
+## Interview Question
+
+### How does increasing the amount of training data help reduce overfitting?
+
+**Answer:** More diverse and representative training data gives the model more examples of the underlying patterns, making it harder for the model to simply memorize the training data.
