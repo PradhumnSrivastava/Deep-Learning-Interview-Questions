@@ -943,3 +943,11 @@
 ### How does regularization reduce overfitting in deep learning?
 
 **Answer:** Regularization adds a penalty to the loss function for overly large weights, encouraging simpler models and reducing the tendency to memorize training data.
+
+---
+
+## Interview Question
+
+### How does early stopping help prevent overfitting?
+
+**Answer:** Early stopping monitors validation performance and stops training when the model stops improving on validation data, preventing unnecessary training that could lead to overfitting.
