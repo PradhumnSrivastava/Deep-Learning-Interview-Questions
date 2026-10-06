@@ -935,3 +935,11 @@
 ### How does dropout help reduce overfitting in deep neural networks?
 
 **Answer:** Dropout randomly deactivates a fraction of neurons during training, preventing the network from relying too heavily on specific neurons and encouraging more robust feature representations.
+
+---
+
+## Interview Question
+
+### How does regularization reduce overfitting in deep learning?
+
+**Answer:** Regularization adds a penalty to the loss function for overly large weights, encouraging simpler models and reducing the tendency to memorize training data.
