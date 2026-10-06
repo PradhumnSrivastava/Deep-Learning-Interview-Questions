@@ -895,3 +895,11 @@
 ### Why are deep neural networks more prone to overfitting?
 
 **Answer:** Deep neural networks often have a very large number of parameters, giving them enough capacity to memorize training examples instead of learning generalizable patterns.
+
+---
+
+## Interview Question
+
+### How can you identify overfitting in a deep learning model?
+
+**Answer:** Overfitting can be identified when training loss continues to decrease while validation loss starts increasing, or when training accuracy becomes much higher than validation or test accuracy.
