@@ -1,6 +1,4 @@
 
-2. Why are deep neural networks more prone to overfitting? Ans- Deep neural networks often have a very large number of parameters, giving them enough capacity to memorize training examples instead of learning generalizable patterns.
-
 3. How can you identify overfitting in a deep learning model? Ans- Overfitting can be identified when training loss continues to decrease while validation loss starts increasing, or when training accuracy becomes much higher than validation or test accuracy.
 
 4. What is the difference between training loss and validation loss during overfitting? Ans- During overfitting, training loss generally keeps decreasing, while validation loss stops improving and may start increasing because the model is becoming specialized to the training data.
