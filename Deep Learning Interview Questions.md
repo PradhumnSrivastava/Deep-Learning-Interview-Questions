@@ -991,3 +991,11 @@
 ### Why can an overly simple neural network cause underfitting?
 
 **Answer:** An overly simple network may not have enough layers, neurons, or parameters to represent the complex patterns present in the data, causing it to have high bias and poor performance.
+
+---
+
+## Interview Question
+
+### How does insufficient training cause underfitting?
+
+**Answer:** If a neural network is trained for too few epochs, its parameters may not have enough time to converge toward useful values, resulting in poor performance on both training and validation data.

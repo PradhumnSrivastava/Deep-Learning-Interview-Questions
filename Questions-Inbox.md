@@ -1,6 +1,4 @@
 
-5. How does insufficient training cause underfitting? Ans- If a neural network is trained for too few epochs, its parameters may not have enough time to converge toward useful values, resulting in poor performance on both training and validation data.
-
 6. How can increasing model complexity help reduce underfitting? Ans- Adding appropriate layers, neurons, or model capacity can allow the network to learn more complex patterns and representations that a simpler model could not capture.
 
 7. How can reducing excessive regularization help with underfitting? Ans- Excessive regularization can restrict the model too much and prevent it from learning important patterns. Reducing regularization allows the model greater flexibility to fit the training data.
