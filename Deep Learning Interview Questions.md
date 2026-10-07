@@ -1007,3 +1007,11 @@
 ### How can increasing model complexity help reduce underfitting?
 
 **Answer:** Adding appropriate layers, neurons, or model capacity can allow the network to learn more complex patterns and representations that a simpler model could not capture.
+
+---
+
+## Interview Question
+
+### How can reducing excessive regularization help with underfitting?
+
+**Answer:** Excessive regularization can restrict the model too much and prevent it from learning important patterns. Reducing regularization allows the model greater flexibility to fit the training data.
