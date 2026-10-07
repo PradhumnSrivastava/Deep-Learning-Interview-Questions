@@ -1,6 +1,4 @@
 
-3. What is the difference between underfitting and overfitting in deep learning? Ans- Underfitting occurs when the model fails to learn important patterns from the data, while overfitting occurs when the model learns the training data too closely and performs poorly on unseen data.
-
 4. Why can an overly simple neural network cause underfitting? Ans- An overly simple network may not have enough layers, neurons, or parameters to represent the complex patterns present in the data, causing it to have high bias and poor performance.
 
 5. How does insufficient training cause underfitting? Ans- If a neural network is trained for too few epochs, its parameters may not have enough time to converge toward useful values, resulting in poor performance on both training and validation data.
