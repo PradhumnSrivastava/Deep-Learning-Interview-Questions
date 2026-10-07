@@ -1015,3 +1015,11 @@
 ### How can reducing excessive regularization help with underfitting?
 
 **Answer:** Excessive regularization can restrict the model too much and prevent it from learning important patterns. Reducing regularization allows the model greater flexibility to fit the training data.
+
+---
+
+## Interview Question
+
+### How can the learning rate cause underfitting in deep learning?
+
+**Answer:** An inappropriate learning rate, especially one that is too small, can make optimization extremely slow, so the model may fail to learn sufficiently within the available training time.
