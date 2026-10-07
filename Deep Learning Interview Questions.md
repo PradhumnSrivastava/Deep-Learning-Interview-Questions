@@ -1031,3 +1031,11 @@
 ### How can increasing the number of training epochs help overcome underfitting?
 
 **Answer:** Training for more epochs gives the optimizer additional opportunities to update the model parameters and learn the underlying patterns, provided the model has sufficient capacity.
+
+---
+
+## Interview Question
+
+### What are the common ways to reduce underfitting in deep learning?
+
+**Answer:** Underfitting can be reduced by increasing model capacity, training for more epochs, improving features or data representation, reducing excessive regularization, and tuning the learning rate and optimizer.
