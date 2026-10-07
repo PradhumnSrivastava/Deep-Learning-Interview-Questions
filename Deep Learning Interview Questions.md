@@ -999,3 +999,11 @@
 ### How does insufficient training cause underfitting?
 
 **Answer:** If a neural network is trained for too few epochs, its parameters may not have enough time to converge toward useful values, resulting in poor performance on both training and validation data.
+
+---
+
+## Interview Question
+
+### How can increasing model complexity help reduce underfitting?
+
+**Answer:** Adding appropriate layers, neurons, or model capacity can allow the network to learn more complex patterns and representations that a simpler model could not capture.

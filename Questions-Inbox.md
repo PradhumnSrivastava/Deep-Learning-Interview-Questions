@@ -1,6 +1,4 @@
 
-6. How can increasing model complexity help reduce underfitting? Ans- Adding appropriate layers, neurons, or model capacity can allow the network to learn more complex patterns and representations that a simpler model could not capture.
-
 7. How can reducing excessive regularization help with underfitting? Ans- Excessive regularization can restrict the model too much and prevent it from learning important patterns. Reducing regularization allows the model greater flexibility to fit the training data.
 
 8. How can the learning rate cause underfitting in deep learning? Ans- An inappropriate learning rate, especially one that is too small, can make optimization extremely slow, so the model may fail to learn sufficiently within the available training time.
