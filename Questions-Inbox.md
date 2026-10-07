@@ -1,6 +1,4 @@
 
-1. What is underfitting in deep learning? Ans- Underfitting occurs when a deep learning model is too simple or insufficiently trained to learn the underlying patterns in the training data, resulting in poor performance on both training and unseen data.
-
 2. How can you identify underfitting in a deep learning model? Ans- Underfitting is usually identified when both training and validation performance are poor, with high training loss and high validation loss or low accuracy on both datasets.
 
 3. What is the difference between underfitting and overfitting in deep learning? Ans- Underfitting occurs when the model fails to learn important patterns from the data, while overfitting occurs when the model learns the training data too closely and performs poorly on unseen data.
