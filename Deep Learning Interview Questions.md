@@ -1191,3 +1191,11 @@
 ### What is the difference between batch processing and stream processing?
 
 **Answer:** Batch processing handles accumulated data in groups at scheduled intervals, while stream processing processes incoming data continuously or with very low latency.
+
+---
+
+## Interview Question
+
+### What is reproducibility in a Data Science project?
+
+**Answer:** Reproducibility means that the same analysis can be repeated with the same data, code, dependencies, configuration, and relevant random seeds to obtain consistent results.
