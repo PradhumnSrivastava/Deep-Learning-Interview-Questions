@@ -1143,3 +1143,11 @@
 ### What is feature engineering in Data Science?
 
 **Answer:** Feature engineering involves creating, transforming, or selecting input variables to represent useful information in a form that helps analytical or machine learning models perform better.
+
+---
+
+## Interview Question
+
+### What is the difference between nominal, ordinal, interval, and ratio data?
+
+**Answer:** Nominal data represents categories without order, ordinal data has an order, interval data has meaningful differences but no true zero, and ratio data has both meaningful differences and a true zero.

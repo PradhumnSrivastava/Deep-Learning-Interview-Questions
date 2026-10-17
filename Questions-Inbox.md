@@ -1,6 +1,4 @@
 
-24. What is the difference between nominal, ordinal, interval, and ratio data? Ans- Nominal data represents categories without order, ordinal data has an order, interval data has meaningful differences but no true zero, and ratio data has both meaningful differences and a true zero.
-
 25. What is dimensionality reduction in Data Science? Ans- Dimensionality reduction decreases the number of features while attempting to preserve important information, potentially improving computational efficiency, visualization, and model generalization.
 
 26. What is Principal Component Analysis (PCA)? Ans- PCA is a linear dimensionality reduction technique that transforms correlated features into orthogonal principal components ordered by the amount of variance they explain.
