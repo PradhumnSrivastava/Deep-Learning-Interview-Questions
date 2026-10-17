@@ -1167,3 +1167,11 @@
 ### What is Principal Component Analysis (PCA)?
 
 **Answer:** PCA is a linear dimensionality reduction technique that transforms correlated features into orthogonal principal components ordered by the amount of variance they explain.
+
+---
+
+## Interview Question
+
+### What is the difference between descriptive statistics and inferential statistics?
+
+**Answer:** Descriptive statistics summarize and describe observed data, while inferential statistics use sample data to estimate population characteristics or test hypotheses about a larger population.
