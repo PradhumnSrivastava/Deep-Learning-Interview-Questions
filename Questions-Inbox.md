@@ -1,4 +1,3 @@
-11. What is the difference between a population and a sample in Data Science? Ans- A population includes all individuals or observations of interest, while a sample is a subset selected from that population to perform analysis and draw conclusions.
 
 12. What is a hypothesis in Data Science? Ans- A hypothesis is a testable assumption about a population, a variable, or the relationship between variables that can be evaluated using data and statistical methods.
 

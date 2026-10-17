@@ -1039,3 +1039,11 @@
 ### What are the common ways to reduce underfitting in deep learning?
 
 **Answer:** Underfitting can be reduced by increasing model capacity, training for more epochs, improving features or data representation, reducing excessive regularization, and tuning the learning rate and optimizer.
+
+---
+
+## Interview Question
+
+### What is the difference between a population and a sample in Data Science?
+
+**Answer:** A population includes all individuals or observations of interest, while a sample is a subset selected from that population to perform analysis and draw conclusions.
