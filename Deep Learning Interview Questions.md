@@ -1135,3 +1135,11 @@
 ### What is the difference between parametric and non-parametric statistical methods?
 
 **Answer:** Parametric methods rely on assumptions about the underlying distribution or model parameters, while non-parametric methods generally make fewer distributional assumptions.
+
+---
+
+## Interview Question
+
+### What is feature engineering in Data Science?
+
+**Answer:** Feature engineering involves creating, transforming, or selecting input variables to represent useful information in a form that helps analytical or machine learning models perform better.

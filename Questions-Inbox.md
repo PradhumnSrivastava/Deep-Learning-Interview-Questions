@@ -1,6 +1,4 @@
 
-23. What is feature engineering in Data Science? Ans- Feature engineering involves creating, transforming, or selecting input variables to represent useful information in a form that helps analytical or machine learning models perform better.
-
 24. What is the difference between nominal, ordinal, interval, and ratio data? Ans- Nominal data represents categories without order, ordinal data has an order, interval data has meaningful differences but no true zero, and ratio data has both meaningful differences and a true zero.
 
 25. What is dimensionality reduction in Data Science? Ans- Dimensionality reduction decreases the number of features while attempting to preserve important information, potentially improving computational efficiency, visualization, and model generalization.
