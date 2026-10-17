@@ -1,6 +1,4 @@
 
-18. What is the difference between variance and standard deviation? Ans- Variance measures the average squared deviation from the mean, while standard deviation is the square root of variance and expresses dispersion in the original measurement units.
-
 19. What is the Central Limit Theorem, and why is it important in Data Science? Ans- The Central Limit Theorem states that, under suitable conditions, the sampling distribution of the sample mean approaches a normal distribution as sample size increases, helping support statistical inference.
 
 20. What is a p-value in hypothesis testing? Ans- A p-value is the probability, assuming the null hypothesis is true, of obtaining a result at least as extreme as the observed result. A small p-value provides evidence against the null hypothesis.

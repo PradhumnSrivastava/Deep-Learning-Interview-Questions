@@ -1095,3 +1095,11 @@
 ### What is the difference between mean, median, and mode?
 
 **Answer:** Mean is the arithmetic average, median is the middle value in ordered data, and mode is the most frequently occurring value. Median is generally less sensitive to extreme values than mean.
+
+---
+
+## Interview Question
+
+### What is the difference between variance and standard deviation?
+
+**Answer:** Variance measures the average squared deviation from the mean, while standard deviation is the square root of variance and expresses dispersion in the original measurement units.
