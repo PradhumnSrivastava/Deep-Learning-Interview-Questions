@@ -1,6 +1,4 @@
 
-22. What is the difference between parametric and non-parametric statistical methods? Ans- Parametric methods rely on assumptions about the underlying distribution or model parameters, while non-parametric methods generally make fewer distributional assumptions.
-
 23. What is feature engineering in Data Science? Ans- Feature engineering involves creating, transforming, or selecting input variables to represent useful information in a form that helps analytical or machine learning models perform better.
 
 24. What is the difference between nominal, ordinal, interval, and ratio data? Ans- Nominal data represents categories without order, ordinal data has an order, interval data has meaningful differences but no true zero, and ratio data has both meaningful differences and a true zero.

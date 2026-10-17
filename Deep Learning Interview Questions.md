@@ -1127,3 +1127,11 @@
 ### What is the difference between Type I and Type II errors?
 
 **Answer:** A Type I error occurs when a true null hypothesis is incorrectly rejected, while a Type II error occurs when a false null hypothesis is not rejected.
+
+---
+
+## Interview Question
+
+### What is the difference between parametric and non-parametric statistical methods?
+
+**Answer:** Parametric methods rely on assumptions about the underlying distribution or model parameters, while non-parametric methods generally make fewer distributional assumptions.
