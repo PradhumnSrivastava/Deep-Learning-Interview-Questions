@@ -1,6 +1,4 @@
 
-16. What is the difference between univariate, bivariate, and multivariate analysis? Ans- Univariate analysis examines one variable, bivariate analysis examines the relationship between two variables, and multivariate analysis examines multiple variables simultaneously.
-
 17. What is the difference between mean, median, and mode? Ans- Mean is the arithmetic average, median is the middle value in ordered data, and mode is the most frequently occurring value. Median is generally less sensitive to extreme values than mean.
 
 18. What is the difference between variance and standard deviation? Ans- Variance measures the average squared deviation from the mean, while standard deviation is the square root of variance and expresses dispersion in the original measurement units.

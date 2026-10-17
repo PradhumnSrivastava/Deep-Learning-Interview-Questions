@@ -1079,3 +1079,11 @@
 ### What is an outlier in a dataset, and how can it be detected?
 
 **Answer:** An outlier is an observation that differs substantially from the general pattern of the data. It can be detected using box plots, the IQR method, Z-scores, or domain-specific rules.
+
+---
+
+## Interview Question
+
+### What is the difference between univariate, bivariate, and multivariate analysis?
+
+**Answer:** Univariate analysis examines one variable, bivariate analysis examines the relationship between two variables, and multivariate analysis examines multiple variables simultaneously.
