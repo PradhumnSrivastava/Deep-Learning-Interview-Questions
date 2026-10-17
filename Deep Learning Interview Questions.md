@@ -1159,3 +1159,11 @@
 ### What is dimensionality reduction in Data Science?
 
 **Answer:** Dimensionality reduction decreases the number of features while attempting to preserve important information, potentially improving computational efficiency, visualization, and model generalization.
+
+---
+
+## Interview Question
+
+### What is Principal Component Analysis (PCA)?
+
+**Answer:** PCA is a linear dimensionality reduction technique that transforms correlated features into orthogonal principal components ordered by the amount of variance they explain.
