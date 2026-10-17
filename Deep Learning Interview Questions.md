@@ -1111,3 +1111,11 @@
 ### What is the Central Limit Theorem, and why is it important in Data Science?
 
 **Answer:** The Central Limit Theorem states that, under suitable conditions, the sampling distribution of the sample mean approaches a normal distribution as sample size increases, helping support statistical inference.
+
+---
+
+## Interview Question
+
+### What is a p-value in hypothesis testing?
+
+**Answer:** A p-value is the probability, assuming the null hypothesis is true, of obtaining a result at least as extreme as the observed result. A small p-value provides evidence against the null hypothesis.
