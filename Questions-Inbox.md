@@ -1,6 +1,4 @@
 
-25. What is dimensionality reduction in Data Science? Ans- Dimensionality reduction decreases the number of features while attempting to preserve important information, potentially improving computational efficiency, visualization, and model generalization.
-
 26. What is Principal Component Analysis (PCA)? Ans- PCA is a linear dimensionality reduction technique that transforms correlated features into orthogonal principal components ordered by the amount of variance they explain.
 
 27. What is the difference between descriptive statistics and inferential statistics? Ans- Descriptive statistics summarize and describe observed data, while inferential statistics use sample data to estimate population characteristics or test hypotheses about a larger population.

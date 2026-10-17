@@ -1151,3 +1151,11 @@
 ### What is the difference between nominal, ordinal, interval, and ratio data?
 
 **Answer:** Nominal data represents categories without order, ordinal data has an order, interval data has meaningful differences but no true zero, and ratio data has both meaningful differences and a true zero.
+
+---
+
+## Interview Question
+
+### What is dimensionality reduction in Data Science?
+
+**Answer:** Dimensionality reduction decreases the number of features while attempting to preserve important information, potentially improving computational efficiency, visualization, and model generalization.
