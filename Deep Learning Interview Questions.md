@@ -1063,3 +1063,11 @@
 ### What is Exploratory Data Analysis (EDA), and why is it performed?
 
 **Answer:** EDA is the process of investigating datasets using statistical summaries and visualizations to understand distributions, relationships, anomalies, and potential data quality issues before modeling.
+
+---
+
+## Interview Question
+
+### What is the difference between correlation and causation?
+
+**Answer:** Correlation indicates that two variables are associated, while causation means that changes in one variable directly influence another. Correlation alone does not establish causation.
