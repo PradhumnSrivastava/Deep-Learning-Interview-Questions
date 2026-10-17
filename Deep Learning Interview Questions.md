@@ -1103,3 +1103,11 @@
 ### What is the difference between variance and standard deviation?
 
 **Answer:** Variance measures the average squared deviation from the mean, while standard deviation is the square root of variance and expresses dispersion in the original measurement units.
+
+---
+
+## Interview Question
+
+### What is the Central Limit Theorem, and why is it important in Data Science?
+
+**Answer:** The Central Limit Theorem states that, under suitable conditions, the sampling distribution of the sample mean approaches a normal distribution as sample size increases, helping support statistical inference.
