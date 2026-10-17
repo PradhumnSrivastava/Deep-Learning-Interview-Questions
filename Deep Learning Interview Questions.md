@@ -1175,3 +1175,11 @@
 ### What is the difference between descriptive statistics and inferential statistics?
 
 **Answer:** Descriptive statistics summarize and describe observed data, while inferential statistics use sample data to estimate population characteristics or test hypotheses about a larger population.
+
+---
+
+## Interview Question
+
+### What is data provenance, and why is it important?
+
+**Answer:** Data provenance records where data originated, how it was collected, and how it was transformed. It supports traceability, reproducibility, auditing, and trust in analytical results.
