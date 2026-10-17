@@ -1,6 +1,4 @@
 
-12. What is a hypothesis in Data Science? Ans- A hypothesis is a testable assumption about a population, a variable, or the relationship between variables that can be evaluated using data and statistical methods.
-
 13. What is Exploratory Data Analysis (EDA), and why is it performed? Ans- EDA is the process of investigating datasets using statistical summaries and visualizations to understand distributions, relationships, anomalies, and potential data quality issues before modeling.
 
 14. What is the difference between correlation and causation? Ans- Correlation indicates that two variables are associated, while causation means that changes in one variable directly influence another. Correlation alone does not establish causation.
