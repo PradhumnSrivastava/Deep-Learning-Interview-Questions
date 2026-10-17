@@ -1071,3 +1071,11 @@
 ### What is the difference between correlation and causation?
 
 **Answer:** Correlation indicates that two variables are associated, while causation means that changes in one variable directly influence another. Correlation alone does not establish causation.
+
+---
+
+## Interview Question
+
+### What is an outlier in a dataset, and how can it be detected?
+
+**Answer:** An outlier is an observation that differs substantially from the general pattern of the data. It can be detected using box plots, the IQR method, Z-scores, or domain-specific rules.

@@ -1,6 +1,4 @@
 
-15. What is an outlier in a dataset, and how can it be detected? Ans- An outlier is an observation that differs substantially from the general pattern of the data. It can be detected using box plots, the IQR method, Z-scores, or domain-specific rules.
-
 16. What is the difference between univariate, bivariate, and multivariate analysis? Ans- Univariate analysis examines one variable, bivariate analysis examines the relationship between two variables, and multivariate analysis examines multiple variables simultaneously.
 
 17. What is the difference between mean, median, and mode? Ans- Mean is the arithmetic average, median is the middle value in ordered data, and mode is the most frequently occurring value. Median is generally less sensitive to extreme values than mean.
