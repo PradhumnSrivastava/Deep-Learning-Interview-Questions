@@ -1055,3 +1055,11 @@
 ### What is a hypothesis in Data Science?
 
 **Answer:** A hypothesis is a testable assumption about a population, a variable, or the relationship between variables that can be evaluated using data and statistical methods.
+
+---
+
+## Interview Question
+
+### What is Exploratory Data Analysis (EDA), and why is it performed?
+
+**Answer:** EDA is the process of investigating datasets using statistical summaries and visualizations to understand distributions, relationships, anomalies, and potential data quality issues before modeling.

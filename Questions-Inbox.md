@@ -1,6 +1,4 @@
 
-13. What is Exploratory Data Analysis (EDA), and why is it performed? Ans- EDA is the process of investigating datasets using statistical summaries and visualizations to understand distributions, relationships, anomalies, and potential data quality issues before modeling.
-
 14. What is the difference between correlation and causation? Ans- Correlation indicates that two variables are associated, while causation means that changes in one variable directly influence another. Correlation alone does not establish causation.
 
 15. What is an outlier in a dataset, and how can it be detected? Ans- An outlier is an observation that differs substantially from the general pattern of the data. It can be detected using box plots, the IQR method, Z-scores, or domain-specific rules.
