@@ -1119,3 +1119,11 @@
 ### What is a p-value in hypothesis testing?
 
 **Answer:** A p-value is the probability, assuming the null hypothesis is true, of obtaining a result at least as extreme as the observed result. A small p-value provides evidence against the null hypothesis.
+
+---
+
+## Interview Question
+
+### What is the difference between Type I and Type II errors?
+
+**Answer:** A Type I error occurs when a true null hypothesis is incorrectly rejected, while a Type II error occurs when a false null hypothesis is not rejected.

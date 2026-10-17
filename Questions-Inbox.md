@@ -1,6 +1,4 @@
 
-21. What is the difference between Type I and Type II errors? Ans- A Type I error occurs when a true null hypothesis is incorrectly rejected, while a Type II error occurs when a false null hypothesis is not rejected.
-
 22. What is the difference between parametric and non-parametric statistical methods? Ans- Parametric methods rely on assumptions about the underlying distribution or model parameters, while non-parametric methods generally make fewer distributional assumptions.
 
 23. What is feature engineering in Data Science? Ans- Feature engineering involves creating, transforming, or selecting input variables to represent useful information in a form that helps analytical or machine learning models perform better.
