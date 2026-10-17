@@ -1,6 +1,4 @@
 
-17. What is the difference between mean, median, and mode? Ans- Mean is the arithmetic average, median is the middle value in ordered data, and mode is the most frequently occurring value. Median is generally less sensitive to extreme values than mean.
-
 18. What is the difference between variance and standard deviation? Ans- Variance measures the average squared deviation from the mean, while standard deviation is the square root of variance and expresses dispersion in the original measurement units.
 
 19. What is the Central Limit Theorem, and why is it important in Data Science? Ans- The Central Limit Theorem states that, under suitable conditions, the sampling distribution of the sample mean approaches a normal distribution as sample size increases, helping support statistical inference.

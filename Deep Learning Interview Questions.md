@@ -1087,3 +1087,11 @@
 ### What is the difference between univariate, bivariate, and multivariate analysis?
 
 **Answer:** Univariate analysis examines one variable, bivariate analysis examines the relationship between two variables, and multivariate analysis examines multiple variables simultaneously.
+
+---
+
+## Interview Question
+
+### What is the difference between mean, median, and mode?
+
+**Answer:** Mean is the arithmetic average, median is the middle value in ordered data, and mode is the most frequently occurring value. Median is generally less sensitive to extreme values than mean.
