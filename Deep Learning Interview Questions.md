@@ -1183,3 +1183,11 @@
 ### What is data provenance, and why is it important?
 
 **Answer:** Data provenance records where data originated, how it was collected, and how it was transformed. It supports traceability, reproducibility, auditing, and trust in analytical results.
+
+---
+
+## Interview Question
+
+### What is the difference between batch processing and stream processing?
+
+**Answer:** Batch processing handles accumulated data in groups at scheduled intervals, while stream processing processes incoming data continuously or with very low latency.
