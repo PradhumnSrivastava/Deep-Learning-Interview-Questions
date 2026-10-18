@@ -1,6 +1,4 @@
 
-37. What is data granularity, and how does it affect analysis? Ans- Data granularity refers to the level of detail in a dataset. Fine-grained data supports detailed analysis, while aggregated data simplifies reporting but may hide important patterns.
-
 38. What is the difference between a metric and a Key Performance Indicator (KPI)? Ans- A metric is a measurable quantity used to track performance, while a KPI is a metric specifically selected to measure progress toward an important business objective.
 
 39. What is cohort analysis in Data Science? Ans- Cohort analysis groups individuals who share a characteristic or experience within a defined period and tracks their behavior over time, such as customer retention after signup.

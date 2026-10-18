@@ -1247,3 +1247,11 @@
 ### What is data integration, and what challenges can occur during integration?
 
 **Answer:** Data integration combines data from multiple sources into a unified dataset. Challenges include inconsistent formats, duplicate records, conflicting values, different identifiers, and incompatible schemas.
+
+---
+
+## Interview Question
+
+### What is data granularity, and how does it affect analysis?
+
+**Answer:** Data granularity refers to the level of detail in a dataset. Fine-grained data supports detailed analysis, while aggregated data simplifies reporting but may hide important patterns.
