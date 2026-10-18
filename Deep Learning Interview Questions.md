@@ -1327,3 +1327,11 @@
 ### What is data anonymization, and why is it important?
 
 **Answer:** Data anonymization transforms data to reduce the possibility of identifying individuals, helping protect privacy when datasets are used for analysis or research.
+
+---
+
+## Interview Question
+
+### What is the difference between a data lake and a data warehouse?
+
+**Answer:** A data lake stores large volumes of raw data in various formats, while a data warehouse stores structured and processed data optimized for reporting and analytical queries.
