@@ -1295,3 +1295,11 @@
 ### What is concept drift in a Data Science system?
 
 **Answer:** Concept drift occurs when the relationship between input features and the target variable changes over time, potentially reducing the predictive performance of a deployed model.
+
+---
+
+## Interview Question
+
+### What is a data pipeline, and why is it important?
+
+**Answer:** A data pipeline is a sequence of automated steps that moves and transforms data from source systems to destinations for storage, analysis, reporting, or machine learning.
