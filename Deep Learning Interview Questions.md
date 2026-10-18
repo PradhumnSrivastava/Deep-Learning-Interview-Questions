@@ -1255,3 +1255,11 @@
 ### What is data granularity, and how does it affect analysis?
 
 **Answer:** Data granularity refers to the level of detail in a dataset. Fine-grained data supports detailed analysis, while aggregated data simplifies reporting but may hide important patterns.
+
+---
+
+## Interview Question
+
+### What is the difference between a metric and a Key Performance Indicator (KPI)?
+
+**Answer:** A metric is a measurable quantity used to track performance, while a KPI is a metric specifically selected to measure progress toward an important business objective.

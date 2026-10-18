@@ -1,6 +1,4 @@
 
-38. What is the difference between a metric and a Key Performance Indicator (KPI)? Ans- A metric is a measurable quantity used to track performance, while a KPI is a metric specifically selected to measure progress toward an important business objective.
-
 39. What is cohort analysis in Data Science? Ans- Cohort analysis groups individuals who share a characteristic or experience within a defined period and tracks their behavior over time, such as customer retention after signup.
 
 40. What is time series data, and how is it different from cross-sectional data? Ans- Time series data consists of observations recorded over time, whereas cross-sectional data captures observations across different individuals or entities at a particular point in time.
