@@ -1263,3 +1263,11 @@
 ### What is the difference between a metric and a Key Performance Indicator (KPI)?
 
 **Answer:** A metric is a measurable quantity used to track performance, while a KPI is a metric specifically selected to measure progress toward an important business objective.
+
+---
+
+## Interview Question
+
+### What is cohort analysis in Data Science?
+
+**Answer:** Cohort analysis groups individuals who share a characteristic or experience within a defined period and tracks their behavior over time, such as customer retention after signup.

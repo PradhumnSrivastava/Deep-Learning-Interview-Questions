@@ -1,6 +1,4 @@
 
-39. What is cohort analysis in Data Science? Ans- Cohort analysis groups individuals who share a characteristic or experience within a defined period and tracks their behavior over time, such as customer retention after signup.
-
 40. What is time series data, and how is it different from cross-sectional data? Ans- Time series data consists of observations recorded over time, whereas cross-sectional data captures observations across different individuals or entities at a particular point in time.
 
 41. What is seasonality in time series analysis? Ans- Seasonality refers to recurring patterns that occur at regular intervals, such as increased retail sales during festivals or higher electricity demand during particular seasons.
