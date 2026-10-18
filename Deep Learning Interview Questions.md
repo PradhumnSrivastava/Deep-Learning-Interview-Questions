@@ -1343,3 +1343,11 @@
 ### What is the role of a Data Scientist in an organization?
 
 **Answer:** A Data Scientist defines analytical problems, explores data, develops statistical or machine learning models, evaluates results, and communicates actionable insights to stakeholders.
+
+---
+
+## Interview Question
+
+### What is an A/B test, and how is it used in Data Science?
+
+**Answer:** An A/B test compares two versions of a product, feature, or experience by assigning users to different groups and measuring outcomes to estimate the effect of a change.
