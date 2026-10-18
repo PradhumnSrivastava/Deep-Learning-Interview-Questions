@@ -1303,3 +1303,11 @@
 ### What is a data pipeline, and why is it important?
 
 **Answer:** A data pipeline is a sequence of automated steps that moves and transforms data from source systems to destinations for storage, analysis, reporting, or machine learning.
+
+---
+
+## Interview Question
+
+### What is the difference between ETL and ELT?
+
+**Answer:** ETL extracts data, transforms it, and then loads it into the destination, while ELT extracts and loads data first and performs transformations within the destination system.
