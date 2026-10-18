@@ -1207,3 +1207,11 @@
 ### What is the difference between Data Science and Artificial Intelligence?
 
 **Answer:** Data Science focuses on extracting insights and knowledge from data, while Artificial Intelligence focuses on building systems that perform tasks requiring intelligence, such as reasoning, learning, and decision-making.
+
+---
+
+## Interview Question
+
+### What is data wrangling in Data Science?
+
+**Answer:** Data wrangling is the process of converting raw, messy data into a structured and usable format through cleaning, transformation, integration, and validation.

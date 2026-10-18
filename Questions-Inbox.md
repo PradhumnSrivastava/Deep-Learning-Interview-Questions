@@ -1,6 +1,4 @@
 
-32. What is data wrangling in Data Science? Ans- Data wrangling is the process of converting raw, messy data into a structured and usable format through cleaning, transformation, integration, and validation.
-
 33. What is the difference between data mining and Data Science? Ans- Data mining focuses on discovering patterns and relationships in datasets, while Data Science covers a broader workflow that includes data collection, analysis, modeling, experimentation, and communicating results.
 
 34. What is a data dictionary, and why is it useful? Ans- A data dictionary describes dataset fields, including their names, meanings, data types, formats, and constraints, helping users understand and correctly interpret the data.
