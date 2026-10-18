@@ -1223,3 +1223,11 @@
 ### What is the difference between data mining and Data Science?
 
 **Answer:** Data mining focuses on discovering patterns and relationships in datasets, while Data Science covers a broader workflow that includes data collection, analysis, modeling, experimentation, and communicating results.
+
+---
+
+## Interview Question
+
+### What is a data dictionary, and why is it useful?
+
+**Answer:** A data dictionary describes dataset fields, including their names, meanings, data types, formats, and constraints, helping users understand and correctly interpret the data.
