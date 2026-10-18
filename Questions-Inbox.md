@@ -1,6 +1,4 @@
 
-45. What is data governance in Data Science? Ans- Data governance is the framework of policies, roles, standards, and procedures used to manage data quality, ownership, security, privacy, and appropriate usage.
-
 46. What is data anonymization, and why is it important? Ans- Data anonymization transforms data to reduce the possibility of identifying individuals, helping protect privacy when datasets are used for analysis or research.
 
 47. What is the difference between a data lake and a data warehouse? Ans- A data lake stores large volumes of raw data in various formats, while a data warehouse stores structured and processed data optimized for reporting and analytical queries.

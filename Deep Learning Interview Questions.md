@@ -1311,3 +1311,11 @@
 ### What is the difference between ETL and ELT?
 
 **Answer:** ETL extracts data, transforms it, and then loads it into the destination, while ELT extracts and loads data first and performs transformations within the destination system.
+
+---
+
+## Interview Question
+
+### What is data governance in Data Science?
+
+**Answer:** Data governance is the framework of policies, roles, standards, and procedures used to manage data quality, ownership, security, privacy, and appropriate usage.
