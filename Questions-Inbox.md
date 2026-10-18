@@ -1,6 +1,4 @@
 
-42. What is concept drift in a Data Science system? Ans- Concept drift occurs when the relationship between input features and the target variable changes over time, potentially reducing the predictive performance of a deployed model.
-
 43. What is a data pipeline, and why is it important? Ans- A data pipeline is a sequence of automated steps that moves and transforms data from source systems to destinations for storage, analysis, reporting, or machine learning.
 
 44. What is the difference between ETL and ELT? Ans- ETL extracts data, transforms it, and then loads it into the destination, while ELT extracts and loads data first and performs transformations within the destination system.

@@ -1287,3 +1287,11 @@
 ### What is seasonality in time series analysis?
 
 **Answer:** Seasonality refers to recurring patterns that occur at regular intervals, such as increased retail sales during festivals or higher electricity demand during particular seasons.
+
+---
+
+## Interview Question
+
+### What is concept drift in a Data Science system?
+
+**Answer:** Concept drift occurs when the relationship between input features and the target variable changes over time, potentially reducing the predictive performance of a deployed model.
