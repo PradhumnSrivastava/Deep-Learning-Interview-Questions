@@ -1,6 +1,4 @@
 
-40. What is time series data, and how is it different from cross-sectional data? Ans- Time series data consists of observations recorded over time, whereas cross-sectional data captures observations across different individuals or entities at a particular point in time.
-
 41. What is seasonality in time series analysis? Ans- Seasonality refers to recurring patterns that occur at regular intervals, such as increased retail sales during festivals or higher electricity demand during particular seasons.
 
 42. What is concept drift in a Data Science system? Ans- Concept drift occurs when the relationship between input features and the target variable changes over time, potentially reducing the predictive performance of a deployed model.

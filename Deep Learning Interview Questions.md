@@ -1271,3 +1271,11 @@
 ### What is cohort analysis in Data Science?
 
 **Answer:** Cohort analysis groups individuals who share a characteristic or experience within a defined period and tracks their behavior over time, such as customer retention after signup.
+
+---
+
+## Interview Question
+
+### What is time series data, and how is it different from cross-sectional data?
+
+**Answer:** Time series data consists of observations recorded over time, whereas cross-sectional data captures observations across different individuals or entities at a particular point in time.
