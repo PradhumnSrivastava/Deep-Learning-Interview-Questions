@@ -1199,3 +1199,11 @@
 ### What is reproducibility in a Data Science project?
 
 **Answer:** Reproducibility means that the same analysis can be repeated with the same data, code, dependencies, configuration, and relevant random seeds to obtain consistent results.
+
+---
+
+## Interview Question
+
+### What is the difference between Data Science and Artificial Intelligence?
+
+**Answer:** Data Science focuses on extracting insights and knowledge from data, while Artificial Intelligence focuses on building systems that perform tasks requiring intelligence, such as reasoning, learning, and decision-making.
