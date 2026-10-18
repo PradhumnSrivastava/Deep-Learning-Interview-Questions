@@ -1335,3 +1335,11 @@
 ### What is the difference between a data lake and a data warehouse?
 
 **Answer:** A data lake stores large volumes of raw data in various formats, while a data warehouse stores structured and processed data optimized for reporting and analytical queries.
+
+---
+
+## Interview Question
+
+### What is the role of a Data Scientist in an organization?
+
+**Answer:** A Data Scientist defines analytical problems, explores data, develops statistical or machine learning models, evaluates results, and communicates actionable insights to stakeholders.
