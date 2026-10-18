@@ -1351,3 +1351,11 @@
 ### What is an A/B test, and how is it used in Data Science?
 
 **Answer:** An A/B test compares two versions of a product, feature, or experience by assigning users to different groups and measuring outcomes to estimate the effect of a change.
+
+---
+
+## Interview Question
+
+### What is responsible Data Science?
+
+**Answer:** Responsible Data Science involves developing and using data-driven systems with attention to fairness, privacy, transparency, accountability, security, and potential societal impacts.
