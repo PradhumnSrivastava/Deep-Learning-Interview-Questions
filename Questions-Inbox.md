@@ -1,6 +1,4 @@
 
-46. What is data anonymization, and why is it important? Ans- Data anonymization transforms data to reduce the possibility of identifying individuals, helping protect privacy when datasets are used for analysis or research.
-
 47. What is the difference between a data lake and a data warehouse? Ans- A data lake stores large volumes of raw data in various formats, while a data warehouse stores structured and processed data optimized for reporting and analytical queries.
 
 48. What is the role of a Data Scientist in an organization? Ans- A Data Scientist defines analytical problems, explores data, develops statistical or machine learning models, evaluates results, and communicates actionable insights to stakeholders.

@@ -1319,3 +1319,11 @@
 ### What is data governance in Data Science?
 
 **Answer:** Data governance is the framework of policies, roles, standards, and procedures used to manage data quality, ownership, security, privacy, and appropriate usage.
+
+---
+
+## Interview Question
+
+### What is data anonymization, and why is it important?
+
+**Answer:** Data anonymization transforms data to reduce the possibility of identifying individuals, helping protect privacy when datasets are used for analysis or research.
