@@ -1,6 +1,4 @@
 
-35. What is metadata in Data Science? Ans- Metadata is data that describes other data, such as its source, creation date, format, schema, ownership, and collection method.
-
 36. What is data integration, and what challenges can occur during integration? Ans- Data integration combines data from multiple sources into a unified dataset. Challenges include inconsistent formats, duplicate records, conflicting values, different identifiers, and incompatible schemas.
 
 37. What is data granularity, and how does it affect analysis? Ans- Data granularity refers to the level of detail in a dataset. Fine-grained data supports detailed analysis, while aggregated data simplifies reporting but may hide important patterns.

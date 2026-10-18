@@ -1231,3 +1231,11 @@
 ### What is a data dictionary, and why is it useful?
 
 **Answer:** A data dictionary describes dataset fields, including their names, meanings, data types, formats, and constraints, helping users understand and correctly interpret the data.
+
+---
+
+## Interview Question
+
+### What is metadata in Data Science?
+
+**Answer:** Metadata is data that describes other data, such as its source, creation date, format, schema, ownership, and collection method.
