@@ -1,6 +1,4 @@
 
-41. What is seasonality in time series analysis? Ans- Seasonality refers to recurring patterns that occur at regular intervals, such as increased retail sales during festivals or higher electricity demand during particular seasons.
-
 42. What is concept drift in a Data Science system? Ans- Concept drift occurs when the relationship between input features and the target variable changes over time, potentially reducing the predictive performance of a deployed model.
 
 43. What is a data pipeline, and why is it important? Ans- A data pipeline is a sequence of automated steps that moves and transforms data from source systems to destinations for storage, analysis, reporting, or machine learning.
