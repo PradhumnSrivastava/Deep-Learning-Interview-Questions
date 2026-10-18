@@ -1,6 +1,4 @@
 
-36. What is data integration, and what challenges can occur during integration? Ans- Data integration combines data from multiple sources into a unified dataset. Challenges include inconsistent formats, duplicate records, conflicting values, different identifiers, and incompatible schemas.
-
 37. What is data granularity, and how does it affect analysis? Ans- Data granularity refers to the level of detail in a dataset. Fine-grained data supports detailed analysis, while aggregated data simplifies reporting but may hide important patterns.
 
 38. What is the difference between a metric and a Key Performance Indicator (KPI)? Ans- A metric is a measurable quantity used to track performance, while a KPI is a metric specifically selected to measure progress toward an important business objective.

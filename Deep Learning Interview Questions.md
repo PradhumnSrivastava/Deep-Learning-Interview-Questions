@@ -1239,3 +1239,11 @@
 ### What is metadata in Data Science?
 
 **Answer:** Metadata is data that describes other data, such as its source, creation date, format, schema, ownership, and collection method.
+
+---
+
+## Interview Question
+
+### What is data integration, and what challenges can occur during integration?
+
+**Answer:** Data integration combines data from multiple sources into a unified dataset. Challenges include inconsistent formats, duplicate records, conflicting values, different identifiers, and incompatible schemas.
