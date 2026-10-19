@@ -1,6 +1,4 @@
 
-54. What is database normalization, and why is it used? Ans- Database normalization organizes relational data into well-structured tables to reduce unnecessary duplication and prevent insertion, update, and deletion anomalies.
-
 55. What is the difference between SQL and NoSQL databases? Ans- SQL databases typically use relational tables and structured query languages, while NoSQL databases support models such as documents, key-value pairs, graphs, or wide-column storage for different data requirements.
 
 56. What is data deduplication, and how can it improve dataset quality? Ans- Data deduplication identifies and removes redundant records using unique identifiers or matching rules, reducing duplicate counting and improving the reliability of analysis.

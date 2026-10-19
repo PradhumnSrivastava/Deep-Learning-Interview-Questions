@@ -1383,3 +1383,11 @@
 ### What is referential integrity in a relational database?
 
 **Answer:** Referential integrity ensures that relationships between tables remain valid, typically by requiring foreign key values to reference existing records in the related table.
+
+---
+
+## Interview Question
+
+### What is database normalization, and why is it used?
+
+**Answer:** Database normalization organizes relational data into well-structured tables to reduce unnecessary duplication and prevent insertion, update, and deletion anomalies.
