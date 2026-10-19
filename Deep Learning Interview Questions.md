@@ -1503,3 +1503,11 @@
 ### What is a slowly changing dimension in data warehousing?
 
 **Answer:** A slowly changing dimension is a technique for managing changes in descriptive attributes over time. Depending on the strategy, it may overwrite old values or preserve historical versions.
+
+---
+
+## Interview Question
+
+### What is the difference between a fact table and a dimension table?
+
+**Answer:** A fact table stores measurable business events or quantities, while a dimension table stores descriptive attributes used to categorize, filter, and analyze those facts.
