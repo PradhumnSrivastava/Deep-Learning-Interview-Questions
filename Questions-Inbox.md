@@ -1,6 +1,4 @@
 
-65. What is the difference between data observability and data monitoring? Ans- Data monitoring tracks predefined metrics and alerts, while data observability provides broader visibility into data health by examining signals such as freshness, volume, schema changes, and distribution anomalies.
-
 66. What is data lineage, and how does it help debug analytical errors? Ans- Data lineage tracks how data moves and transforms across systems. It helps identify the upstream source of incorrect values and understand which downstream reports or models may be affected.
 
 67. What is a semantic layer in data analytics? Ans- A semantic layer defines business-friendly meanings for data elements, metrics, and relationships, allowing users and analytical tools to interpret business concepts consistently across datasets.

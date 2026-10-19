@@ -1471,3 +1471,11 @@
 ### What is a data contract in a data engineering workflow?
 
 **Answer:** A data contract defines expectations between data producers and consumers, including schema, field meanings, quality rules, compatibility requirements, and delivery expectations.
+
+---
+
+## Interview Question
+
+### What is the difference between data observability and data monitoring?
+
+**Answer:** Data monitoring tracks predefined metrics and alerts, while data observability provides broader visibility into data health by examining signals such as freshness, volume, schema changes, and distribution anomalies.
