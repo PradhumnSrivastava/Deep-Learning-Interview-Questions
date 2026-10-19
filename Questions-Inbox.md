@@ -1,6 +1,4 @@
 
-52. What is data profiling in Data Science? Ans- Data profiling is the process of examining a dataset to understand its structure, completeness, uniqueness, value distributions, and potential quality issues before analysis.
-
 53. What is referential integrity in a relational database? Ans- Referential integrity ensures that relationships between tables remain valid, typically by requiring foreign key values to reference existing records in the related table.
 
 54. What is database normalization, and why is it used? Ans- Database normalization organizes relational data into well-structured tables to reduce unnecessary duplication and prevent insertion, update, and deletion anomalies.
