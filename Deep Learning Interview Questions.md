@@ -1479,3 +1479,11 @@
 ### What is the difference between data observability and data monitoring?
 
 **Answer:** Data monitoring tracks predefined metrics and alerts, while data observability provides broader visibility into data health by examining signals such as freshness, volume, schema changes, and distribution anomalies.
+
+---
+
+## Interview Question
+
+### What is data lineage, and how does it help debug analytical errors?
+
+**Answer:** Data lineage tracks how data moves and transforms across systems. It helps identify the upstream source of incorrect values and understand which downstream reports or models may be affected.
