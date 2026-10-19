@@ -1447,3 +1447,11 @@
 ### What is the difference between one-hot encoding and ordinal encoding?
 
 **Answer:** One-hot encoding creates separate binary features for categories without implying an order, while ordinal encoding assigns integer values to categories and can imply an ordering when the categories are genuinely ordered.
+
+---
+
+## Interview Question
+
+### What is target encoding, and what risk is associated with it?
+
+**Answer:** Target encoding replaces categories with statistics calculated from the target variable, such as category-wise mean target values. It can cause target leakage or overfitting if performed without appropriate cross-validation or smoothing.
