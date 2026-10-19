@@ -1,6 +1,4 @@
 
-61. What is the difference between one-hot encoding and ordinal encoding? Ans- One-hot encoding creates separate binary features for categories without implying an order, while ordinal encoding assigns integer values to categories and can imply an ordering when the categories are genuinely ordered.
-
 62. What is target encoding, and what risk is associated with it? Ans- Target encoding replaces categories with statistics calculated from the target variable, such as category-wise mean target values. It can cause target leakage or overfitting if performed without appropriate cross-validation or smoothing.
 
 63. What is binning in Data Science, and what are its advantages? Ans- Binning groups continuous values into intervals. It can simplify interpretation, reduce sensitivity to small fluctuations, and capture non-linear relationships, but it may also discard useful information.

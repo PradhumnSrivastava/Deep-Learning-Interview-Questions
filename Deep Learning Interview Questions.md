@@ -1439,3 +1439,11 @@
 ### What is data encoding, and why is it required?
 
 **Answer:** Data encoding converts information into a representation suitable for computational processing. For example, categorical variables can be converted into numerical representations using one-hot or ordinal encoding.
+
+---
+
+## Interview Question
+
+### What is the difference between one-hot encoding and ordinal encoding?
+
+**Answer:** One-hot encoding creates separate binary features for categories without implying an order, while ordinal encoding assigns integer values to categories and can imply an ordering when the categories are genuinely ordered.
