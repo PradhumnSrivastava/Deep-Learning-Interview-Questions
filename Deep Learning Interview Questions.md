@@ -1511,3 +1511,11 @@
 ### What is the difference between a fact table and a dimension table?
 
 **Answer:** A fact table stores measurable business events or quantities, while a dimension table stores descriptive attributes used to categorize, filter, and analyze those facts.
+
+---
+
+## Interview Question
+
+### What is the difference between a star schema and a snowflake schema?
+
+**Answer:** A star schema connects a central fact table directly to denormalized dimension tables, while a snowflake schema further normalizes dimensions into related tables, reducing redundancy but increasing join complexity.

@@ -1,6 +1,4 @@
 
-70. What is the difference between a star schema and a snowflake schema? Ans- A star schema connects a central fact table directly to denormalized dimension tables, while a snowflake schema further normalizes dimensions into related tables, reducing redundancy but increasing join complexity.
-
 71. What is a data cube in analytical processing? Ans- A data cube represents measures organized across multiple dimensions, such as sales by product, region, and time, enabling multidimensional analysis and aggregation.
 
 72. What is OLAP, and how does it support Data Science? Ans- Online Analytical Processing (OLAP) supports multidimensional analysis of large datasets through operations such as slicing, dicing, drilling down, and aggregating business measures.
