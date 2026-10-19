@@ -1415,3 +1415,11 @@
 ### What is entity resolution in data processing?
 
 **Answer:** Entity resolution identifies records from different sources that refer to the same real-world entity, even when their names, addresses, or other attributes differ.
+
+---
+
+## Interview Question
+
+### What is fuzzy matching, and when is it useful?
+
+**Answer:** Fuzzy matching identifies approximately matching strings rather than requiring exact equality. It is useful for matching inconsistent names, addresses, product descriptions, and customer records.
