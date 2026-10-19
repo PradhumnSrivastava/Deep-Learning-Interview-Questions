@@ -1463,3 +1463,11 @@
 ### What is binning in Data Science, and what are its advantages?
 
 **Answer:** Binning groups continuous values into intervals. It can simplify interpretation, reduce sensitivity to small fluctuations, and capture non-linear relationships, but it may also discard useful information.
+
+---
+
+## Interview Question
+
+### What is a data contract in a data engineering workflow?
+
+**Answer:** A data contract defines expectations between data producers and consumers, including schema, field meanings, quality rules, compatibility requirements, and delivery expectations.
