@@ -1,4 +1,3 @@
-51. What is a data schema, and how does it help in data analysis? Ans- A data schema defines the structure of a dataset, including field names, data types, relationships, and constraints. It helps maintain consistency and detect structural errors during data processing.
 
 52. What is data profiling in Data Science? Ans- Data profiling is the process of examining a dataset to understand its structure, completeness, uniqueness, value distributions, and potential quality issues before analysis.
 

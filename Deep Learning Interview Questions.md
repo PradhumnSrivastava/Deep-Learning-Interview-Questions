@@ -1359,3 +1359,11 @@
 ### What is responsible Data Science?
 
 **Answer:** Responsible Data Science involves developing and using data-driven systems with attention to fairness, privacy, transparency, accountability, security, and potential societal impacts.
+
+---
+
+## Interview Question
+
+### What is a data schema, and how does it help in data analysis?
+
+**Answer:** A data schema defines the structure of a dataset, including field names, data types, relationships, and constraints. It helps maintain consistency and detect structural errors during data processing.
