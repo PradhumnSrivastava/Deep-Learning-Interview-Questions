@@ -1495,3 +1495,11 @@
 ### What is a semantic layer in data analytics?
 
 **Answer:** A semantic layer defines business-friendly meanings for data elements, metrics, and relationships, allowing users and analytical tools to interpret business concepts consistently across datasets.
+
+---
+
+## Interview Question
+
+### What is a slowly changing dimension in data warehousing?
+
+**Answer:** A slowly changing dimension is a technique for managing changes in descriptive attributes over time. Depending on the strategy, it may overwrite old values or preserve historical versions.

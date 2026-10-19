@@ -1,6 +1,4 @@
 
-68. What is a slowly changing dimension in data warehousing? Ans- A slowly changing dimension is a technique for managing changes in descriptive attributes over time. Depending on the strategy, it may overwrite old values or preserve historical versions.
-
 69. What is the difference between a fact table and a dimension table? Ans- A fact table stores measurable business events or quantities, while a dimension table stores descriptive attributes used to categorize, filter, and analyze those facts.
 
 70. What is the difference between a star schema and a snowflake schema? Ans- A star schema connects a central fact table directly to denormalized dimension tables, while a snowflake schema further normalizes dimensions into related tables, reducing redundancy but increasing join complexity.
