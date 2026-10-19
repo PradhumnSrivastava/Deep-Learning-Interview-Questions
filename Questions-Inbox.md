@@ -1,6 +1,4 @@
 
-55. What is the difference between SQL and NoSQL databases? Ans- SQL databases typically use relational tables and structured query languages, while NoSQL databases support models such as documents, key-value pairs, graphs, or wide-column storage for different data requirements.
-
 56. What is data deduplication, and how can it improve dataset quality? Ans- Data deduplication identifies and removes redundant records using unique identifiers or matching rules, reducing duplicate counting and improving the reliability of analysis.
 
 57. What is entity resolution in data processing? Ans- Entity resolution identifies records from different sources that refer to the same real-world entity, even when their names, addresses, or other attributes differ.
