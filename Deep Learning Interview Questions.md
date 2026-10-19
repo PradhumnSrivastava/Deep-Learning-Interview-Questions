@@ -1407,3 +1407,11 @@
 ### What is data deduplication, and how can it improve dataset quality?
 
 **Answer:** Data deduplication identifies and removes redundant records using unique identifiers or matching rules, reducing duplicate counting and improving the reliability of analysis.
+
+---
+
+## Interview Question
+
+### What is entity resolution in data processing?
+
+**Answer:** Entity resolution identifies records from different sources that refer to the same real-world entity, even when their names, addresses, or other attributes differ.
