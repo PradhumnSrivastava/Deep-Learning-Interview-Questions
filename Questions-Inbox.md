@@ -1,1 +1,59 @@
+51. What is a data schema, and how does it help in data analysis? Ans- A data schema defines the structure of a dataset, including field names, data types, relationships, and constraints. It helps maintain consistency and detect structural errors during data processing.
 
+52. What is data profiling in Data Science? Ans- Data profiling is the process of examining a dataset to understand its structure, completeness, uniqueness, value distributions, and potential quality issues before analysis.
+
+53. What is referential integrity in a relational database? Ans- Referential integrity ensures that relationships between tables remain valid, typically by requiring foreign key values to reference existing records in the related table.
+
+54. What is database normalization, and why is it used? Ans- Database normalization organizes relational data into well-structured tables to reduce unnecessary duplication and prevent insertion, update, and deletion anomalies.
+
+55. What is the difference between SQL and NoSQL databases? Ans- SQL databases typically use relational tables and structured query languages, while NoSQL databases support models such as documents, key-value pairs, graphs, or wide-column storage for different data requirements.
+
+56. What is data deduplication, and how can it improve dataset quality? Ans- Data deduplication identifies and removes redundant records using unique identifiers or matching rules, reducing duplicate counting and improving the reliability of analysis.
+
+57. What is entity resolution in data processing? Ans- Entity resolution identifies records from different sources that refer to the same real-world entity, even when their names, addresses, or other attributes differ.
+
+58. What is fuzzy matching, and when is it useful? Ans- Fuzzy matching identifies approximately matching strings rather than requiring exact equality. It is useful for matching inconsistent names, addresses, product descriptions, and customer records.
+
+59. What is data discretization in Data Science? Ans- Data discretization converts continuous numerical values into discrete intervals or categories, such as converting ages into age groups, to simplify analysis or support particular modeling approaches.
+
+60. What is data encoding, and why is it required? Ans- Data encoding converts information into a representation suitable for computational processing. For example, categorical variables can be converted into numerical representations using one-hot or ordinal encoding.
+
+61. What is the difference between one-hot encoding and ordinal encoding? Ans- One-hot encoding creates separate binary features for categories without implying an order, while ordinal encoding assigns integer values to categories and can imply an ordering when the categories are genuinely ordered.
+
+62. What is target encoding, and what risk is associated with it? Ans- Target encoding replaces categories with statistics calculated from the target variable, such as category-wise mean target values. It can cause target leakage or overfitting if performed without appropriate cross-validation or smoothing.
+
+63. What is binning in Data Science, and what are its advantages? Ans- Binning groups continuous values into intervals. It can simplify interpretation, reduce sensitivity to small fluctuations, and capture non-linear relationships, but it may also discard useful information.
+
+64. What is a data contract in a data engineering workflow? Ans- A data contract defines expectations between data producers and consumers, including schema, field meanings, quality rules, compatibility requirements, and delivery expectations.
+
+65. What is the difference between data observability and data monitoring? Ans- Data monitoring tracks predefined metrics and alerts, while data observability provides broader visibility into data health by examining signals such as freshness, volume, schema changes, and distribution anomalies.
+
+66. What is data lineage, and how does it help debug analytical errors? Ans- Data lineage tracks how data moves and transforms across systems. It helps identify the upstream source of incorrect values and understand which downstream reports or models may be affected.
+
+67. What is a semantic layer in data analytics? Ans- A semantic layer defines business-friendly meanings for data elements, metrics, and relationships, allowing users and analytical tools to interpret business concepts consistently across datasets.
+
+68. What is a slowly changing dimension in data warehousing? Ans- A slowly changing dimension is a technique for managing changes in descriptive attributes over time. Depending on the strategy, it may overwrite old values or preserve historical versions.
+
+69. What is the difference between a fact table and a dimension table? Ans- A fact table stores measurable business events or quantities, while a dimension table stores descriptive attributes used to categorize, filter, and analyze those facts.
+
+70. What is the difference between a star schema and a snowflake schema? Ans- A star schema connects a central fact table directly to denormalized dimension tables, while a snowflake schema further normalizes dimensions into related tables, reducing redundancy but increasing join complexity.
+
+71. What is a data cube in analytical processing? Ans- A data cube represents measures organized across multiple dimensions, such as sales by product, region, and time, enabling multidimensional analysis and aggregation.
+
+72. What is OLAP, and how does it support Data Science? Ans- Online Analytical Processing (OLAP) supports multidimensional analysis of large datasets through operations such as slicing, dicing, drilling down, and aggregating business measures.
+
+73. What is the difference between OLTP and OLAP systems? Ans- OLTP systems are optimized for frequent operational transactions, while OLAP systems are optimized for complex analytical queries over historical or aggregated data.
+
+74. What is a data mart, and how does it differ from a data warehouse? Ans- A data mart is a focused data repository for a specific department or business domain, whereas a data warehouse generally integrates data across multiple organizational areas.
+
+75. What is change data capture (CDC)? Ans- Change data capture identifies inserts, updates, and deletes in a source system and transfers those changes to downstream systems, helping keep analytical datasets synchronized efficiently.
+
+76. What is the difference between synchronous and asynchronous data processing? Ans- Synchronous processing waits for an operation to complete before continuing, while asynchronous processing allows other tasks to proceed while an operation is running or awaiting completion.
+
+77. What is idempotency in a data pipeline? Ans- Idempotency means that repeating the same operation with the same input produces the same final result without unintended duplicate effects, making pipeline retries safer and more reliable.
+
+78. What is a data quality dimension, and which dimensions are commonly measured? Ans- A data quality dimension is a criterion used to assess data fitness for use. Common dimensions include accuracy, completeness, consistency, validity, uniqueness, and timeliness.
+
+79. What is schema evolution in data systems? Ans- Schema evolution is the process of changing a dataset's structure over time, such as adding or modifying fields, while managing compatibility with existing producers, consumers, and stored data.
+
+80. What is the difference between data serialization and data compression? Ans- Serialization converts structured objects into a format suitable for storage or transmission, while compression reduces the number of bytes required to represent data. A serialized format may also support compression.
