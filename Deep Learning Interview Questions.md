@@ -1375,3 +1375,11 @@
 ### What is data profiling in Data Science?
 
 **Answer:** Data profiling is the process of examining a dataset to understand its structure, completeness, uniqueness, value distributions, and potential quality issues before analysis.
+
+---
+
+## Interview Question
+
+### What is referential integrity in a relational database?
+
+**Answer:** Referential integrity ensures that relationships between tables remain valid, typically by requiring foreign key values to reference existing records in the related table.
