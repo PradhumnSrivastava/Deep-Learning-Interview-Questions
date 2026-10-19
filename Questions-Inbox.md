@@ -1,6 +1,4 @@
 
-59. What is data discretization in Data Science? Ans- Data discretization converts continuous numerical values into discrete intervals or categories, such as converting ages into age groups, to simplify analysis or support particular modeling approaches.
-
 60. What is data encoding, and why is it required? Ans- Data encoding converts information into a representation suitable for computational processing. For example, categorical variables can be converted into numerical representations using one-hot or ordinal encoding.
 
 61. What is the difference between one-hot encoding and ordinal encoding? Ans- One-hot encoding creates separate binary features for categories without implying an order, while ordinal encoding assigns integer values to categories and can imply an ordering when the categories are genuinely ordered.

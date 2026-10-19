@@ -1423,3 +1423,11 @@
 ### What is fuzzy matching, and when is it useful?
 
 **Answer:** Fuzzy matching identifies approximately matching strings rather than requiring exact equality. It is useful for matching inconsistent names, addresses, product descriptions, and customer records.
+
+---
+
+## Interview Question
+
+### What is data discretization in Data Science?
+
+**Answer:** Data discretization converts continuous numerical values into discrete intervals or categories, such as converting ages into age groups, to simplify analysis or support particular modeling approaches.
