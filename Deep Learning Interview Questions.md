@@ -1455,3 +1455,11 @@
 ### What is target encoding, and what risk is associated with it?
 
 **Answer:** Target encoding replaces categories with statistics calculated from the target variable, such as category-wise mean target values. It can cause target leakage or overfitting if performed without appropriate cross-validation or smoothing.
+
+---
+
+## Interview Question
+
+### What is binning in Data Science, and what are its advantages?
+
+**Answer:** Binning groups continuous values into intervals. It can simplify interpretation, reduce sensitivity to small fluctuations, and capture non-linear relationships, but it may also discard useful information.

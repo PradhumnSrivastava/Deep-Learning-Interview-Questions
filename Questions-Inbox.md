@@ -1,6 +1,4 @@
 
-63. What is binning in Data Science, and what are its advantages? Ans- Binning groups continuous values into intervals. It can simplify interpretation, reduce sensitivity to small fluctuations, and capture non-linear relationships, but it may also discard useful information.
-
 64. What is a data contract in a data engineering workflow? Ans- A data contract defines expectations between data producers and consumers, including schema, field meanings, quality rules, compatibility requirements, and delivery expectations.
 
 65. What is the difference between data observability and data monitoring? Ans- Data monitoring tracks predefined metrics and alerts, while data observability provides broader visibility into data health by examining signals such as freshness, volume, schema changes, and distribution anomalies.
