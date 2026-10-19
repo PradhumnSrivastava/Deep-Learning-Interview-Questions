@@ -1399,3 +1399,11 @@
 ### What is the difference between SQL and NoSQL databases?
 
 **Answer:** SQL databases typically use relational tables and structured query languages, while NoSQL databases support models such as documents, key-value pairs, graphs, or wide-column storage for different data requirements.
+
+---
+
+## Interview Question
+
+### What is data deduplication, and how can it improve dataset quality?
+
+**Answer:** Data deduplication identifies and removes redundant records using unique identifiers or matching rules, reducing duplicate counting and improving the reliability of analysis.

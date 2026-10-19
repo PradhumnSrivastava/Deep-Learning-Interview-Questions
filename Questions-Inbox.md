@@ -1,6 +1,4 @@
 
-56. What is data deduplication, and how can it improve dataset quality? Ans- Data deduplication identifies and removes redundant records using unique identifiers or matching rules, reducing duplicate counting and improving the reliability of analysis.
-
 57. What is entity resolution in data processing? Ans- Entity resolution identifies records from different sources that refer to the same real-world entity, even when their names, addresses, or other attributes differ.
 
 58. What is fuzzy matching, and when is it useful? Ans- Fuzzy matching identifies approximately matching strings rather than requiring exact equality. It is useful for matching inconsistent names, addresses, product descriptions, and customer records.
