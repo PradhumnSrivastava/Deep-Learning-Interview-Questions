@@ -1,6 +1,4 @@
 
-60. What is data encoding, and why is it required? Ans- Data encoding converts information into a representation suitable for computational processing. For example, categorical variables can be converted into numerical representations using one-hot or ordinal encoding.
-
 61. What is the difference between one-hot encoding and ordinal encoding? Ans- One-hot encoding creates separate binary features for categories without implying an order, while ordinal encoding assigns integer values to categories and can imply an ordering when the categories are genuinely ordered.
 
 62. What is target encoding, and what risk is associated with it? Ans- Target encoding replaces categories with statistics calculated from the target variable, such as category-wise mean target values. It can cause target leakage or overfitting if performed without appropriate cross-validation or smoothing.
