@@ -1519,3 +1519,11 @@
 ### What is the difference between a star schema and a snowflake schema?
 
 **Answer:** A star schema connects a central fact table directly to denormalized dimension tables, while a snowflake schema further normalizes dimensions into related tables, reducing redundancy but increasing join complexity.
+
+---
+
+## Interview Question
+
+### What is a data cube in analytical processing?
+
+**Answer:** A data cube represents measures organized across multiple dimensions, such as sales by product, region, and time, enabling multidimensional analysis and aggregation.
