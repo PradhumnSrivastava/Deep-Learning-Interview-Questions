@@ -1,6 +1,4 @@
 
-72. What is OLAP, and how does it support Data Science? Ans- Online Analytical Processing (OLAP) supports multidimensional analysis of large datasets through operations such as slicing, dicing, drilling down, and aggregating business measures.
-
 73. What is the difference between OLTP and OLAP systems? Ans- OLTP systems are optimized for frequent operational transactions, while OLAP systems are optimized for complex analytical queries over historical or aggregated data.
 
 74. What is a data mart, and how does it differ from a data warehouse? Ans- A data mart is a focused data repository for a specific department or business domain, whereas a data warehouse generally integrates data across multiple organizational areas.

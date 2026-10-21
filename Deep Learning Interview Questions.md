@@ -1527,3 +1527,11 @@
 ### What is a data cube in analytical processing?
 
 **Answer:** A data cube represents measures organized across multiple dimensions, such as sales by product, region, and time, enabling multidimensional analysis and aggregation.
+
+---
+
+## Interview Question
+
+### What is OLAP, and how does it support Data Science?
+
+**Answer:** Online Analytical Processing (OLAP) supports multidimensional analysis of large datasets through operations such as slicing, dicing, drilling down, and aggregating business measures.
