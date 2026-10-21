@@ -1575,3 +1575,11 @@
 ### What is idempotency in a data pipeline?
 
 **Answer:** Idempotency means that repeating the same operation with the same input produces the same final result without unintended duplicate effects, making pipeline retries safer and more reliable.
+
+---
+
+## Interview Question
+
+### What is a data quality dimension, and which dimensions are commonly measured?
+
+**Answer:** A data quality dimension is a criterion used to assess data fitness for use. Common dimensions include accuracy, completeness, consistency, validity, uniqueness, and timeliness.
