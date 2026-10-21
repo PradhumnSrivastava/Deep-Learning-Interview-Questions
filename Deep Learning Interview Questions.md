@@ -1567,3 +1567,11 @@
 ### What is the difference between synchronous and asynchronous data processing?
 
 **Answer:** Synchronous processing waits for an operation to complete before continuing, while asynchronous processing allows other tasks to proceed while an operation is running or awaiting completion.
+
+---
+
+## Interview Question
+
+### What is idempotency in a data pipeline?
+
+**Answer:** Idempotency means that repeating the same operation with the same input produces the same final result without unintended duplicate effects, making pipeline retries safer and more reliable.
