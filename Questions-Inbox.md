@@ -1,6 +1,4 @@
 
-76. What is the difference between synchronous and asynchronous data processing? Ans- Synchronous processing waits for an operation to complete before continuing, while asynchronous processing allows other tasks to proceed while an operation is running or awaiting completion.
-
 77. What is idempotency in a data pipeline? Ans- Idempotency means that repeating the same operation with the same input produces the same final result without unintended duplicate effects, making pipeline retries safer and more reliable.
 
 78. What is a data quality dimension, and which dimensions are commonly measured? Ans- A data quality dimension is a criterion used to assess data fitness for use. Common dimensions include accuracy, completeness, consistency, validity, uniqueness, and timeliness.
