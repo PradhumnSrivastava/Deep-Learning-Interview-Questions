@@ -1583,3 +1583,11 @@
 ### What is a data quality dimension, and which dimensions are commonly measured?
 
 **Answer:** A data quality dimension is a criterion used to assess data fitness for use. Common dimensions include accuracy, completeness, consistency, validity, uniqueness, and timeliness.
+
+---
+
+## Interview Question
+
+### What is schema evolution in data systems?
+
+**Answer:** Schema evolution is the process of changing a dataset's structure over time, such as adding or modifying fields, while managing compatibility with existing producers, consumers, and stored data.
