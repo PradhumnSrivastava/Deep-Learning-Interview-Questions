@@ -1,6 +1,4 @@
 
-73. What is the difference between OLTP and OLAP systems? Ans- OLTP systems are optimized for frequent operational transactions, while OLAP systems are optimized for complex analytical queries over historical or aggregated data.
-
 74. What is a data mart, and how does it differ from a data warehouse? Ans- A data mart is a focused data repository for a specific department or business domain, whereas a data warehouse generally integrates data across multiple organizational areas.
 
 75. What is change data capture (CDC)? Ans- Change data capture identifies inserts, updates, and deletes in a source system and transfers those changes to downstream systems, helping keep analytical datasets synchronized efficiently.

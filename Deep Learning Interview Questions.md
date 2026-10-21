@@ -1535,3 +1535,11 @@
 ### What is OLAP, and how does it support Data Science?
 
 **Answer:** Online Analytical Processing (OLAP) supports multidimensional analysis of large datasets through operations such as slicing, dicing, drilling down, and aggregating business measures.
+
+---
+
+## Interview Question
+
+### What is the difference between OLTP and OLAP systems?
+
+**Answer:** OLTP systems are optimized for frequent operational transactions, while OLAP systems are optimized for complex analytical queries over historical or aggregated data.
