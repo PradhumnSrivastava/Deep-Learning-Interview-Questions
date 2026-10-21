@@ -1551,3 +1551,11 @@
 ### What is a data mart, and how does it differ from a data warehouse?
 
 **Answer:** A data mart is a focused data repository for a specific department or business domain, whereas a data warehouse generally integrates data across multiple organizational areas.
+
+---
+
+## Interview Question
+
+### What is change data capture (CDC)?
+
+**Answer:** Change data capture identifies inserts, updates, and deletes in a source system and transfers those changes to downstream systems, helping keep analytical datasets synchronized efficiently.

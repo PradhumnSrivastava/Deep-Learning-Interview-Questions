@@ -1,6 +1,4 @@
 
-75. What is change data capture (CDC)? Ans- Change data capture identifies inserts, updates, and deletes in a source system and transfers those changes to downstream systems, helping keep analytical datasets synchronized efficiently.
-
 76. What is the difference between synchronous and asynchronous data processing? Ans- Synchronous processing waits for an operation to complete before continuing, while asynchronous processing allows other tasks to proceed while an operation is running or awaiting completion.
 
 77. What is idempotency in a data pipeline? Ans- Idempotency means that repeating the same operation with the same input produces the same final result without unintended duplicate effects, making pipeline retries safer and more reliable.
