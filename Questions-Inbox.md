@@ -1,6 +1,4 @@
 
-74. What is a data mart, and how does it differ from a data warehouse? Ans- A data mart is a focused data repository for a specific department or business domain, whereas a data warehouse generally integrates data across multiple organizational areas.
-
 75. What is change data capture (CDC)? Ans- Change data capture identifies inserts, updates, and deletes in a source system and transfers those changes to downstream systems, helping keep analytical datasets synchronized efficiently.
 
 76. What is the difference between synchronous and asynchronous data processing? Ans- Synchronous processing waits for an operation to complete before continuing, while asynchronous processing allows other tasks to proceed while an operation is running or awaiting completion.

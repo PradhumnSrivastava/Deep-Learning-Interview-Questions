@@ -1543,3 +1543,11 @@
 ### What is the difference between OLTP and OLAP systems?
 
 **Answer:** OLTP systems are optimized for frequent operational transactions, while OLAP systems are optimized for complex analytical queries over historical or aggregated data.
+
+---
+
+## Interview Question
+
+### What is a data mart, and how does it differ from a data warehouse?
+
+**Answer:** A data mart is a focused data repository for a specific department or business domain, whereas a data warehouse generally integrates data across multiple organizational areas.
