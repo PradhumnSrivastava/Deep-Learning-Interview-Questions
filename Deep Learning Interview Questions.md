@@ -1607,3 +1607,11 @@
 ### What is feature selection?
 
 **Answer:** Feature selection is the process of choosing the most relevant input features to improve model performance, reduce complexity, and minimize overfitting.
+
+---
+
+## Interview Question
+
+### What is the difference between feature selection and feature extraction?
+
+**Answer:** Feature selection chooses existing features, whereas feature extraction transforms existing features into a new representation.

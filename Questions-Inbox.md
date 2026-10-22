@@ -1,6 +1,4 @@
 
-102. What is the difference between feature selection and feature extraction? Ans- Feature selection chooses existing features, whereas feature extraction transforms existing features into a new representation.
-
 103. What is a baseline model? Ans- A baseline model is a simple reference model used to evaluate whether a more complex model provides meaningful improvement.
 
 104. What is a data sampling distribution? Ans- A sampling distribution is the probability distribution of a statistic calculated from repeated samples drawn from the same population.
