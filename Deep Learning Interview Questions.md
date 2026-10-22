@@ -1615,3 +1615,11 @@
 ### What is the difference between feature selection and feature extraction?
 
 **Answer:** Feature selection chooses existing features, whereas feature extraction transforms existing features into a new representation.
+
+---
+
+## Interview Question
+
+### What is a baseline model?
+
+**Answer:** A baseline model is a simple reference model used to evaluate whether a more complex model provides meaningful improvement.

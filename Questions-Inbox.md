@@ -1,6 +1,4 @@
 
-103. What is a baseline model? Ans- A baseline model is a simple reference model used to evaluate whether a more complex model provides meaningful improvement.
-
 104. What is a data sampling distribution? Ans- A sampling distribution is the probability distribution of a statistic calculated from repeated samples drawn from the same population.
 
 105. What is the Law of Large Numbers? Ans- The Law of Large Numbers states that as the sample size increases, the sample average tends to approach the population mean under suitable conditions.
