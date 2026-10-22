@@ -1,6 +1,4 @@
 
-116. What is a probability distribution? Ans- A probability distribution describes the possible values of a random variable and the probabilities associated with those values.
-
 117. What is a Bernoulli distribution? Ans- A Bernoulli distribution models a single experiment with two possible outcomes, usually represented as 1 with probability p and 0 with probability 1 − p.
 
 118. What is a binomial distribution? Ans- A binomial distribution models the number of successes in a fixed number of independent trials, each having the same probability of success.

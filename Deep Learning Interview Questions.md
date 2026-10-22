@@ -1719,3 +1719,11 @@
 ### What is the difference between covariance and correlation?
 
 **Answer:** Covariance measures how two variables vary together and depends on their units, whereas correlation measures the strength and direction of their linear relationship on a standardized scale.
+
+---
+
+## Interview Question
+
+### What is a probability distribution?
+
+**Answer:** A probability distribution describes the possible values of a random variable and the probabilities associated with those values.
