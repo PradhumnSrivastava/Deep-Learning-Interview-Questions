@@ -1,6 +1,4 @@
 
-107. What is Maximum Likelihood Estimation (MLE)? Ans- MLE estimates model parameters by selecting the values that maximize the likelihood of observing the given data.
-
 108. What is Bayesian inference? Ans- Bayesian inference updates prior beliefs about a parameter using observed data to obtain a posterior probability distribution.
 
 109. What is the difference between prior and posterior probability? Ans- Prior probability represents belief before observing new evidence, while posterior probability represents the updated belief after considering that evidence.

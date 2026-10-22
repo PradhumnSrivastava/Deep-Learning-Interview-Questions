@@ -1647,3 +1647,11 @@
 ### What is a likelihood function?
 
 **Answer:** A likelihood function measures how compatible observed data is with different parameter values of a statistical model.
+
+---
+
+## Interview Question
+
+### What is Maximum Likelihood Estimation (MLE)?
+
+**Answer:** MLE estimates model parameters by selecting the values that maximize the likelihood of observing the given data.
