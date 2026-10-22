@@ -1735,3 +1735,11 @@
 ### What is a Bernoulli distribution?
 
 **Answer:** A Bernoulli distribution models a single experiment with two possible outcomes, usually represented as 1 with probability p and 0 with probability 1 − p.
+
+---
+
+## Interview Question
+
+### What is a binomial distribution?
+
+**Answer:** A binomial distribution models the number of successes in a fixed number of independent trials, each having the same probability of success.
