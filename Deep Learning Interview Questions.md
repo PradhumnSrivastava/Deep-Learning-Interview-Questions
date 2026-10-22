@@ -1711,3 +1711,11 @@
 ### What is Bayes' theorem?
 
 **Answer:** Bayes' theorem updates the probability of an event using new evidence: P(A|B) = P(B|A)P(A) / P(B), when P(B) > 0.
+
+---
+
+## Interview Question
+
+### What is the difference between covariance and correlation?
+
+**Answer:** Covariance measures how two variables vary together and depends on their units, whereas correlation measures the strength and direction of their linear relationship on a standardized scale.

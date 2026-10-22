@@ -1,6 +1,4 @@
 
-115. What is the difference between covariance and correlation? Ans- Covariance measures how two variables vary together and depends on their units, whereas correlation measures the strength and direction of their linear relationship on a standardized scale.
-
 116. What is a probability distribution? Ans- A probability distribution describes the possible values of a random variable and the probabilities associated with those values.
 
 117. What is a Bernoulli distribution? Ans- A Bernoulli distribution models a single experiment with two possible outcomes, usually represented as 1 with probability p and 0 with probability 1 − p.
