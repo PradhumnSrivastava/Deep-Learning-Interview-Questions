@@ -1727,3 +1727,11 @@
 ### What is a probability distribution?
 
 **Answer:** A probability distribution describes the possible values of a random variable and the probabilities associated with those values.
+
+---
+
+## Interview Question
+
+### What is a Bernoulli distribution?
+
+**Answer:** A Bernoulli distribution models a single experiment with two possible outcomes, usually represented as 1 with probability p and 0 with probability 1 − p.
