@@ -1679,3 +1679,11 @@
 ### What is a probability density function (PDF)?
 
 **Answer:** A PDF describes the relative likelihood of values of a continuous random variable, and its integral over an interval gives the probability of that interval.
+
+---
+
+## Interview Question
+
+### What is a cumulative distribution function (CDF)?
+
+**Answer:** A CDF gives the probability that a random variable is less than or equal to a specified value.
