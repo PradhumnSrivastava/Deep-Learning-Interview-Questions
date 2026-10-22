@@ -1623,3 +1623,11 @@
 ### What is a baseline model?
 
 **Answer:** A baseline model is a simple reference model used to evaluate whether a more complex model provides meaningful improvement.
+
+---
+
+## Interview Question
+
+### What is a data sampling distribution?
+
+**Answer:** A sampling distribution is the probability distribution of a statistic calculated from repeated samples drawn from the same population.
