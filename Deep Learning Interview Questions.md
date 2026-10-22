@@ -1687,3 +1687,11 @@
 ### What is a cumulative distribution function (CDF)?
 
 **Answer:** A CDF gives the probability that a random variable is less than or equal to a specified value.
+
+---
+
+## Interview Question
+
+### What is the difference between independent and mutually exclusive events?
+
+**Answer:** Independent events do not affect each other's probabilities, whereas mutually exclusive events cannot occur together; for events with positive probabilities, they are not independent.

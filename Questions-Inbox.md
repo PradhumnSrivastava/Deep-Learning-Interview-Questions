@@ -1,6 +1,4 @@
 
-112. What is the difference between independent and mutually exclusive events? Ans- Independent events do not affect each other's probabilities, whereas mutually exclusive events cannot occur together; for events with positive probabilities, they are not independent.
-
 113. What is conditional probability? Ans- Conditional probability is the probability of an event occurring given that another event has already occurred, expressed as P(A|B) = P(A ∩ B) / P(B), when P(B) > 0.
 
 114. What is Bayes' theorem? Ans- Bayes' theorem updates the probability of an event using new evidence: P(A|B) = P(B|A)P(A) / P(B), when P(B) > 0.
