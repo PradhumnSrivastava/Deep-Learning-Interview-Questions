@@ -1639,3 +1639,11 @@
 ### What is the Law of Large Numbers?
 
 **Answer:** The Law of Large Numbers states that as the sample size increases, the sample average tends to approach the population mean under suitable conditions.
+
+---
+
+## Interview Question
+
+### What is a likelihood function?
+
+**Answer:** A likelihood function measures how compatible observed data is with different parameter values of a statistical model.

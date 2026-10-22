@@ -1,6 +1,4 @@
 
-106. What is a likelihood function? Ans- A likelihood function measures how compatible observed data is with different parameter values of a statistical model.
-
 107. What is Maximum Likelihood Estimation (MLE)? Ans- MLE estimates model parameters by selecting the values that maximize the likelihood of observing the given data.
 
 108. What is Bayesian inference? Ans- Bayesian inference updates prior beliefs about a parameter using observed data to obtain a posterior probability distribution.
