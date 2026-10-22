@@ -1663,3 +1663,11 @@
 ### What is Bayesian inference?
 
 **Answer:** Bayesian inference updates prior beliefs about a parameter using observed data to obtain a posterior probability distribution.
+
+---
+
+## Interview Question
+
+### What is the difference between prior and posterior probability?
+
+**Answer:** Prior probability represents belief before observing new evidence, while posterior probability represents the updated belief after considering that evidence.

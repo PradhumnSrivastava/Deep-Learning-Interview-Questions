@@ -1,6 +1,4 @@
 
-109. What is the difference between prior and posterior probability? Ans- Prior probability represents belief before observing new evidence, while posterior probability represents the updated belief after considering that evidence.
-
 110. What is a probability density function (PDF)? Ans- A PDF describes the relative likelihood of values of a continuous random variable, and its integral over an interval gives the probability of that interval.
 
 111. What is a cumulative distribution function (CDF)? Ans- A CDF gives the probability that a random variable is less than or equal to a specified value.
