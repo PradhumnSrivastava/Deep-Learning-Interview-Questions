@@ -1,6 +1,4 @@
 
-113. What is conditional probability? Ans- Conditional probability is the probability of an event occurring given that another event has already occurred, expressed as P(A|B) = P(A ∩ B) / P(B), when P(B) > 0.
-
 114. What is Bayes' theorem? Ans- Bayes' theorem updates the probability of an event using new evidence: P(A|B) = P(B|A)P(A) / P(B), when P(B) > 0.
 
 115. What is the difference between covariance and correlation? Ans- Covariance measures how two variables vary together and depends on their units, whereas correlation measures the strength and direction of their linear relationship on a standardized scale.

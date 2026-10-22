@@ -1695,3 +1695,11 @@
 ### What is the difference between independent and mutually exclusive events?
 
 **Answer:** Independent events do not affect each other's probabilities, whereas mutually exclusive events cannot occur together; for events with positive probabilities, they are not independent.
+
+---
+
+## Interview Question
+
+### What is conditional probability?
+
+**Answer:** Conditional probability is the probability of an event occurring given that another event has already occurred, expressed as P(A|B) = P(A ∩ B) / P(B), when P(B) > 0.
