@@ -1631,3 +1631,11 @@
 ### What is a data sampling distribution?
 
 **Answer:** A sampling distribution is the probability distribution of a statistic calculated from repeated samples drawn from the same population.
+
+---
+
+## Interview Question
+
+### What is the Law of Large Numbers?
+
+**Answer:** The Law of Large Numbers states that as the sample size increases, the sample average tends to approach the population mean under suitable conditions.
