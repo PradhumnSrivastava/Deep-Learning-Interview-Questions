@@ -1671,3 +1671,11 @@
 ### What is the difference between prior and posterior probability?
 
 **Answer:** Prior probability represents belief before observing new evidence, while posterior probability represents the updated belief after considering that evidence.
+
+---
+
+## Interview Question
+
+### What is a probability density function (PDF)?
+
+**Answer:** A PDF describes the relative likelihood of values of a continuous random variable, and its integral over an interval gives the probability of that interval.
