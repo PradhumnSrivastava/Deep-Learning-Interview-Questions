@@ -1655,3 +1655,11 @@
 ### What is Maximum Likelihood Estimation (MLE)?
 
 **Answer:** MLE estimates model parameters by selecting the values that maximize the likelihood of observing the given data.
+
+---
+
+## Interview Question
+
+### What is Bayesian inference?
+
+**Answer:** Bayesian inference updates prior beliefs about a parameter using observed data to obtain a posterior probability distribution.
