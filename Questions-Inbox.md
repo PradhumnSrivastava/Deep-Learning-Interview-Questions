@@ -1,6 +1,4 @@
 
-31. Why is the previous velocity used in Momentum? Ans- Previous velocity preserves information about earlier gradient directions, allowing consistent directions to accumulate over multiple updates.
-
 32. How does Momentum behave when consecutive gradients point in the same direction? Ans- Their contributions accumulate, increasing the effective movement in that direction, subject to the learning rate and momentum coefficient.
 
 33. How does Momentum behave when consecutive gradients point in opposite directions? Ans- The opposing gradient contributions can partially cancel the accumulated velocity, reducing movement or changing its direction.

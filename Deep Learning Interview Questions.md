@@ -1831,3 +1831,11 @@
 ### What is the mathematical update rule for Momentum?
 
 **Answer:** One common form is vₜ = βvₜ₋₁ + ∇L(θₜ₋₁), followed by θₜ = θₜ₋₁ − ηvₜ, where β is momentum, η is the learning rate, and ∇L is the gradient.
+
+---
+
+## Interview Question
+
+### Why is the previous velocity used in Momentum?
+
+**Answer:** Previous velocity preserves information about earlier gradient directions, allowing consistent directions to accumulate over multiple updates.
