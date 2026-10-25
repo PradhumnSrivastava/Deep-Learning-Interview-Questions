@@ -1,6 +1,4 @@
 
-34. What is overshooting in Momentum optimization? Ans- Overshooting occurs when accumulated movement carries the parameters past the minimum instead of settling near it, potentially causing repeated oscillations.
-
 35. Can Momentum help optimize deep neural networks? Ans- Yes. It can improve optimization speed and reduce oscillations when training deep neural networks, although it does not eliminate every training difficulty.
 
 36. What is the difference between Momentum and Nesterov Momentum? Ans- Standard Momentum computes the gradient at the current parameters, while Nesterov Momentum estimates the gradient after a look-ahead step based on the accumulated velocity.

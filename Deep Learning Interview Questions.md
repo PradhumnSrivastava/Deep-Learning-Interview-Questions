@@ -1855,3 +1855,11 @@
 ### How does Momentum behave when consecutive gradients point in opposite directions?
 
 **Answer:** The opposing gradient contributions can partially cancel the accumulated velocity, reducing movement or changing its direction.
+
+---
+
+## Interview Question
+
+### What is overshooting in Momentum optimization?
+
+**Answer:** Overshooting occurs when accumulated movement carries the parameters past the minimum instead of settling near it, potentially causing repeated oscillations.
