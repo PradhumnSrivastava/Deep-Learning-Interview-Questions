@@ -1895,3 +1895,11 @@
 ### How does Momentum interact with mini-batch Gradient Descent?
 
 **Answer:** Momentum accumulates gradient information across mini-batches, helping smooth noisy updates and maintain progress in consistent directions.
+
+---
+
+## Interview Question
+
+### Does Momentum remove the need for a learning rate?
+
+**Answer:** No. Momentum still requires a learning rate because the learning rate determines the scale of parameter updates.
