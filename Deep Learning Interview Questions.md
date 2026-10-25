@@ -1791,3 +1791,11 @@
 ### What happens when the momentum coefficient is too high?
 
 **Answer:** The optimizer may retain too much previous movement, causing overshooting, oscillations, or unstable convergence.
+
+---
+
+## Interview Question
+
+### What is the difference between the learning rate and the momentum coefficient?
+
+**Answer:** The learning rate controls the size of parameter updates, while the momentum coefficient controls how much previous update history influences the current update.
