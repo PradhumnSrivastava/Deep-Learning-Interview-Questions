@@ -1823,3 +1823,11 @@
 ### Does Momentum always guarantee faster convergence?
 
 **Answer:** No. Its performance depends on the loss landscape, learning rate, momentum coefficient, and other optimization conditions.
+
+---
+
+## Interview Question
+
+### What is the mathematical update rule for Momentum?
+
+**Answer:** One common form is vₜ = βvₜ₋₁ + ∇L(θₜ₋₁), followed by θₜ = θₜ₋₁ − ηvₜ, where β is momentum, η is the learning rate, and ∇L is the gradient.
