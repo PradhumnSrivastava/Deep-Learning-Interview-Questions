@@ -1799,3 +1799,11 @@
 ### What is the difference between the learning rate and the momentum coefficient?
 
 **Answer:** The learning rate controls the size of parameter updates, while the momentum coefficient controls how much previous update history influences the current update.
+
+---
+
+## Interview Question
+
+### How does Momentum help in ravines during optimization?
+
+**Answer:** Momentum reduces side-to-side oscillations and builds movement along consistent gradient directions, helping the optimizer progress through narrow ravines.
