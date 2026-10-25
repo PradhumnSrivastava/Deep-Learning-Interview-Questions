@@ -1,6 +1,4 @@
 
-23. What is the role of the momentum coefficient (β)? Ans- The momentum coefficient controls how much of the previous velocity is retained; a higher value gives more influence to past updates.
-
 24. What happens when the momentum coefficient is set to 0? Ans- Momentum's accumulated history disappears, so the update behaves like standard Gradient Descent without momentum.
 
 25. What happens when the momentum coefficient is too high? Ans- The optimizer may retain too much previous movement, causing overshooting, oscillations, or unstable convergence.

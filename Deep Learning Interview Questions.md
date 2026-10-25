@@ -1767,3 +1767,11 @@
 ### What is the velocity term in Momentum?
 
 **Answer:** Velocity is the accumulated update direction based on the current gradient and previous velocity; it helps determine the next parameter update.
+
+---
+
+## Interview Question
+
+### What is the role of the momentum coefficient (β)?
+
+**Answer:** The momentum coefficient controls how much of the previous velocity is retained; a higher value gives more influence to past updates.
