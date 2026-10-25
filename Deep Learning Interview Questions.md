@@ -1871,3 +1871,11 @@
 ### Can Momentum help optimize deep neural networks?
 
 **Answer:** Yes. It can improve optimization speed and reduce oscillations when training deep neural networks, although it does not eliminate every training difficulty.
+
+---
+
+## Interview Question
+
+### What is the difference between Momentum and Nesterov Momentum?
+
+**Answer:** Standard Momentum computes the gradient at the current parameters, while Nesterov Momentum estimates the gradient after a look-ahead step based on the accumulated velocity.

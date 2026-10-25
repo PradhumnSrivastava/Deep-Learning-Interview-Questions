@@ -1,6 +1,4 @@
 
-36. What is the difference between Momentum and Nesterov Momentum? Ans- Standard Momentum computes the gradient at the current parameters, while Nesterov Momentum estimates the gradient after a look-ahead step based on the accumulated velocity.
-
 37. What is Nesterov Accelerated Gradient (NAG)? Ans- NAG is an optimization method that combines momentum with a look-ahead gradient calculation to adjust updates using information about the anticipated next position.
 
 38. How does Momentum interact with mini-batch Gradient Descent? Ans- Momentum accumulates gradient information across mini-batches, helping smooth noisy updates and maintain progress in consistent directions.
