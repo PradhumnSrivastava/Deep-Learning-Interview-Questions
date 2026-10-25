@@ -1903,3 +1903,11 @@
 ### Does Momentum remove the need for a learning rate?
 
 **Answer:** No. Momentum still requires a learning rate because the learning rate determines the scale of parameter updates.
+
+---
+
+## Interview Question
+
+### How can you identify whether Momentum is poorly tuned?
+
+**Answer:** Training loss may oscillate heavily, diverge, or decrease too slowly; adjusting the learning rate and momentum coefficient can help improve stability and convergence.
