@@ -1863,3 +1863,11 @@
 ### What is overshooting in Momentum optimization?
 
 **Answer:** Overshooting occurs when accumulated movement carries the parameters past the minimum instead of settling near it, potentially causing repeated oscillations.
+
+---
+
+## Interview Question
+
+### Can Momentum help optimize deep neural networks?
+
+**Answer:** Yes. It can improve optimization speed and reduce oscillations when training deep neural networks, although it does not eliminate every training difficulty.

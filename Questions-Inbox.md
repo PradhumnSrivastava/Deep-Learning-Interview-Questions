@@ -1,6 +1,4 @@
 
-35. Can Momentum help optimize deep neural networks? Ans- Yes. It can improve optimization speed and reduce oscillations when training deep neural networks, although it does not eliminate every training difficulty.
-
 36. What is the difference between Momentum and Nesterov Momentum? Ans- Standard Momentum computes the gradient at the current parameters, while Nesterov Momentum estimates the gradient after a look-ahead step based on the accumulated velocity.
 
 37. What is Nesterov Accelerated Gradient (NAG)? Ans- NAG is an optimization method that combines momentum with a look-ahead gradient calculation to adjust updates using information about the anticipated next position.
