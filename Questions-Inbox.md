@@ -1,4 +1,3 @@
-21. What is the main purpose of Momentum in Gradient Descent? Ans- Momentum accelerates convergence by accumulating a fraction of previous gradients, helping the optimizer move more consistently toward the minimum.
 
 22. What is the velocity term in Momentum? Ans- Velocity is the accumulated update direction based on the current gradient and previous velocity; it helps determine the next parameter update.
 

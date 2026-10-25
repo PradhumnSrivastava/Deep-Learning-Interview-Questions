@@ -1751,3 +1751,11 @@
 ### What is a Poisson distribution?
 
 **Answer:** A Poisson distribution models the number of events occurring in a fixed interval when events occur independently at a constant average rate under the model's assumptions.
+
+---
+
+## Interview Question
+
+### What is the main purpose of Momentum in Gradient Descent?
+
+**Answer:** Momentum accelerates convergence by accumulating a fraction of previous gradients, helping the optimizer move more consistently toward the minimum.
