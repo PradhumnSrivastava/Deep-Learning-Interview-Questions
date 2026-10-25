@@ -1783,3 +1783,11 @@
 ### What happens when the momentum coefficient is set to 0?
 
 **Answer:** Momentum's accumulated history disappears, so the update behaves like standard Gradient Descent without momentum.
+
+---
+
+## Interview Question
+
+### What happens when the momentum coefficient is too high?
+
+**Answer:** The optimizer may retain too much previous movement, causing overshooting, oscillations, or unstable convergence.

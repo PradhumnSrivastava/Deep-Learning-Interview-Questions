@@ -1,6 +1,4 @@
 
-25. What happens when the momentum coefficient is too high? Ans- The optimizer may retain too much previous movement, causing overshooting, oscillations, or unstable convergence.
-
 26. What is the difference between the learning rate and the momentum coefficient? Ans- The learning rate controls the size of parameter updates, while the momentum coefficient controls how much previous update history influences the current update.
 
 27. How does Momentum help in ravines during optimization? Ans- Momentum reduces side-to-side oscillations and builds movement along consistent gradient directions, helping the optimizer progress through narrow ravines.
