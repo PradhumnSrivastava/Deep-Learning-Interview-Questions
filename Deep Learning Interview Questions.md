@@ -1807,3 +1807,11 @@
 ### How does Momentum help in ravines during optimization?
 
 **Answer:** Momentum reduces side-to-side oscillations and builds movement along consistent gradient directions, helping the optimizer progress through narrow ravines.
+
+---
+
+## Interview Question
+
+### Why can Momentum converge faster than standard Gradient Descent?
+
+**Answer:** It reinforces directions where gradients consistently point similarly, potentially reducing the number of updates needed to approach a minimum.

@@ -1,6 +1,4 @@
 
-28. Why can Momentum converge faster than standard Gradient Descent? Ans- It reinforces directions where gradients consistently point similarly, potentially reducing the number of updates needed to approach a minimum.
-
 29. Does Momentum always guarantee faster convergence? Ans- No. Its performance depends on the loss landscape, learning rate, momentum coefficient, and other optimization conditions.
 
 30. What is the mathematical update rule for Momentum? Ans- One common form is vₜ = βvₜ₋₁ + ∇L(θₜ₋₁), followed by θₜ = θₜ₋₁ − ηvₜ, where β is momentum, η is the learning rate, and ∇L is the gradient.
