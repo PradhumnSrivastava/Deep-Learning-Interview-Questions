@@ -1847,3 +1847,11 @@
 ### How does Momentum behave when consecutive gradients point in the same direction?
 
 **Answer:** Their contributions accumulate, increasing the effective movement in that direction, subject to the learning rate and momentum coefficient.
+
+---
+
+## Interview Question
+
+### How does Momentum behave when consecutive gradients point in opposite directions?
+
+**Answer:** The opposing gradient contributions can partially cancel the accumulated velocity, reducing movement or changing its direction.
