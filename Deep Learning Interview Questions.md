@@ -1815,3 +1815,11 @@
 ### Why can Momentum converge faster than standard Gradient Descent?
 
 **Answer:** It reinforces directions where gradients consistently point similarly, potentially reducing the number of updates needed to approach a minimum.
+
+---
+
+## Interview Question
+
+### Does Momentum always guarantee faster convergence?
+
+**Answer:** No. Its performance depends on the loss landscape, learning rate, momentum coefficient, and other optimization conditions.
