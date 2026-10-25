@@ -1775,3 +1775,11 @@
 ### What is the role of the momentum coefficient (β)?
 
 **Answer:** The momentum coefficient controls how much of the previous velocity is retained; a higher value gives more influence to past updates.
+
+---
+
+## Interview Question
+
+### What happens when the momentum coefficient is set to 0?
+
+**Answer:** Momentum's accumulated history disappears, so the update behaves like standard Gradient Descent without momentum.

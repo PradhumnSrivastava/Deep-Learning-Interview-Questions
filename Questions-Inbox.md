@@ -1,6 +1,4 @@
 
-24. What happens when the momentum coefficient is set to 0? Ans- Momentum's accumulated history disappears, so the update behaves like standard Gradient Descent without momentum.
-
 25. What happens when the momentum coefficient is too high? Ans- The optimizer may retain too much previous movement, causing overshooting, oscillations, or unstable convergence.
 
 26. What is the difference between the learning rate and the momentum coefficient? Ans- The learning rate controls the size of parameter updates, while the momentum coefficient controls how much previous update history influences the current update.
