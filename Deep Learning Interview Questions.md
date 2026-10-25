@@ -1887,3 +1887,11 @@
 ### What is Nesterov Accelerated Gradient (NAG)?
 
 **Answer:** NAG is an optimization method that combines momentum with a look-ahead gradient calculation to adjust updates using information about the anticipated next position.
+
+---
+
+## Interview Question
+
+### How does Momentum interact with mini-batch Gradient Descent?
+
+**Answer:** Momentum accumulates gradient information across mini-batches, helping smooth noisy updates and maintain progress in consistent directions.
