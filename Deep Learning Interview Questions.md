@@ -1967,3 +1967,11 @@
 ### Why is Sigmoid used in binary classification?
 
 **Answer:** Sigmoid converts a model's raw score, or logit, into a value between 0 and 1 that can represent the estimated probability of the positive class.
+
+---
+
+## Interview Question
+
+### Why is Sigmoid commonly used in the output layer of binary classification models?
+
+**Answer:** It produces a single probability-like output that can be compared with a decision threshold to classify an observation.
