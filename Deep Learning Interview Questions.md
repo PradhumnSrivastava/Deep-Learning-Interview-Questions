@@ -1943,3 +1943,11 @@
 ### What is the output of Sigmoid when the input is 0?
 
 **Answer:** The output is 0.5 because σ(0) = 1 / (1 + e⁰) = 1 / 2.
+
+---
+
+## Interview Question
+
+### What happens when the input to Sigmoid becomes very large and positive?
+
+**Answer:** The output approaches 1 because e^(-x) approaches 0 as x increases.

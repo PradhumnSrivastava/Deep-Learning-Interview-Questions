@@ -1,6 +1,4 @@
 
-5. What happens when the input to Sigmoid becomes very large and positive? Ans- The output approaches 1 because e^(-x) approaches 0 as x increases.
-
 6. What happens when the input to Sigmoid becomes very large and negative? Ans- The output approaches 0 because e^(-x) becomes very large as x decreases.
 
 7. Why is Sigmoid used in binary classification? Ans- Sigmoid converts a model's raw score, or logit, into a value between 0 and 1 that can represent the estimated probability of the positive class.
