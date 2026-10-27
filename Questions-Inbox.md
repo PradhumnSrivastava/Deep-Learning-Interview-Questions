@@ -1,6 +1,4 @@
 
-9. What is the derivative of the Sigmoid function? Ans- Its derivative is σ'(x) = σ(x)(1 − σ(x)), which is used when calculating gradients during backpropagation.
-
 10. What is the maximum value of the Sigmoid derivative? Ans- The maximum derivative is 0.25, occurring at x = 0, where the Sigmoid output is 0.5.
 
 11. What is the vanishing gradient problem in Sigmoid? Ans- When Sigmoid outputs are near 0 or 1, its derivative becomes very small, causing gradients to shrink during backpropagation.

@@ -1975,3 +1975,11 @@
 ### Why is Sigmoid commonly used in the output layer of binary classification models?
 
 **Answer:** It produces a single probability-like output that can be compared with a decision threshold to classify an observation.
+
+---
+
+## Interview Question
+
+### What is the derivative of the Sigmoid function?
+
+**Answer:** Its derivative is σ'(x) = σ(x)(1 − σ(x)), which is used when calculating gradients during backpropagation.
