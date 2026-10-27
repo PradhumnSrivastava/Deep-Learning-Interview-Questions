@@ -1991,3 +1991,11 @@
 ### What is the maximum value of the Sigmoid derivative?
 
 **Answer:** The maximum derivative is 0.25, occurring at x = 0, where the Sigmoid output is 0.5.
+
+---
+
+## Interview Question
+
+### What is the vanishing gradient problem in Sigmoid?
+
+**Answer:** When Sigmoid outputs are near 0 or 1, its derivative becomes very small, causing gradients to shrink during backpropagation.
