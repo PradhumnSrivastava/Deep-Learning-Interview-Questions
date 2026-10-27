@@ -2023,3 +2023,11 @@
 ### Is the Sigmoid function zero-centered?
 
 **Answer:** No. Its outputs are always positive and lie between 0 and 1, so they are not centered around zero.
+
+---
+
+## Interview Question
+
+### What is the difference between Sigmoid and Tanh?
+
+**Answer:** Sigmoid outputs values between 0 and 1, while Tanh outputs values between −1 and 1 and is zero-centered.

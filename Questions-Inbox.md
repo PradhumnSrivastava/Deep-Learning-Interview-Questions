@@ -1,6 +1,4 @@
 
-15. What is the difference between Sigmoid and Tanh? Ans- Sigmoid outputs values between 0 and 1, while Tanh outputs values between −1 and 1 and is zero-centered.
-
 16. What is the difference between Sigmoid and ReLU? Ans- Sigmoid smoothly maps inputs to values between 0 and 1, while ReLU outputs 0 for negative inputs and the input itself for positive inputs.
 
 17. Why is Sigmoid used with binary cross-entropy loss? Ans- Sigmoid provides a probability for the positive class, and binary cross-entropy measures the mismatch between predicted probabilities and binary labels.
