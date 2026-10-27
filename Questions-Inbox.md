@@ -1,6 +1,4 @@
 
-2. What is the mathematical formula of the Sigmoid function? Ans- The formula is σ(x) = 1 / (1 + e^(-x)), where x is the input and e is Euler's number.
-
 3. What is the output range of the Sigmoid function? Ans- The output range is (0, 1), meaning the output approaches 0 or 1 but never reaches either value for a finite input.
 
 4. What is the output of Sigmoid when the input is 0? Ans- The output is 0.5 because σ(0) = 1 / (1 + e⁰) = 1 / 2.
