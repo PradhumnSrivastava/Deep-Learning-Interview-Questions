@@ -1,6 +1,4 @@
 
-13. What does it mean when the Sigmoid function saturates? Ans- Saturation occurs when the input is strongly positive or negative and the output gets very close to 1 or 0, making the derivative very small.
-
 14. Is the Sigmoid function zero-centered? Ans- No. Its outputs are always positive and lie between 0 and 1, so they are not centered around zero.
 
 15. What is the difference between Sigmoid and Tanh? Ans- Sigmoid outputs values between 0 and 1, while Tanh outputs values between −1 and 1 and is zero-centered.

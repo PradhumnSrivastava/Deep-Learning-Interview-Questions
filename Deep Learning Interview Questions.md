@@ -2007,3 +2007,11 @@
 ### Why is Sigmoid less suitable for hidden layers in deep neural networks?
 
 **Answer:** Its saturated regions produce small gradients, which can slow learning in deep networks, especially when many layers contribute to the gradient.
+
+---
+
+## Interview Question
+
+### What does it mean when the Sigmoid function saturates?
+
+**Answer:** Saturation occurs when the input is strongly positive or negative and the output gets very close to 1 or 0, making the derivative very small.
