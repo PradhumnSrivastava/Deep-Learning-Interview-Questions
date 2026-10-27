@@ -1999,3 +1999,11 @@
 ### What is the vanishing gradient problem in Sigmoid?
 
 **Answer:** When Sigmoid outputs are near 0 or 1, its derivative becomes very small, causing gradients to shrink during backpropagation.
+
+---
+
+## Interview Question
+
+### Why is Sigmoid less suitable for hidden layers in deep neural networks?
+
+**Answer:** Its saturated regions produce small gradients, which can slow learning in deep networks, especially when many layers contribute to the gradient.
