@@ -1,4 +1,3 @@
-1. What is the Sigmoid activation function? Ans- Sigmoid is a nonlinear activation function that converts any real-valued input into a value between 0 and 1.
 
 2. What is the mathematical formula of the Sigmoid function? Ans- The formula is σ(x) = 1 / (1 + e^(-x)), where x is the input and e is Euler's number.
 

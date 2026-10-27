@@ -1911,3 +1911,11 @@
 ### How can you identify whether Momentum is poorly tuned?
 
 **Answer:** Training loss may oscillate heavily, diverge, or decrease too slowly; adjusting the learning rate and momentum coefficient can help improve stability and convergence.
+
+---
+
+## Interview Question
+
+### What is the Sigmoid activation function?
+
+**Answer:** Sigmoid is a nonlinear activation function that converts any real-valued input into a value between 0 and 1.
