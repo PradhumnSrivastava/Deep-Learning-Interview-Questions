@@ -1,6 +1,4 @@
 
-16. What is the difference between Sigmoid and ReLU? Ans- Sigmoid smoothly maps inputs to values between 0 and 1, while ReLU outputs 0 for negative inputs and the input itself for positive inputs.
-
 17. Why is Sigmoid used with binary cross-entropy loss? Ans- Sigmoid provides a probability for the positive class, and binary cross-entropy measures the mismatch between predicted probabilities and binary labels.
 
 18. What is the role of a threshold when using Sigmoid for classification? Ans- A threshold converts the predicted probability into a class label; 0.5 is a common default, but the threshold can be adjusted for the task.

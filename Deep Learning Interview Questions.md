@@ -2031,3 +2031,11 @@
 ### What is the difference between Sigmoid and Tanh?
 
 **Answer:** Sigmoid outputs values between 0 and 1, while Tanh outputs values between −1 and 1 and is zero-centered.
+
+---
+
+## Interview Question
+
+### What is the difference between Sigmoid and ReLU?
+
+**Answer:** Sigmoid smoothly maps inputs to values between 0 and 1, while ReLU outputs 0 for negative inputs and the input itself for positive inputs.
