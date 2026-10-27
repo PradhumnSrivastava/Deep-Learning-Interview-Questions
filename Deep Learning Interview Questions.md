@@ -1983,3 +1983,11 @@
 ### What is the derivative of the Sigmoid function?
 
 **Answer:** Its derivative is σ'(x) = σ(x)(1 − σ(x)), which is used when calculating gradients during backpropagation.
+
+---
+
+## Interview Question
+
+### What is the maximum value of the Sigmoid derivative?
+
+**Answer:** The maximum derivative is 0.25, occurring at x = 0, where the Sigmoid output is 0.5.

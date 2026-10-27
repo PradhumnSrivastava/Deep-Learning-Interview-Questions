@@ -1,6 +1,4 @@
 
-10. What is the maximum value of the Sigmoid derivative? Ans- The maximum derivative is 0.25, occurring at x = 0, where the Sigmoid output is 0.5.
-
 11. What is the vanishing gradient problem in Sigmoid? Ans- When Sigmoid outputs are near 0 or 1, its derivative becomes very small, causing gradients to shrink during backpropagation.
 
 12. Why is Sigmoid less suitable for hidden layers in deep neural networks? Ans- Its saturated regions produce small gradients, which can slow learning in deep networks, especially when many layers contribute to the gradient.
