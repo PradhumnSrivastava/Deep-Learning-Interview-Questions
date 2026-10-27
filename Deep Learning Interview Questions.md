@@ -2039,3 +2039,11 @@
 ### What is the difference between Sigmoid and ReLU?
 
 **Answer:** Sigmoid smoothly maps inputs to values between 0 and 1, while ReLU outputs 0 for negative inputs and the input itself for positive inputs.
+
+---
+
+## Interview Question
+
+### Why is Sigmoid used with binary cross-entropy loss?
+
+**Answer:** Sigmoid provides a probability for the positive class, and binary cross-entropy measures the mismatch between predicted probabilities and binary labels.
