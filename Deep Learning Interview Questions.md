@@ -2047,3 +2047,11 @@
 ### Why is Sigmoid used with binary cross-entropy loss?
 
 **Answer:** Sigmoid provides a probability for the positive class, and binary cross-entropy measures the mismatch between predicted probabilities and binary labels.
+
+---
+
+## Interview Question
+
+### What is the role of a threshold when using Sigmoid for classification?
+
+**Answer:** A threshold converts the predicted probability into a class label; 0.5 is a common default, but the threshold can be adjusted for the task.
