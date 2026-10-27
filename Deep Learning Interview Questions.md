@@ -1951,3 +1951,11 @@
 ### What happens when the input to Sigmoid becomes very large and positive?
 
 **Answer:** The output approaches 1 because e^(-x) approaches 0 as x increases.
+
+---
+
+## Interview Question
+
+### What happens when the input to Sigmoid becomes very large and negative?
+
+**Answer:** The output approaches 0 because e^(-x) becomes very large as x decreases.
