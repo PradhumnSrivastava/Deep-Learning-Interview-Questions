@@ -2015,3 +2015,11 @@
 ### What does it mean when the Sigmoid function saturates?
 
 **Answer:** Saturation occurs when the input is strongly positive or negative and the output gets very close to 1 or 0, making the derivative very small.
+
+---
+
+## Interview Question
+
+### Is the Sigmoid function zero-centered?
+
+**Answer:** No. Its outputs are always positive and lie between 0 and 1, so they are not centered around zero.
