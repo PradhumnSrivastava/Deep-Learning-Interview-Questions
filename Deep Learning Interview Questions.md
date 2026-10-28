@@ -2071,3 +2071,11 @@
 ### What is the main limitation of Sigmoid in deep learning?
 
 **Answer:** Its main limitation is the vanishing gradient problem in saturated regions, which can make training deep neural networks slow or difficult.
+
+---
+
+## Interview Question
+
+### What is the Tanh activation function?
+
+**Answer:** Tanh (hyperbolic tangent) is a nonlinear activation function that maps real-valued inputs to outputs between -1 and 1.
