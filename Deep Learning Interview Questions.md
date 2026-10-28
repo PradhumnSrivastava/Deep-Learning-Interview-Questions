@@ -2367,3 +2367,11 @@
 ### Why can ReLU produce sparse activations?
 
 **Answer:** ReLU maps all negative inputs to zero, so some neurons produce zero activations for a given input.
+
+---
+
+## Interview Question
+
+### Where is ReLU commonly used in deep learning?
+
+**Answer:** ReLU is commonly used in hidden layers of feedforward neural networks and convolutional neural networks.
