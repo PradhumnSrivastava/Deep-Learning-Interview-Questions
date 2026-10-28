@@ -2207,3 +2207,11 @@
 ### Why can Tanh cause slow training in deep neural networks?
 
 **Answer:** When many layers operate in saturated regions, their small derivatives can multiply during backpropagation, causing gradients to shrink.
+
+---
+
+## Interview Question
+
+### Where is Tanh commonly used in deep learning?
+
+**Answer:** Tanh is used in some hidden layers and recurrent neural network components, including the candidate-state and cell-state update calculations in LSTMs.
