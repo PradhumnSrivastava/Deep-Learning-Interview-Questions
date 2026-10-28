@@ -1,4 +1,3 @@
-1. What is the ReLU activation function? Ans- ReLU (Rectified Linear Unit) is a nonlinear activation function that returns 0 for negative inputs and the input itself for non-negative inputs.
 
 2. What is the mathematical formula of ReLU? Ans- The formula is ReLU(x) = max(0, x).
 

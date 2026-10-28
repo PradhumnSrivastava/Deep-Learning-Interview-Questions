@@ -2231,3 +2231,11 @@
 ### What is the main limitation of the Tanh activation function?
 
 **Answer:** Its main limitation is gradient saturation for large positive or negative inputs, which can cause the vanishing gradient problem.
+
+---
+
+## Interview Question
+
+### What is the ReLU activation function?
+
+**Answer:** ReLU (Rectified Linear Unit) is a nonlinear activation function that returns 0 for negative inputs and the input itself for non-negative inputs.
