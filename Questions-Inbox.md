@@ -1,6 +1,4 @@
 
-14. What is the difference between ReLU and Leaky ReLU? Ans- ReLU outputs zero for negative inputs, whereas Leaky ReLU allows a small negative output by applying a small positive slope to negative inputs.
-
 15. What is the difference between ReLU and Sigmoid? Ans- ReLU outputs non-negative values without an upper bound, whereas Sigmoid outputs values strictly between 0 and 1 for finite inputs.
 
 16. Can ReLU produce negative outputs? Ans- No. Standard ReLU outputs only zero or positive values because negative inputs are mapped to zero.

@@ -2335,3 +2335,11 @@
 ### Why does ReLU help reduce the vanishing gradient problem?
 
 **Answer:** For positive inputs, ReLU has a derivative of 1, so gradients passing through active ReLU units are not reduced by the activation derivative.
+
+---
+
+## Interview Question
+
+### What is the difference between ReLU and Leaky ReLU?
+
+**Answer:** ReLU outputs zero for negative inputs, whereas Leaky ReLU allows a small negative output by applying a small positive slope to negative inputs.
