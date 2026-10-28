@@ -2079,3 +2079,11 @@
 ### What is the Tanh activation function?
 
 **Answer:** Tanh (hyperbolic tangent) is a nonlinear activation function that maps real-valued inputs to outputs between -1 and 1.
+
+---
+
+## Interview Question
+
+### What is the mathematical formula of Tanh?
+
+**Answer:** The formula is tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x)).
