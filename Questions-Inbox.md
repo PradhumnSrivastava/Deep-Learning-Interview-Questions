@@ -1,6 +1,4 @@
 
-12. What is the difference between Tanh and Sigmoid? Ans- Tanh outputs values between -1 and 1, whereas Sigmoid outputs values between 0 and 1.
-
 13. What is the difference between Tanh and ReLU? Ans- Tanh produces bounded outputs between -1 and 1, whereas ReLU outputs 0 for negative inputs and the input itself for positive inputs.
 
 14. Why is Tanh a nonlinear activation function? Ans- Tanh applies a nonlinear transformation to its input, enabling neural networks to learn nonlinear relationships.

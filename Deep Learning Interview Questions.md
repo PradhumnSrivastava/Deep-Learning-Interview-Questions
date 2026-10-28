@@ -2159,3 +2159,11 @@
 ### Why can Tanh perform better than Sigmoid in hidden layers?
 
 **Answer:** Tanh produces zero-centered activations, which can help optimization compared with Sigmoid, although Tanh can still suffer from vanishing gradients.
+
+---
+
+## Interview Question
+
+### What is the difference between Tanh and Sigmoid?
+
+**Answer:** Tanh outputs values between -1 and 1, whereas Sigmoid outputs values between 0 and 1.
