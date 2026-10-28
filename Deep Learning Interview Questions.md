@@ -2103,3 +2103,11 @@
 ### What is the output of Tanh when the input is 0?
 
 **Answer:** The output is 0 because tanh(0) = 0.
+
+---
+
+## Interview Question
+
+### What happens when the input to Tanh becomes very large and positive?
+
+**Answer:** The output approaches 1 as the input increases toward positive infinity.
