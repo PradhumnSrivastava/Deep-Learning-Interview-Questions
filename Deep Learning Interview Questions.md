@@ -2351,3 +2351,11 @@
 ### What is the difference between ReLU and Sigmoid?
 
 **Answer:** ReLU outputs non-negative values without an upper bound, whereas Sigmoid outputs values strictly between 0 and 1 for finite inputs.
+
+---
+
+## Interview Question
+
+### Can ReLU produce negative outputs?
+
+**Answer:** No. Standard ReLU outputs only zero or positive values because negative inputs are mapped to zero.

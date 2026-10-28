@@ -1,6 +1,4 @@
 
-16. Can ReLU produce negative outputs? Ans- No. Standard ReLU outputs only zero or positive values because negative inputs are mapped to zero.
-
 17. Why can ReLU produce sparse activations? Ans- ReLU maps all negative inputs to zero, so some neurons produce zero activations for a given input.
 
 18. Where is ReLU commonly used in deep learning? Ans- ReLU is commonly used in hidden layers of feedforward neural networks and convolutional neural networks.
