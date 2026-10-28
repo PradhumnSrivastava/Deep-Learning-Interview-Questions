@@ -2215,3 +2215,11 @@
 ### Where is Tanh commonly used in deep learning?
 
 **Answer:** Tanh is used in some hidden layers and recurrent neural network components, including the candidate-state and cell-state update calculations in LSTMs.
+
+---
+
+## Interview Question
+
+### Can Tanh outputs be interpreted directly as probabilities?
+
+**Answer:** No. Tanh outputs can be negative and do not form a probability distribution; Sigmoid or Softmax is generally used when probability outputs are required.

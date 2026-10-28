@@ -1,4 +1,2 @@
 
-19. Can Tanh outputs be interpreted directly as probabilities? Ans- No. Tanh outputs can be negative and do not form a probability distribution; Sigmoid or Softmax is generally used when probability outputs are required.
-
 20. What is the main limitation of the Tanh activation function? Ans- Its main limitation is gradient saturation for large positive or negative inputs, which can cause the vanishing gradient problem.
