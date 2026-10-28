@@ -2183,3 +2183,11 @@
 ### Why is Tanh a nonlinear activation function?
 
 **Answer:** Tanh applies a nonlinear transformation to its input, enabling neural networks to learn nonlinear relationships.
+
+---
+
+## Interview Question
+
+### Is Tanh an odd function?
+
+**Answer:** Yes. Tanh satisfies tanh(-x) = -tanh(x), meaning its graph is symmetric about the origin.
