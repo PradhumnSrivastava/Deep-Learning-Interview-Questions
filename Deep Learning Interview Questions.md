@@ -2271,3 +2271,11 @@
 ### What is the output of ReLU when the input is 0?
 
 **Answer:** The output is 0 because max(0, 0) = 0.
+
+---
+
+## Interview Question
+
+### What is the derivative of ReLU?
+
+**Answer:** Its derivative is 0 for x < 0 and 1 for x > 0; at x = 0, the derivative is undefined, and implementations typically choose a subgradient such as 0.
