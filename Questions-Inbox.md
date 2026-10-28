@@ -1,6 +1,4 @@
 
-4. What is the output of Tanh when the input is 0? Ans- The output is 0 because tanh(0) = 0.
-
 5. What happens when the input to Tanh becomes very large and positive? Ans- The output approaches 1 as the input increases toward positive infinity.
 
 6. What happens when the input to Tanh becomes very large and negative? Ans- The output approaches -1 as the input decreases toward negative infinity.

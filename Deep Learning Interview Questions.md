@@ -2095,3 +2095,11 @@
 ### What is the output range of Tanh?
 
 **Answer:** Its output range is (-1, 1), meaning it approaches -1 and 1 but does not reach these values for finite inputs.
+
+---
+
+## Interview Question
+
+### What is the output of Tanh when the input is 0?
+
+**Answer:** The output is 0 because tanh(0) = 0.
