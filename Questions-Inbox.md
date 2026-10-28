@@ -1,6 +1,4 @@
 
-4. What is the output of ReLU when the input is 7? Ans- The output is 7 because ReLU returns the input when it is positive.
-
 5. What is the output of ReLU when the input is 0? Ans- The output is 0 because max(0, 0) = 0.
 
 6. What is the derivative of ReLU? Ans- Its derivative is 0 for x < 0 and 1 for x > 0; at x = 0, the derivative is undefined, and implementations typically choose a subgradient such as 0.
