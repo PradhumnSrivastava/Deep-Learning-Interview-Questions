@@ -1,6 +1,4 @@
 
-17. Why can Tanh cause slow training in deep neural networks? Ans- When many layers operate in saturated regions, their small derivatives can multiply during backpropagation, causing gradients to shrink.
-
 18. Where is Tanh commonly used in deep learning? Ans- Tanh is used in some hidden layers and recurrent neural network components, including the candidate-state and cell-state update calculations in LSTMs.
 
 19. Can Tanh outputs be interpreted directly as probabilities? Ans- No. Tanh outputs can be negative and do not form a probability distribution; Sigmoid or Softmax is generally used when probability outputs are required.
