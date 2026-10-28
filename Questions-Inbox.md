@@ -1,6 +1,4 @@
 
-3. What is the output range of Tanh? Ans- Its output range is (-1, 1), meaning it approaches -1 and 1 but does not reach these values for finite inputs.
-
 4. What is the output of Tanh when the input is 0? Ans- The output is 0 because tanh(0) = 0.
 
 5. What happens when the input to Tanh becomes very large and positive? Ans- The output approaches 1 as the input increases toward positive infinity.

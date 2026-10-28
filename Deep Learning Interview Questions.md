@@ -2087,3 +2087,11 @@
 ### What is the mathematical formula of Tanh?
 
 **Answer:** The formula is tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x)).
+
+---
+
+## Interview Question
+
+### What is the output range of Tanh?
+
+**Answer:** Its output range is (-1, 1), meaning it approaches -1 and 1 but does not reach these values for finite inputs.
