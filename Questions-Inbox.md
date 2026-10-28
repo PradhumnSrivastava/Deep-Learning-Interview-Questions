@@ -1,6 +1,4 @@
 
-7. Why is Tanh called a zero-centered activation function? Ans- Tanh is zero-centered because its outputs range from -1 to 1, allowing both negative and positive activations with zero as the midpoint.
-
 8. What is the derivative of the Tanh function? Ans- Its derivative is tanh'(x) = 1 - tanh²(x).
 
 9. What is the maximum value of the Tanh derivative? Ans- The maximum derivative is 1, occurring at x = 0, where tanh(0) = 0.

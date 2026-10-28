@@ -2119,3 +2119,11 @@
 ### What happens when the input to Tanh becomes very large and negative?
 
 **Answer:** The output approaches -1 as the input decreases toward negative infinity.
+
+---
+
+## Interview Question
+
+### Why is Tanh called a zero-centered activation function?
+
+**Answer:** Tanh is zero-centered because its outputs range from -1 to 1, allowing both negative and positive activations with zero as the midpoint.
