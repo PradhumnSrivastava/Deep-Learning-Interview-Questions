@@ -2111,3 +2111,11 @@
 ### What happens when the input to Tanh becomes very large and positive?
 
 **Answer:** The output approaches 1 as the input increases toward positive infinity.
+
+---
+
+## Interview Question
+
+### What happens when the input to Tanh becomes very large and negative?
+
+**Answer:** The output approaches -1 as the input decreases toward negative infinity.

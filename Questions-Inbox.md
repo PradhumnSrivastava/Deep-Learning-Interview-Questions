@@ -1,6 +1,4 @@
 
-6. What happens when the input to Tanh becomes very large and negative? Ans- The output approaches -1 as the input decreases toward negative infinity.
-
 7. Why is Tanh called a zero-centered activation function? Ans- Tanh is zero-centered because its outputs range from -1 to 1, allowing both negative and positive activations with zero as the midpoint.
 
 8. What is the derivative of the Tanh function? Ans- Its derivative is tanh'(x) = 1 - tanh²(x).
