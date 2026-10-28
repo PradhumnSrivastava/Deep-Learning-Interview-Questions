@@ -1,6 +1,4 @@
 
-13. Why does ReLU help reduce the vanishing gradient problem? Ans- For positive inputs, ReLU has a derivative of 1, so gradients passing through active ReLU units are not reduced by the activation derivative.
-
 14. What is the difference between ReLU and Leaky ReLU? Ans- ReLU outputs zero for negative inputs, whereas Leaky ReLU allows a small negative output by applying a small positive slope to negative inputs.
 
 15. What is the difference between ReLU and Sigmoid? Ans- ReLU outputs non-negative values without an upper bound, whereas Sigmoid outputs values strictly between 0 and 1 for finite inputs.

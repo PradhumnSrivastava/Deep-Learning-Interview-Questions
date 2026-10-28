@@ -2327,3 +2327,11 @@
 ### Is ReLU a linear activation function?
 
 **Answer:** ReLU is nonlinear overall because its behavior changes at zero, although it is linear in each of its negative and positive regions.
+
+---
+
+## Interview Question
+
+### Why does ReLU help reduce the vanishing gradient problem?
+
+**Answer:** For positive inputs, ReLU has a derivative of 1, so gradients passing through active ReLU units are not reduced by the activation derivative.
