@@ -2383,3 +2383,11 @@
 ### What is the difference between ReLU and Tanh regarding output range?
 
 **Answer:** ReLU outputs values from 0 to positive infinity, while Tanh outputs values between -1 and 1.
+
+---
+
+## Interview Question
+
+### How can the dying ReLU problem be reduced?
+
+**Answer:** It can sometimes be reduced by using Leaky ReLU or PReLU, choosing a suitable learning rate, and using appropriate weight initialization.
