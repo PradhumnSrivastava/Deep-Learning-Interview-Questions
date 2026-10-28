@@ -1,6 +1,4 @@
 
-10. What is the vanishing gradient problem in Tanh? Ans- When Tanh outputs approach -1 or 1, its derivative approaches 0, causing gradients to become very small during backpropagation.
-
 11. Why can Tanh perform better than Sigmoid in hidden layers? Ans- Tanh produces zero-centered activations, which can help optimization compared with Sigmoid, although Tanh can still suffer from vanishing gradients.
 
 12. What is the difference between Tanh and Sigmoid? Ans- Tanh outputs values between -1 and 1, whereas Sigmoid outputs values between 0 and 1.

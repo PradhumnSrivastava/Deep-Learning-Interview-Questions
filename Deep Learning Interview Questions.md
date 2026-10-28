@@ -2143,3 +2143,11 @@
 ### What is the maximum value of the Tanh derivative?
 
 **Answer:** The maximum derivative is 1, occurring at x = 0, where tanh(0) = 0.
+
+---
+
+## Interview Question
+
+### What is the vanishing gradient problem in Tanh?
+
+**Answer:** When Tanh outputs approach -1 or 1, its derivative approaches 0, causing gradients to become very small during backpropagation.
