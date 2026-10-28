@@ -2319,3 +2319,11 @@
 ### Why is ReLU computationally efficient?
 
 **Answer:** ReLU mainly compares its input with zero, requiring fewer computations than exponential-based activation functions such as Sigmoid and Tanh.
+
+---
+
+## Interview Question
+
+### Is ReLU a linear activation function?
+
+**Answer:** ReLU is nonlinear overall because its behavior changes at zero, although it is linear in each of its negative and positive regions.
