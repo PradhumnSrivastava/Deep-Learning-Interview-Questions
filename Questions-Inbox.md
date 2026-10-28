@@ -1,6 +1,4 @@
 
-14. Why is Tanh a nonlinear activation function? Ans- Tanh applies a nonlinear transformation to its input, enabling neural networks to learn nonlinear relationships.
-
 15. Is Tanh an odd function? Ans- Yes. Tanh satisfies tanh(-x) = -tanh(x), meaning its graph is symmetric about the origin.
 
 16. What happens to the gradient of Tanh when the input is close to zero? Ans- The gradient is close to 1 near zero, allowing gradients to pass through with relatively little attenuation at that activation.
