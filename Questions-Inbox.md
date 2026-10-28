@@ -1,6 +1,4 @@
 
-16. What happens to the gradient of Tanh when the input is close to zero? Ans- The gradient is close to 1 near zero, allowing gradients to pass through with relatively little attenuation at that activation.
-
 17. Why can Tanh cause slow training in deep neural networks? Ans- When many layers operate in saturated regions, their small derivatives can multiply during backpropagation, causing gradients to shrink.
 
 18. Where is Tanh commonly used in deep learning? Ans- Tanh is used in some hidden layers and recurrent neural network components, including the candidate-state and cell-state update calculations in LSTMs.

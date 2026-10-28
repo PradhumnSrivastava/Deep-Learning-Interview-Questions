@@ -2191,3 +2191,11 @@
 ### Is Tanh an odd function?
 
 **Answer:** Yes. Tanh satisfies tanh(-x) = -tanh(x), meaning its graph is symmetric about the origin.
+
+---
+
+## Interview Question
+
+### What happens to the gradient of Tanh when the input is close to zero?
+
+**Answer:** The gradient is close to 1 near zero, allowing gradients to pass through with relatively little attenuation at that activation.
