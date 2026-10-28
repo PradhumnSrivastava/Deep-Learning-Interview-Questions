@@ -2247,3 +2247,11 @@
 ### What is the mathematical formula of ReLU?
 
 **Answer:** The formula is ReLU(x) = max(0, x).
+
+---
+
+## Interview Question
+
+### What is the output of ReLU when the input is -5?
+
+**Answer:** The output is 0 because ReLU converts negative inputs to zero.

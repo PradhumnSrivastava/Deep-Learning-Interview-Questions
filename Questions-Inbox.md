@@ -1,6 +1,4 @@
 
-3. What is the output of ReLU when the input is -5? Ans- The output is 0 because ReLU converts negative inputs to zero.
-
 4. What is the output of ReLU when the input is 7? Ans- The output is 7 because ReLU returns the input when it is positive.
 
 5. What is the output of ReLU when the input is 0? Ans- The output is 0 because max(0, 0) = 0.
