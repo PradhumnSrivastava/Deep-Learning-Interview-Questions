@@ -1,6 +1,4 @@
 
-11. Why can Tanh perform better than Sigmoid in hidden layers? Ans- Tanh produces zero-centered activations, which can help optimization compared with Sigmoid, although Tanh can still suffer from vanishing gradients.
-
 12. What is the difference between Tanh and Sigmoid? Ans- Tanh outputs values between -1 and 1, whereas Sigmoid outputs values between 0 and 1.
 
 13. What is the difference between Tanh and ReLU? Ans- Tanh produces bounded outputs between -1 and 1, whereas ReLU outputs 0 for negative inputs and the input itself for positive inputs.
