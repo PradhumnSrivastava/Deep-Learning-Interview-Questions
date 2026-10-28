@@ -1,6 +1,4 @@
 
-5. What is the output of ReLU when the input is 0? Ans- The output is 0 because max(0, 0) = 0.
-
 6. What is the derivative of ReLU? Ans- Its derivative is 0 for x < 0 and 1 for x > 0; at x = 0, the derivative is undefined, and implementations typically choose a subgradient such as 0.
 
 7. Why is ReLU widely used in deep neural networks? Ans- ReLU is computationally simple and maintains a gradient of 1 for positive inputs, helping reduce gradient vanishing compared with Sigmoid and Tanh in their saturated regions.

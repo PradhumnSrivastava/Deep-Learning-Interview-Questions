@@ -2263,3 +2263,11 @@
 ### What is the output of ReLU when the input is 7?
 
 **Answer:** The output is 7 because ReLU returns the input when it is positive.
+
+---
+
+## Interview Question
+
+### What is the output of ReLU when the input is 0?
+
+**Answer:** The output is 0 because max(0, 0) = 0.
