@@ -1,6 +1,4 @@
 
-13. What is the difference between Tanh and ReLU? Ans- Tanh produces bounded outputs between -1 and 1, whereas ReLU outputs 0 for negative inputs and the input itself for positive inputs.
-
 14. Why is Tanh a nonlinear activation function? Ans- Tanh applies a nonlinear transformation to its input, enabling neural networks to learn nonlinear relationships.
 
 15. Is Tanh an odd function? Ans- Yes. Tanh satisfies tanh(-x) = -tanh(x), meaning its graph is symmetric about the origin.
