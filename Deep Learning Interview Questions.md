@@ -2135,3 +2135,11 @@
 ### What is the derivative of the Tanh function?
 
 **Answer:** Its derivative is tanh'(x) = 1 - tanh²(x).
+
+---
+
+## Interview Question
+
+### What is the maximum value of the Tanh derivative?
+
+**Answer:** The maximum derivative is 1, occurring at x = 0, where tanh(0) = 0.

@@ -1,6 +1,4 @@
 
-9. What is the maximum value of the Tanh derivative? Ans- The maximum derivative is 1, occurring at x = 0, where tanh(0) = 0.
-
 10. What is the vanishing gradient problem in Tanh? Ans- When Tanh outputs approach -1 or 1, its derivative approaches 0, causing gradients to become very small during backpropagation.
 
 11. Why can Tanh perform better than Sigmoid in hidden layers? Ans- Tanh produces zero-centered activations, which can help optimization compared with Sigmoid, although Tanh can still suffer from vanishing gradients.
