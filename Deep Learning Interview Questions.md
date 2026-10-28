@@ -2287,3 +2287,11 @@
 ### Why is ReLU widely used in deep neural networks?
 
 **Answer:** ReLU is computationally simple and maintains a gradient of 1 for positive inputs, helping reduce gradient vanishing compared with Sigmoid and Tanh in their saturated regions.
+
+---
+
+## Interview Question
+
+### What is the dying ReLU problem?
+
+**Answer:** Dying ReLU occurs when a neuron consistently receives negative inputs and produces zero outputs, causing its gradient to remain zero and preventing it from learning through that activation.
