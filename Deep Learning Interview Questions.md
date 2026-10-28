@@ -2375,3 +2375,11 @@
 ### Where is ReLU commonly used in deep learning?
 
 **Answer:** ReLU is commonly used in hidden layers of feedforward neural networks and convolutional neural networks.
+
+---
+
+## Interview Question
+
+### What is the difference between ReLU and Tanh regarding output range?
+
+**Answer:** ReLU outputs values from 0 to positive infinity, while Tanh outputs values between -1 and 1.
