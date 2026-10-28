@@ -1,6 +1,4 @@
 
-8. What is the derivative of the Tanh function? Ans- Its derivative is tanh'(x) = 1 - tanh²(x).
-
 9. What is the maximum value of the Tanh derivative? Ans- The maximum derivative is 1, occurring at x = 0, where tanh(0) = 0.
 
 10. What is the vanishing gradient problem in Tanh? Ans- When Tanh outputs approach -1 or 1, its derivative approaches 0, causing gradients to become very small during backpropagation.
