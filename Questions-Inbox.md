@@ -1,6 +1,4 @@
 
-10. What is the main limitation of ReLU? Ans- Its main limitation is that negative inputs have zero gradient, which can cause dying ReLU neurons.
-
 11. Why is ReLU computationally efficient? Ans- ReLU mainly compares its input with zero, requiring fewer computations than exponential-based activation functions such as Sigmoid and Tanh.
 
 12. Is ReLU a linear activation function? Ans- ReLU is nonlinear overall because its behavior changes at zero, although it is linear in each of its negative and positive regions.

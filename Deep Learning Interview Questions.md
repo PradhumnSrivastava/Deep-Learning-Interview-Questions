@@ -2303,3 +2303,11 @@
 ### Why can a ReLU neuron stop learning?
 
 **Answer:** If its pre-activation remains negative for all training examples, its output and gradient are zero, so gradient-based updates may not reactivate it.
+
+---
+
+## Interview Question
+
+### What is the main limitation of ReLU?
+
+**Answer:** Its main limitation is that negative inputs have zero gradient, which can cause dying ReLU neurons.
