@@ -1,6 +1,4 @@
 
-9. Why can a ReLU neuron stop learning? Ans- If its pre-activation remains negative for all training examples, its output and gradient are zero, so gradient-based updates may not reactivate it.
-
 10. What is the main limitation of ReLU? Ans- Its main limitation is that negative inputs have zero gradient, which can cause dying ReLU neurons.
 
 11. Why is ReLU computationally efficient? Ans- ReLU mainly compares its input with zero, requiring fewer computations than exponential-based activation functions such as Sigmoid and Tanh.

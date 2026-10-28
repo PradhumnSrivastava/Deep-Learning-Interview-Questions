@@ -2295,3 +2295,11 @@
 ### What is the dying ReLU problem?
 
 **Answer:** Dying ReLU occurs when a neuron consistently receives negative inputs and produces zero outputs, causing its gradient to remain zero and preventing it from learning through that activation.
+
+---
+
+## Interview Question
+
+### Why can a ReLU neuron stop learning?
+
+**Answer:** If its pre-activation remains negative for all training examples, its output and gradient are zero, so gradient-based updates may not reactivate it.
