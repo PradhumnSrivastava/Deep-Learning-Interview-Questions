@@ -2279,3 +2279,11 @@
 ### What is the derivative of ReLU?
 
 **Answer:** Its derivative is 0 for x < 0 and 1 for x > 0; at x = 0, the derivative is undefined, and implementations typically choose a subgradient such as 0.
+
+---
+
+## Interview Question
+
+### Why is ReLU widely used in deep neural networks?
+
+**Answer:** ReLU is computationally simple and maintains a gradient of 1 for positive inputs, helping reduce gradient vanishing compared with Sigmoid and Tanh in their saturated regions.
