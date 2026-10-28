@@ -1,6 +1,4 @@
 
-17. Why can ReLU produce sparse activations? Ans- ReLU maps all negative inputs to zero, so some neurons produce zero activations for a given input.
-
 18. Where is ReLU commonly used in deep learning? Ans- ReLU is commonly used in hidden layers of feedforward neural networks and convolutional neural networks.
 
 19. What is the difference between ReLU and Tanh regarding output range? Ans- ReLU outputs values from 0 to positive infinity, while Tanh outputs values between -1 and 1.

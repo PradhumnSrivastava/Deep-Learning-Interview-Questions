@@ -2359,3 +2359,11 @@
 ### Can ReLU produce negative outputs?
 
 **Answer:** No. Standard ReLU outputs only zero or positive values because negative inputs are mapped to zero.
+
+---
+
+## Interview Question
+
+### Why can ReLU produce sparse activations?
+
+**Answer:** ReLU maps all negative inputs to zero, so some neurons produce zero activations for a given input.
