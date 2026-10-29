@@ -2511,3 +2511,11 @@
 ### What happens to an image after it enters the first convolutional layer?
 
 **Answer:** Learnable filters slide across the image and compute feature maps that capture patterns such as edges, textures, and simple shapes.
+
+---
+
+## Interview Question
+
+### Does a CNN directly understand an image like a human?
+
+**Answer:** No. A CNN processes numerical pixel values and learns statistical patterns from training data to perform tasks such as classification or detection.
