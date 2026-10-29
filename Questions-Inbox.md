@@ -1,6 +1,4 @@
 
-14. What is the difference between channels-last and channels-first formats? Ans- Channels-last stores channels after height and width, such as (64, 64, 3), while channels-first stores channels before them, such as (3, 64, 64).
-
 15. What happens to an image after it enters the first convolutional layer? Ans- Learnable filters slide across the image and compute feature maps that capture patterns such as edges, textures, and simple shapes.
 
 16. Does a CNN directly understand an image like a human? Ans- No. A CNN processes numerical pixel values and learns statistical patterns from training data to perform tasks such as classification or detection.
