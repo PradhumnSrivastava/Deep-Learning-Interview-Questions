@@ -1,6 +1,4 @@
 
-11. What is the input shape of a CNN for a 64 × 64 RGB image? Ans- The image shape is (64, 64, 3) in channels-last format, or (3, 64, 64) in channels-first format.
-
 12. What is a batch of images in CNN? Ans- A batch is a group of images processed together during a model operation. Its shape commonly includes a batch dimension, such as (Batch Size, Height, Width, Channels).
 
 13. What is the batch input shape for 32 RGB images of size 64 × 64 in TensorFlow? Ans- The shape is (32, 64, 64, 3), where 32 is the batch size and the final dimension represents RGB channels.
