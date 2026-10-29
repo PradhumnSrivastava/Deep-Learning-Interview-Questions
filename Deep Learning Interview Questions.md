@@ -2527,3 +2527,11 @@
 ### What is the difference between an image's shape and its size?
 
 **Answer:** Shape describes its dimensions, such as (64, 64, 3), while size refers to the total number of elements, which is 64 × 64 × 3 = 12,288 in this example.
+
+---
+
+## Interview Question
+
+### Why must the number of input channels match the first convolutional layer?
+
+**Answer:** Each convolutional filter is configured to operate across the input channels, so the filter's input-channel dimension must match the tensor's channel dimension.
