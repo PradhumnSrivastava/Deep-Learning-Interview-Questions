@@ -2391,3 +2391,11 @@
 ### How can the dying ReLU problem be reduced?
 
 **Answer:** It can sometimes be reduced by using Leaky ReLU or PReLU, choosing a suitable learning rate, and using appropriate weight initialization.
+
+---
+
+## Interview Question
+
+### How does a CNN take an image as input?
+
+**Answer:** A CNN takes an image as a numerical tensor containing pixel values. The tensor usually has dimensions Height × Width × Channels.

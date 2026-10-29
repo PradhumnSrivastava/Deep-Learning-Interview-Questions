@@ -1,4 +1,3 @@
-1. How does a CNN take an image as input? Ans- A CNN takes an image as a numerical tensor containing pixel values. The tensor usually has dimensions Height × Width × Channels.
 
 2. How is a grayscale image represented in a CNN? Ans- A grayscale image is commonly represented as a tensor of shape (Height, Width, 1), where each pixel represents intensity.
 
