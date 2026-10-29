@@ -1,6 +1,4 @@
 
-8. How do we normalize pixel values from 0–255 to 0–1? Ans- Divide every pixel value by 255.0, converting the range from [0, 255] to [0, 1].
-
 9. Why do CNNs often resize input images? Ans- Resizing ensures that images have a consistent spatial size, making it easier to process them in batches and match the model's expected input dimensions.
 
 10. What happens if an image has the wrong input dimensions for a CNN? Ans- The model may raise a shape error or reject the input if its architecture requires a specific size; compatible models may accept variable spatial dimensions.
