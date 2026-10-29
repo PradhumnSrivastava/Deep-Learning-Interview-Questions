@@ -2543,3 +2543,11 @@
 ### How is a grayscale image converted into a three-channel image?
 
 **Answer:** Its single intensity channel can be replicated three times to create a three-channel tensor, although this does not add new color information.
+
+---
+
+## Interview Question
+
+### How does a CNN process multiple images of different original sizes?
+
+**Answer:** Images are commonly resized or cropped to a compatible size before batching, or processed individually or with an architecture that supports variable spatial dimensions.
