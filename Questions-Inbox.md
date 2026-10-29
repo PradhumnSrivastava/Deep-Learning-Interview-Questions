@@ -1,6 +1,4 @@
 
-7. Why do we normalize image pixel values before feeding them into a CNN? Ans- Normalization scales pixel values to a suitable range, such as [0, 1], which can improve numerical stability and help model training.
-
 8. How do we normalize pixel values from 0–255 to 0–1? Ans- Divide every pixel value by 255.0, converting the range from [0, 255] to [0, 1].
 
 9. Why do CNNs often resize input images? Ans- Resizing ensures that images have a consistent spatial size, making it easier to process them in batches and match the model's expected input dimensions.

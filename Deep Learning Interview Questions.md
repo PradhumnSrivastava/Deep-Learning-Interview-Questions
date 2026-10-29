@@ -2439,3 +2439,11 @@
 ### What are the typical pixel values of an 8-bit image?
 
 **Answer:** Each channel typically contains integer values from 0 to 255, where 0 represents the minimum intensity and 255 represents the maximum intensity.
+
+---
+
+## Interview Question
+
+### Why do we normalize image pixel values before feeding them into a CNN?
+
+**Answer:** Normalization scales pixel values to a suitable range, such as [0, 1], which can improve numerical stability and help model training.
