@@ -2431,3 +2431,11 @@
 ### What is a pixel in an image?
 
 **Answer:** A pixel is the smallest addressable element of a digital image and stores an intensity value or multiple color-channel values.
+
+---
+
+## Interview Question
+
+### What are the typical pixel values of an 8-bit image?
+
+**Answer:** Each channel typically contains integer values from 0 to 255, where 0 represents the minimum intensity and 255 represents the maximum intensity.
