@@ -2423,3 +2423,11 @@
 ### What do height, width, and channels mean in an image tensor?
 
 **Answer:** Height represents the number of pixel rows, width represents the number of pixel columns, and channels represent the image components, such as RGB.
+
+---
+
+## Interview Question
+
+### What is a pixel in an image?
+
+**Answer:** A pixel is the smallest addressable element of a digital image and stores an intensity value or multiple color-channel values.
