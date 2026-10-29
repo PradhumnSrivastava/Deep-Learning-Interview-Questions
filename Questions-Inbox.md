@@ -1,6 +1,4 @@
 
-9. Why do CNNs often resize input images? Ans- Resizing ensures that images have a consistent spatial size, making it easier to process them in batches and match the model's expected input dimensions.
-
 10. What happens if an image has the wrong input dimensions for a CNN? Ans- The model may raise a shape error or reject the input if its architecture requires a specific size; compatible models may accept variable spatial dimensions.
 
 11. What is the input shape of a CNN for a 64 × 64 RGB image? Ans- The image shape is (64, 64, 3) in channels-last format, or (3, 64, 64) in channels-first format.
