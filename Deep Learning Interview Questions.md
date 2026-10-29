@@ -2535,3 +2535,11 @@
 ### Why must the number of input channels match the first convolutional layer?
 
 **Answer:** Each convolutional filter is configured to operate across the input channels, so the filter's input-channel dimension must match the tensor's channel dimension.
+
+---
+
+## Interview Question
+
+### How is a grayscale image converted into a three-channel image?
+
+**Answer:** Its single intensity channel can be replicated three times to create a three-channel tensor, although this does not add new color information.
