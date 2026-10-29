@@ -2487,3 +2487,11 @@
 ### What is a batch of images in CNN?
 
 **Answer:** A batch is a group of images processed together during a model operation. Its shape commonly includes a batch dimension, such as (Batch Size, Height, Width, Channels).
+
+---
+
+## Interview Question
+
+### What is the batch input shape for 32 RGB images of size 64 × 64 in TensorFlow?
+
+**Answer:** The shape is (32, 64, 64, 3), where 32 is the batch size and the final dimension represents RGB channels.

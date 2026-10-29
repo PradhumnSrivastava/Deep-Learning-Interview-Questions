@@ -1,6 +1,4 @@
 
-13. What is the batch input shape for 32 RGB images of size 64 × 64 in TensorFlow? Ans- The shape is (32, 64, 64, 3), where 32 is the batch size and the final dimension represents RGB channels.
-
 14. What is the difference between channels-last and channels-first formats? Ans- Channels-last stores channels after height and width, such as (64, 64, 3), while channels-first stores channels before them, such as (3, 64, 64).
 
 15. What happens to an image after it enters the first convolutional layer? Ans- Learnable filters slide across the image and compute feature maps that capture patterns such as edges, textures, and simple shapes.
