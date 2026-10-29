@@ -1,6 +1,4 @@
 
-15. What happens to an image after it enters the first convolutional layer? Ans- Learnable filters slide across the image and compute feature maps that capture patterns such as edges, textures, and simple shapes.
-
 16. Does a CNN directly understand an image like a human? Ans- No. A CNN processes numerical pixel values and learns statistical patterns from training data to perform tasks such as classification or detection.
 
 17. What is the difference between an image's shape and its size? Ans- Shape describes its dimensions, such as (64, 64, 3), while size refers to the total number of elements, which is 64 × 64 × 3 = 12,288 in this example.

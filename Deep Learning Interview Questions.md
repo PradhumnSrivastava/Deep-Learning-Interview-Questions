@@ -2503,3 +2503,11 @@
 ### What is the difference between channels-last and channels-first formats?
 
 **Answer:** Channels-last stores channels after height and width, such as (64, 64, 3), while channels-first stores channels before them, such as (3, 64, 64).
+
+---
+
+## Interview Question
+
+### What happens to an image after it enters the first convolutional layer?
+
+**Answer:** Learnable filters slide across the image and compute feature maps that capture patterns such as edges, textures, and simple shapes.
