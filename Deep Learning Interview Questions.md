@@ -2407,3 +2407,11 @@
 ### How is a grayscale image represented in a CNN?
 
 **Answer:** A grayscale image is commonly represented as a tensor of shape (Height, Width, 1), where each pixel represents intensity.
+
+---
+
+## Interview Question
+
+### How is an RGB image represented in a CNN?
+
+**Answer:** An RGB image has three channels: Red, Green, and Blue. Its shape is commonly (Height, Width, 3).
