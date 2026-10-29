@@ -1,6 +1,4 @@
 
-4. What do height, width, and channels mean in an image tensor? Ans- Height represents the number of pixel rows, width represents the number of pixel columns, and channels represent the image components, such as RGB.
-
 5. What is a pixel in an image? Ans- A pixel is the smallest addressable element of a digital image and stores an intensity value or multiple color-channel values.
 
 6. What are the typical pixel values of an 8-bit image? Ans- Each channel typically contains integer values from 0 to 255, where 0 represents the minimum intensity and 255 represents the maximum intensity.

@@ -2415,3 +2415,11 @@
 ### How is an RGB image represented in a CNN?
 
 **Answer:** An RGB image has three channels: Red, Green, and Blue. Its shape is commonly (Height, Width, 3).
+
+---
+
+## Interview Question
+
+### What do height, width, and channels mean in an image tensor?
+
+**Answer:** Height represents the number of pixel rows, width represents the number of pixel columns, and channels represent the image components, such as RGB.
